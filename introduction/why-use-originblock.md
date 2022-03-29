@@ -1,4 +1,4 @@
-# Why Use OriginBlock
+# Why Use ChainUP Cloud
 
 ## Blockchain infrastructure on one integrated platform
 

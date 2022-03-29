@@ -12,8 +12,8 @@ Use these docs to learn more about OriginBlock's core products, explore guides, 
 
 Follow our handy guides to get started on the basics as quickly as possible:
 
-{% content-ref url="introduction/why-use-chainup-cloud.md" %}
-[why-use-chainup-cloud.md](introduction/why-use-chainup-cloud.md)
+{% content-ref url="introduction/why-use-originblock.md" %}
+[why-use-originblock.md](introduction/why-use-originblock.md)
 {% endcontent-ref %}
 
 {% hint style="info" %}
@@ -24,20 +24,20 @@ Follow our handy guides to get started on the basics as quickly as possible:
 
 Learn the fundamentals of MyProduct to get a deeper understanding of our main features:
 
-{% content-ref url="blockchain-api/overview/" %}
-[overview](blockchain-api/overview/)
+{% content-ref url="blockchain-access/overview/" %}
+[overview](blockchain-access/overview/)
 {% endcontent-ref %}
 
-{% content-ref url="blockchain-api/ethereum/" %}
-[ethereum](blockchain-api/ethereum/)
+{% content-ref url="blockchain-access/ethereum/" %}
+[ethereum](blockchain-access/ethereum/)
 {% endcontent-ref %}
 
-{% content-ref url="blockchain-api/filecoin/" %}
-[filecoin](blockchain-api/filecoin/)
+{% content-ref url="blockchain-access/filecoin/" %}
+[filecoin](blockchain-access/filecoin/)
 {% endcontent-ref %}
 
-{% content-ref url="blockchain-api/ipfs/" %}
-[ipfs](blockchain-api/ipfs/)
+{% content-ref url="blockchain-access/ipfs/" %}
+[ipfs](blockchain-access/ipfs/)
 {% endcontent-ref %}
 
 {% hint style="info" %}
