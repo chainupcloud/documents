@@ -1,10 +1,10 @@
 ---
 description: >-
-  Welcome to OriginBlock Docs - documentation for the world’s most powerful
-  blockchain developer platform.
+  Welcome to ChainUP Cloud Docs - Decentralized blockchain infrastructure on one
+  integrated platform.
 ---
 
-# Welcome OriginBlock?
+# Welcome ChainUP Cloud?
 
 Use these docs to learn more about OriginBlock's core products, explore guides, and check out our API references.
 
@@ -12,8 +12,8 @@ Use these docs to learn more about OriginBlock's core products, explore guides, 
 
 Follow our handy guides to get started on the basics as quickly as possible:
 
-{% content-ref url="introduction/why-use-originblock.md" %}
-[why-use-originblock.md](introduction/why-use-originblock.md)
+{% content-ref url="introduction/why-use-chainup-cloud.md" %}
+[why-use-chainup-cloud.md](introduction/why-use-chainup-cloud.md)
 {% endcontent-ref %}
 
 {% hint style="info" %}
@@ -24,20 +24,20 @@ Follow our handy guides to get started on the basics as quickly as possible:
 
 Learn the fundamentals of MyProduct to get a deeper understanding of our main features:
 
-{% content-ref url="blockchain-access/overview/" %}
-[overview](blockchain-access/overview/)
+{% content-ref url="blockchain-api/overview/" %}
+[overview](blockchain-api/overview/)
 {% endcontent-ref %}
 
-{% content-ref url="blockchain-access/ethereum/" %}
-[ethereum](blockchain-access/ethereum/)
+{% content-ref url="blockchain-api/ethereum/" %}
+[ethereum](blockchain-api/ethereum/)
 {% endcontent-ref %}
 
-{% content-ref url="blockchain-access/filecoin/" %}
-[filecoin](blockchain-access/filecoin/)
+{% content-ref url="blockchain-api/filecoin/" %}
+[filecoin](blockchain-api/filecoin/)
 {% endcontent-ref %}
 
-{% content-ref url="blockchain-access/ipfs/" %}
-[ipfs](blockchain-access/ipfs/)
+{% content-ref url="blockchain-api/ipfs/" %}
+[ipfs](blockchain-api/ipfs/)
 {% endcontent-ref %}
 
 {% hint style="info" %}
