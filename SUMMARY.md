@@ -1,10 +1,10 @@
 # Table of contents
 
-* [Welcome ChainUP Cloud?](README.md)
+* [Welcome ChainUP Web3 infrastructure?](README.md)
 
 ## INTRODUCTION
 
-* [Why Use ChainUP Cloud](introduction/why-use-originblock.md)
+* [Why Use ChainUP Web3 infrastructure](introduction/why-use-originblock.md)
 * [Products](introduction/products/README.md)
   * [Blockchain API](introduction/products/blockchain-api.md)
   * [Dedicated Node](introduction/products/dedicated-node.md)

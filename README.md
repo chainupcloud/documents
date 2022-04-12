@@ -1,10 +1,10 @@
 ---
 description: >-
-  Welcome to ChainUP Cloud Docs - Decentralized blockchain infrastructure on one
-  integrated platform.
+  Welcome to ChainUP Web3 infrastructure Docs - Decentralized blockchain
+  infrastructure on one integrated platform.
 ---
 
-# Welcome ChainUP Cloud?
+# Welcome ChainUP Web3 infrastructure?
 
 Use these docs to learn more about OriginBlock's core products, explore guides, and check out our API references.
 
