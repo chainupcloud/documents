@@ -20,18 +20,18 @@
 
 ## Blockchain API
 
-* [Overview](blockchain-access/overview/README.md)
-  * [Create Blockchain API for your project](blockchain-access/overview/create-blockchain-api-for-your-project.md)
-  * [Dashboard stats](blockchain-access/overview/dashboard-stats.md)
-* [Ethereum](blockchain-access/ethereum/README.md)
-  * [Getting Started](blockchain-access/ethereum/getting-started.md)
+* [Overview](blockchain-api/overview/README.md)
+  * [Create Blockchain API for your project](blockchain-api/overview/create-blockchain-api-for-your-project.md)
+  * [Dashboard stats](blockchain-api/overview/dashboard-stats.md)
+* [Ethereum](blockchain-api/ethereum/README.md)
+  * [Getting Started](blockchain-api/ethereum/getting-started.md)
   * [JSON-RPC methods](blockchain-api/ethereum/json-rpc-methods/README.md)
     * [eth\_blockNumber](blockchain-api/ethereum/json-rpc-methods/eth\_blocknumber.md)
-* [Filecoin](blockchain-access/filecoin/README.md)
-  * [JSON-RPC methods](blockchain-access/filecoin/json-rpc-methods.md)
-* [IPFS](blockchain-access/ipfs/README.md)
-  * [Getting started](blockchain-access/ipfs/getting-started.md)
-  * [Restful API methods](blockchain-access/ipfs/restful-api-methods.md)
+* [Filecoin](blockchain-api/filecoin/README.md)
+  * [JSON-RPC methods](blockchain-api/filecoin/json-rpc-methods.md)
+* [IPFS](blockchain-api/ipfs/README.md)
+  * [Getting started](blockchain-api/ipfs/getting-started.md)
+  * [Restful API methods](blockchain-api/ipfs/restful-api-methods.md)
 
 ## Staking
 
