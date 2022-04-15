@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome ChainUP Web3 infrastructure?](README.md)
+* [Welcome ChainUP Cloud?](README.md)
 
 ## INTRODUCTION
 
