@@ -32,13 +32,13 @@ We are also launching Advanced APIs to complement the available RPC and REST API
 
 ## :gift:ChainUp Cloud **benefits everyone in Web3**
 
-Hit the big '+' button in your sidebar and select 'New Project' from the menu that pops up. Give your project a name, and you're good to go!
-
 | Who?                       | Why ChainUp Cloud?                                                                                           |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | **Web3 Developers**        | Remove the complexities of building on Web3 protocols, while ensuring reliability for your users             |
-| **Data Providers**         | Focus on analysis, packaging, and processing of data without having to worry about access to the data source |
+| **Data Providers**         | Focus on analysis, processing, and packaging of data without having to worry about access to the data source |
 | **Wallets**                | Guarantee to your users that you are always connected to the token networks you support                      |
-| **Exchanges & Custodians** | Focus on building strong feature sets while staying connected to the Web3 ecosystem                          |
-| **Web3 Connoisseur**       | Stake your crypto directly on our platform without ever needing to leave our website                         |
-| **Block Explorers**        | Guarantee that your explorer is reliable at all times for your users that depend on it                       |
+| **Exchanges & Custodians** | Focus on building powerful feature sets while staying connected to the Web3 ecosystem                        |
+| **Web3 Connoisseurs**      | Stake your crypto directly on our platform without ever needing to leave our website                         |
+| **Block Explorers**        | Guarantee that your explorer is reliable at all times for your users                                         |
+
+[Sign up now](https://app.chainupcloud.com/register) to start building in seconds and discover the omniscience ChainUp Cloud can offer you!
