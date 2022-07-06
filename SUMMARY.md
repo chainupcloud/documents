@@ -1,16 +1,16 @@
 # Table of contents
 
-* [👋 Welcome to Cloud](README.md)
+* [👋 Welcome to ChainUp Cloud](README.md)
 
 ## INTRODUCTION
 
 * [🔎 What is ChainUp Cloud?](introduction/why-use-originblock.md)
-* [Products](introduction/products/README.md)
-  * [Blockchain API](introduction/products/blockchain-api.md)
-  * [Node Service](introduction/products/node-service.md)
-  * [Dedicated Node](introduction/products/dedicated-node.md)
-  * [Validator Node](introduction/products/validator-node.md)
-  * [Staking](introduction/products/staking.md)
+* [🕹 Products](introduction/products/README.md)
+  * [⛓ Blockchain API](introduction/products/blockchain-api.md)
+  * [⚙ Node Service](introduction/products/node-service.md)
+  * [⚒ Dedicated Node](introduction/products/dedicated-node.md)
+  * [👥 Validator Node](introduction/products/validator-node.md)
+  * [⛲ Staking](introduction/products/staking.md)
 * [For Developers](introduction/for-developers/README.md)
   * [Use Blockchain API](introduction/for-developers/use-blockchain-api.md)
   * [Deploy Dedicated Node](introduction/for-developers/deploy-dedicated-node.md)
