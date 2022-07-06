@@ -1,28 +1,30 @@
 ---
-description: >-
-  Welcome to ChainUP Web3 infrastructure Docs - Decentralized blockchain
-  infrastructure on one integrated platform.
+description: Welcome to ChainUp Web3 infrastructure Docs - All in one Web3 platform.
 ---
 
-# Welcome ChainUP Web3 infrastructure?
+# 👋 Welcome ChainUp Cloud
 
-Use these docs to learn more about OriginBlock's core products, explore guides, and check out our API references.
+<img src=".gitbook/assets/chainup.png" alt="" data-size="line"> At ChainUp, our mission is to let blockchain technology empower everything. We offer a complete suite of blockchain applications and technical infrastructure for businesses all in one platform. ChainUp Cloud is one of the tools we offer. ChainUp Cloud provide enterprise-grade node and staking infrastructure, multi-chain API suite, and developer tools while also actively participating in community & governance.
 
-### Guides: Jump right in
+Use these docs to learn more about ChainUp Cloud core products, explore guides, and check out our API references.
 
-Follow our handy guides to get started on the basics as quickly as possible:
+### :books:Guides: Jump right in
+
+:round\_pushpin:Introduction to ChainUp Cloud
 
 {% content-ref url="introduction/why-use-originblock.md" %}
 [why-use-originblock.md](introduction/why-use-originblock.md)
 {% endcontent-ref %}
 
-{% hint style="info" %}
-**Good to know:** your product docs aren't just a reference of all your features! use them to encourage folks to perform certain actions and discover the value in your product.
-{% endhint %}
+:book:Overview of ChainUp Cloud Products
 
-### Blockchain API for Developer
+{% content-ref url="introduction/products/" %}
+[products](introduction/products/)
+{% endcontent-ref %}
 
-Learn the fundamentals of MyProduct to get a deeper understanding of our main features:
+### :gear:ChainUp Cloud API
+
+:brain:Learn how to use ChainUp Cloud API to access multiple blockchain protocols - quickly, easily and securely.&#x20;
 
 {% content-ref url="blockchain-api/overview/" %}
 [overview](blockchain-api/overview/)
@@ -41,5 +43,5 @@ Learn the fundamentals of MyProduct to get a deeper understanding of our main fe
 {% endcontent-ref %}
 
 {% hint style="info" %}
-**Good to know:** Splitting your product into fundamental concepts, objects, or areas can be a great way to let readers deep dive into the concepts that matter most to them. Combine guides with this approach to 'fundamentals' and you're well on your way to great documentation!
+**Random Fact:** Satoshi Nakamoto is the name used by the presumed pseudonymous person or persons who developed Bitcoin, authored the Bitcoin white paper, and created and deployed Bitcoin's original reference implementation. And up till today, nobody knows who Satoshi Nakamoto is.
 {% endhint %}
