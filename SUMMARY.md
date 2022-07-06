@@ -1,10 +1,10 @@
 # Table of contents
 
-* [👋 Welcome ChainUp Cloud](README.md)
+* [👋 Welcome to Cloud](README.md)
 
 ## INTRODUCTION
 
-* [Why Use ChainUp Cloud](introduction/why-use-originblock.md)
+* [🔎 What is ChainUp Cloud?](introduction/why-use-originblock.md)
 * [Products](introduction/products/README.md)
   * [Blockchain API](introduction/products/blockchain-api.md)
   * [Node Service](introduction/products/node-service.md)
