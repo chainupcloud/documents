@@ -11,13 +11,13 @@
   * [⚒ Dedicated Node](introduction/products/dedicated-node.md)
   * [👥 Validator Node](introduction/products/validator-node.md)
   * [⛲ Staking](introduction/products/staking.md)
-* [For Developers](introduction/for-developers/README.md)
-  * [Use Blockchain API](introduction/for-developers/use-blockchain-api.md)
-  * [Deploy Dedicated Node](introduction/for-developers/deploy-dedicated-node.md)
-  * [Use distributed storage with IPFS API](introduction/for-developers/use-distributed-storage-with-ifps-api.md)
-* [For investors](introduction/for-investors/README.md)
-  * [Run your own validators](introduction/for-investors/run-your-own-validators.md)
-  * [Delegate your token](introduction/for-investors/delegate-your-token.md)
+* [👷 For Developers](introduction/for-developers/README.md)
+  * [⛓ Use Blockchain API](introduction/for-developers/use-blockchain-api.md)
+  * [⚒ Deploy Dedicated Node](introduction/for-developers/deploy-dedicated-node.md)
+  * [☁ Use distributed storage with IPFS API](introduction/for-developers/use-distributed-storage-with-ifps-api.md)
+* [👾 For Investors](introduction/for-investors/README.md)
+  * [👥 Run your own validators](introduction/for-investors/run-your-own-validators.md)
+  * [⛲ Delegate your token](introduction/for-investors/delegate-your-token.md)
 
 ## Blockchain API
 

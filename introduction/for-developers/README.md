@@ -1,5 +1,5 @@
-# For Developers
+# 👷 For Developers
 
 {% hint style="info" %}
-**Good to know:** depending on the product you're building, it can be useful to explicitly document use cases. Got a product that can be used by a bunch of people in different ways? Maybe consider splitting it out!
+**Good to know:** Web3 developers create apps that aren't limited to a single cloud server but are instead distributed on a blockchain or decentralized P2P network that isn't controlled by a central authority.
 {% endhint %}
