@@ -48,7 +48,7 @@ In this example, we’ll access the Polkadot Blockchain -
 
 ![Integration guide](../../.gitbook/assets/chainupintegrate.PNG)
 
-**Step 2:** Depending on your setup, there are two ways to use your API key. You can either use the JSON-RPC or WebSocket. Here is an example curl:
+**Step 2:** Depending on your setup, there are several ways to use your API key. You can either use the JSON-RPC, WebSocket and more. Here is an example curl:
 
 ```
 curl -i -X POST  -H 'content-type: application/json' --data '{"jsonrpc":"2.0","method":"chain_getBlock","params":[],"id":32}'  https://api.chainup.net/polkadot/polkadot/93f01aa89fe14a5a9fc1a4c11f6087af
@@ -60,4 +60,4 @@ Or you can use WebSocket to connect:
 wscat -c  wss://api.chainup.net/ws/polkadot/polkadot/93f01aa89fe14a5a9fc1a4c11f6087af
 ```
 
-****[**Sign up now**](https://app.chainupcloud.com/register) to start building in minutes and discover the wonders of ChainUp Cloud!
+****[**Sign up now**](https://app.chainupcloud.com/register) to start building in seconds and discover the wonders of ChainUp Cloud!

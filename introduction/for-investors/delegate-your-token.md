@@ -4,6 +4,8 @@ description: Delegate to any of our validators and staking networks that we supp
 
 # ⛲ Delegate your token
 
+## :construction: Under construction&#x20;
+
 {% hint style="info" %}
-**Good to know:** depending on the product you're building, it can be useful to explicitly document use cases. Got a product that can be used by a bunch of people in different ways? Maybe consider splitting it out!
+**Random Fact:** Founded in 2017 and headquartered in Singapore, ChainUp is a leader in blockchain technology and crypto ecosystem solutions.
 {% endhint %}
