@@ -33,6 +33,21 @@
 * [IPFS](blockchain-api/ipfs/README.md)
   * [Getting started](blockchain-api/ipfs/getting-started.md)
   * [Restful API methods](blockchain-api/ipfs/restful-api-methods.md)
+* [🪙 Bitcoin](blockchain-api/bitcoin/README.md)
+  * [Getting Started](blockchain-api/bitcoin/getting-started.md)
+  * [JSON-RPC methods](blockchain-api/bitcoin/json-rpc-methods.md)
+  * [WebSocket stream](blockchain-api/bitcoin/websocket-stream.md)
+  * [GraphQL query](blockchain-api/bitcoin/graphql-query.md)
+* [⚪ Litecoin](blockchain-api/litecoin/README.md)
+  * [Getting Started](blockchain-api/litecoin/getting-started.md)
+  * [JSON-RPC methods](blockchain-api/litecoin/json-rpc-methods.md)
+  * [WebSocket stream](blockchain-api/litecoin/websocket-stream.md)
+  * [GraphQL query](blockchain-api/litecoin/graphql-query.md)
+* [🍡 Polkadot](blockchain-api/polkadot/README.md)
+  * [Getting Started](blockchain-api/polkadot/getting-started.md)
+  * [JSON-RPC methods](blockchain-api/polkadot/json-rpc-methods.md)
+  * [WebSocket stream](blockchain-api/polkadot/websocket-stream.md)
+  * [GraphQL query](blockchain-api/polkadot/graphql-query.md)
 
 ## Staking
 
