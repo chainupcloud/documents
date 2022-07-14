@@ -28,6 +28,7 @@
   * [Getting Started](blockchain-api/ethereum/getting-started.md)
   * [JSON-RPC methods](blockchain-api/ethereum/json-rpc-methods/README.md)
     * [eth\_blockNumber](blockchain-api/ethereum/json-rpc-methods/eth\_blocknumber.md)
+  * [WebSocket stream](blockchain-api/ethereum/websocket-stream.md)
 * [Filecoin](blockchain-api/filecoin/README.md)
   * [JSON-RPC methods](blockchain-api/filecoin/json-rpc-methods.md)
 * [IPFS](blockchain-api/ipfs/README.md)
