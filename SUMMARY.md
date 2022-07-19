@@ -45,7 +45,7 @@
   * [WebSocket stream](blockchain-api/bitcoin/websocket-stream.md)
   * [GraphQL query](blockchain-api/bitcoin/graphql-query.md)
 * [⚪ Litecoin](blockchain-api/litecoin/README.md)
-  * [Getting Started](blockchain-api/litecoin/getting-started.md)
+  * [Welcome to the Litecoin documentation!](blockchain-api/litecoin/welcome-to-the-litecoin-documentation.md)
   * [JSON-RPC methods](blockchain-api/litecoin/json-rpc-methods.md)
   * [WebSocket stream](blockchain-api/litecoin/websocket-stream.md)
   * [GraphQL query](blockchain-api/litecoin/graphql-query.md)
