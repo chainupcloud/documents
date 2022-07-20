@@ -40,7 +40,7 @@
   * [WebSocket stream](blockchain-api/ipfs/websocket-stream.md)
   * [GraphQL query](blockchain-api/ipfs/restful-api-methods.md)
 * [🪙 Bitcoin](blockchain-api/bitcoin/README.md)
-  * [Getting Started](blockchain-api/bitcoin/getting-started.md)
+  * [Welcome to the Bitcoin documentation!](blockchain-api/bitcoin/welcome-to-the-bitcoin-documentation.md)
   * [JSON-RPC methods](blockchain-api/bitcoin/json-rpc-methods.md)
   * [WebSocket stream](blockchain-api/bitcoin/websocket-stream.md)
   * [GraphQL query](blockchain-api/bitcoin/graphql-query.md)
