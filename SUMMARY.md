@@ -21,10 +21,10 @@
 
 ## Blockchain API
 
-* [Overview](blockchain-api/overview/README.md)
+* [📚 Overview](blockchain-api/overview/README.md)
   * [Create Blockchain API for your project](blockchain-api/overview/create-blockchain-api-for-your-project.md)
   * [Dashboard stats](blockchain-api/overview/dashboard-stats.md)
-* [Ethereum](blockchain-api/ethereum/README.md)
+* [💎 Ethereum](blockchain-api/ethereum/README.md)
   * [Getting Started](blockchain-api/ethereum/getting-started.md)
   * [JSON-RPC methods](blockchain-api/ethereum/json-rpc-methods/README.md)
     * [eth\_blockNumber](blockchain-api/ethereum/json-rpc-methods/eth\_blocknumber.md)
@@ -40,7 +40,7 @@
   * [WebSocket stream](blockchain-api/ipfs/websocket-stream.md)
   * [GraphQL query](blockchain-api/ipfs/restful-api-methods.md)
 * [🪙 Bitcoin](blockchain-api/bitcoin/README.md)
-  * [Welcome to the Bitcoin documentation!](blockchain-api/bitcoin/welcome-to-the-bitcoin-documentation.md)
+  * [Welcome to the Bitcoin documentation!](blockchain-api/bitcoin/getting-started.md)
   * [JSON-RPC methods](blockchain-api/bitcoin/json-rpc-methods.md)
   * [WebSocket stream](blockchain-api/bitcoin/websocket-stream.md)
   * [GraphQL query](blockchain-api/bitcoin/graphql-query.md)
@@ -57,10 +57,22 @@
 
 ## Staking
 
-* [Overview](staking/overview.md)
-* [Running an Eth2.0 Validator Node](staking/running-an-eth2.0-validator-node.md)
-* [Staking FIL](staking/staking-fil.md)
-* [Staking EOS](staking/staking-eos.md)
+* [📘 Overview](staking/overview.md)
+* [💎 Staking on Ethereum](staking/staking-on-ethereum.md)
+* [🌌 Staking on Cosmos](staking/staking-on-cosmos.md)
+* [📱 Staking on Mina](staking/staking-on-mina.md)
+* [🍆 Staking on EOS](staking/staking-eos.md)
+* [📂 Staking on FIL](staking/staking-fil.md)
+
+## Validator Node
+
+* [📗 Overview](validator-node/overview.md)
+* [💎 Ethereum](validator-node/ethereum/README.md)
+  * [Running Validator Node](validator-node/ethereum/running-validator-node.md)
+* [🌌 Cosmos](validator-node/cosmos.md)
+* [📱 Mina](validator-node/mina.md)
+* [🍆 EOS](validator-node/staking-eos.md)
+* [📂 FIL](validator-node/staking-fil.md)
 
 ## RESOURCES
 

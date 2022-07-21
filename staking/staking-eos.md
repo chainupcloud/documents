@@ -1,2 +1,2 @@
-# Staking EOS
+# 🍆 Staking on EOS
 
