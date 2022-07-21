@@ -30,7 +30,7 @@
     * [eth\_blockNumber](blockchain-api/ethereum/json-rpc-methods/eth\_blocknumber.md)
   * [WebSocket stream](blockchain-api/ethereum/websocket-stream.md)
 * [📂 Filecoin](blockchain-api/filecoin/README.md)
-  * [Getting Started](blockchain-api/filecoin/getting-started.md)
+  * [Welcome to the Filecoin documentation!](blockchain-api/filecoin/welcome-to-the-filecoin-documentation.md)
   * [JSON-RPC methods](blockchain-api/filecoin/json-rpc-methods.md)
   * [WebSocket stream](blockchain-api/filecoin/websocket-stream.md)
   * [GraphQL query](blockchain-api/filecoin/graphql-query.md)
@@ -76,5 +76,5 @@
 
 ## RESOURCES
 
-* [FAQ](resources/faq.md)
-* [Support](resources/support.md)
+* [🤔 FAQ](resources/faq.md)
+* [🗳 Support](resources/support.md)
