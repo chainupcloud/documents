@@ -1,6 +1,6 @@
 # WebSocket stream
 
-Unlike HTTP, with WebSockets, you don't need to continuously make requests when you want specific information. WebSockets maintain a network connection for you (if done right) and listen for changes
+Unlike HTTP, with WebSockets, you don't need to continuously make requests when you want specific information. WebSockets maintain a network connection for you (if done right) and listen for changes . You may view the official documentation [here](https://ethereum.org/ml/developers/tutorials/using-websockets/).&#x20;
 
 {% tabs %}
 {% tab title="WebSocket" %}

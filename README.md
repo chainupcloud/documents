@@ -4,7 +4,7 @@ description: Welcome to ChainUp Cloud Docs - All in one Web3 platform.
 
 # 👋 Welcome to ChainUp Cloud
 
-<img src=".gitbook/assets/chainup.png" alt="" data-size="line"> At ChainUp, our mission is to let blockchain technology empower everything. We offer a complete suite of blockchain applications and technical infrastructure for businesses all in one platform. ChainUp Cloud is one of the tools we offer. ChainUp Cloud provide enterprise-grade node and staking infrastructure, multi-chain API suite, and developer tools while also actively participating in community & governance.
+<img src=".gitbook/assets/chainup (1).png" alt="" data-size="line"> At ChainUp, our mission is to let blockchain technology empower everything. We offer a complete suite of blockchain applications and technical infrastructure for businesses all in one platform. ChainUp Cloud is one of the tools we offer. ChainUp Cloud provide enterprise-grade node and staking infrastructure, multi-chain API suite, and developer tools while also actively participating in community & governance.
 
 Use these docs to learn more about ChainUp Cloud core products, explore guides, and check out our API references.
 
@@ -24,7 +24,7 @@ Use these docs to learn more about ChainUp Cloud core products, explore guides, 
 
 ### :gear:ChainUp Cloud API
 
-:brain:Learn how to use ChainUp Cloud API to access multiple blockchain protocols - quickly, easily and securely.&#x20;
+:brain:Learn how to use ChainUp Cloud API to access multiple blockchain protocols - quickly, easily and securely.
 
 {% content-ref url="blockchain-api/overview/" %}
 [overview](blockchain-api/overview/)
