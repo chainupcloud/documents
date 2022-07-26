@@ -75,5 +75,5 @@
 
 ## RESOURCES
 
-* [🤔 FAQ](resources/faq.md)
+* [FAQ](resources/faq.md)
 * [🗳 Support](resources/support.md)
