@@ -10,6 +10,29 @@ wscat -c wss://api.chainup.net/ws/ethereum/mainnet/58c9400ca6f04d7c8269c7843738a
 <  {"jsonrpc":"2.0","id":0,"result":"0x6f56b59ac"}
 ```
 {% endtab %}
+
+{% tab title="Javascript" %}
+<pre><code><strong>const Web3 = require('web3');
+</strong>
+const web3 = new Web3("wss://api.chainup.net/ws/ethereum/mainnet/58c9400ca6f04d7c8269c7843738aedd")
+
+web3.eth.getBlockNumber().then(console.log) // -> 9022457
+</code></pre>
+{% endtab %}
+
+{% tab title="Python" %}
+```
+from web3 import Web3
+websocket_url='wss://api.chainup.net/ws/ethereum/mainnet/58c9400ca6f04d7c8269c7843738aedd'  #Local blockchain address
+w3 = Web3(Web3.HTTPProvider(websocket_url))
+
+// You can check if the connection is established using isConnected function.
+
+w3.isConnected()
+Output:
+True
+```
+{% endtab %}
 {% endtabs %}
 
 ``
