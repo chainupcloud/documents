@@ -1,6 +1,6 @@
 # JSON-RPC methods
 
-You can review the official Ethereum RPC documentation [**HERE**](https://ethereum.org/en/developers/docs/apis/json-rpc/)\*\*\*\*
+You can review the official Ethereum RPC documentation [**HERE**](https://ethereum.org/en/developers/docs/apis/json-rpc/)
 
 ### Example RPC
 
