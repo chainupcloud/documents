@@ -1,18 +1,18 @@
 # JSON-RPC methods
 
-### Litecoin RPC
+### Polygon RPC
 
-You can review the official Litecoin RPC documentation [**HERE**](https://litecoin.info/index.php/Litecoin\_API)****
+You can review the official Polygon RPC documentation [**HERE**](https://ethereum.org/en/developers/docs/apis/json-rpc/)
 
 ### Example RPC
 
 {% tabs %}
 {% tab title="Curl" %}
 ```
-curl https://api.chainup.net/litecoin/mainnet/<YOUR_API_KEY> \
+curl https://api.chainup.net/polygon/mainnet/<YOUR_API_KEY> \
 -X POST \
 -H 'content-type: application/json' \
---data '{"jsonrpc":"2.0","method":"getblockchaininfo","params":[],"id":1}'
+--data '{"jsonrpc":"2.0","method":"net_peerCount","params":[],"id":1}' 
 ```
 {% endtab %}
 
@@ -21,13 +21,13 @@ curl https://api.chainup.net/litecoin/mainnet/<YOUR_API_KEY> \
 const request = require('request');
 
 let options = {
-    url: "https://api.chainup.net/litecoin/mainnet/<YOUR_API_KEY>",
+    url: "https://api.chainup.net/polygon/mainnet/<YOUR_API_KEY>",
     method: "post",
     headers:
     { 
      "content-type": "application/json"
     },
-    body: JSON.stringify({"jsonrpc":"2.0","method":"getblockchaininfo","params":[],"id":1})
+    body: JSON.stringify({"jsonrpc":"2.0","method":"net_peerCount","params":[],"id":1})
 };
 
 request(options, (error, response, body) => {
@@ -49,10 +49,10 @@ headers = {"content-type": "application/json"}
 payload = json.dumps({
     "id": 1,
     "jsonrpc": "2.0",
-    "method": "getblockchaininfo",
+    "method": "net_peerCount",
     "params": []
 })
-r = requests.post(url="https://api.chainup.net/litecoin/mainnet/<YOUR_API_KEY>", headers=headers, data=payload)
+r = requests.post(url="https://api.chainup.net/polygon/mainnet/<YOUR_API_KEY>", headers=headers, data=payload)
 if r.status_code == 200:
     print("Post successful: response: ", r.content)
 else:

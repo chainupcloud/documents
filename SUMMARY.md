@@ -53,6 +53,11 @@
   * [JSON-RPC methods](blockchain-api/polkadot/json-rpc-methods.md)
   * [WebSocket stream](blockchain-api/polkadot/websocket-stream.md)
   * [GraphQL query](blockchain-api/polkadot/graphql-query.md)
+* [⛽ Polygon (Matic)](blockchain-api/polkadot-1/README.md)
+  * [Welcome to the Polygon documentation!](blockchain-api/polkadot-1/welcome-to-the-polkadot-documentation.md)
+  * [JSON-RPC methods](blockchain-api/polkadot-1/json-rpc-methods.md)
+  * [WebSocket stream](blockchain-api/polkadot-1/websocket-stream.md)
+  * [GraphQL query](blockchain-api/polkadot-1/graphql-query.md)
 
 ## Staking
 

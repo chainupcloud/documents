@@ -2,7 +2,7 @@
 
 ### Bitcoin RPC
 
-You can review the official Bitcoin RPC documentation [**HERE**](https://developer.bitcoin.org/reference/rpc/)
+You can review the official Bitcoin RPC documentation [**HERE**](https://developer.bitcoin.org/reference/rpc/)****
 
 ### Example RPC
 
@@ -60,3 +60,4 @@ else:
 ```
 {% endtab %}
 {% endtabs %}
+
