@@ -9,7 +9,7 @@
   * [⛓ Blockchain API](introduction/products/blockchain-api.md)
   * [⚙ Node Service](introduction/products/node-service.md)
   * [⚒ Dedicated Node](introduction/products/dedicated-node.md)
-  * [👥 Validator Node](introduction/products/validator-node.md)
+  * [👥 White-Label Validator](introduction/products/validator-node.md)
   * [⛲ Staking](introduction/products/staking.md)
 * [👷 For Developers](introduction/for-developers/README.md)
   * [⛓ Use Blockchain API](introduction/for-developers/use-blockchain-api.md)
