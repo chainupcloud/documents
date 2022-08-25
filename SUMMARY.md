@@ -7,17 +7,19 @@
 * [🔎 What is ChainUp Cloud?](introduction/why-use-originblock.md)
 * [🕹 Products](introduction/products/README.md)
   * [⛓ Blockchain API](introduction/products/blockchain-api.md)
-  * [⚙ Node Service](introduction/products/node-service.md)
+  * [⚙ Fullnode Service](introduction/products/node-service.md)
   * [⚒ Dedicated Node](introduction/products/dedicated-node.md)
-  * [👥 White-Label Validator](introduction/products/validator-node.md)
+  * [👥 White Label Validator](introduction/products/validator-node.md)
   * [⛲ Staking](introduction/products/staking.md)
+  * [🍧 ChainUp Aggregator](introduction/products/staking-1.md)
 * [👷 For Developers](introduction/for-developers/README.md)
   * [⛓ Use Blockchain API](introduction/for-developers/use-blockchain-api.md)
   * [⚒ Deploy Dedicated Node](introduction/for-developers/deploy-dedicated-node.md)
   * [☁ Use distributed storage with IPFS API](introduction/for-developers/use-distributed-storage-with-ifps-api.md)
+  * [🍧 Use ChainUp Aggregator API](introduction/for-developers/use-distributed-storage-with-ifps-api-1.md)
 * [👾 For Investors](introduction/for-investors/README.md)
   * [👥 Run your own validators](introduction/for-investors/run-your-own-validators.md)
-  * [⛲ Delegate your token](introduction/for-investors/delegate-your-token.md)
+  * [⛲ How to stake?](introduction/for-investors/delegate-your-token.md)
 
 ## Blockchain API
 

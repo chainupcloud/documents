@@ -60,4 +60,4 @@ Or you can use WebSocket to connect:
 wscat -c  wss://api.chainup.net/ws/polkadot/polkadot/93f01aa89fe14a5a9fc1a4c11f6087af
 ```
 
-****[**Sign up now**](https://app.chainupcloud.com/register) to start building in seconds and discover the wonders of ChainUp Cloud!
+[**Sign up now**](https://app.chainupcloud.com/register) to start building in seconds and discover the wonders of ChainUp Cloud!

@@ -1,0 +1,447 @@
+openapi: 3.0.3
+info:
+  title: ChainUp Cloud Staking Aggregator
+  description: |-
+    This is ChainUp Staking Aggregator API documentation. Users can use this API to integrate one click staking into their application. It is the easiest way for developers to stake Ethereum. Simply pass in the desired amount to stake, and the API will return the serialized transactions needed to execute the staking, which can then be passed into the blockchain with the required signatures. 
+    
+    _“A world-leading blockchain technology service all-in-one solution suite.”_
+    
+    _Founded in 2017 and headquartered in Singapore, ChainUp is a leader in blockchain technology and crypto ecosystem solutions. We have continued to enhance a number of maturing products such as digital asset trading systems, fiat on-ramp, wallet, security, mining, digital assets custody, investment, and NFTs. We have built an end-to-end closed industrial loop of technical services, innovative research and development, and traffic-commercialization. At present, ChainUp has provided blockchain technology services to 1000+ clients in both crypto/blockchain and traditional industries in more than 30 countries and regions with coverage of over 60 million users._
+    
+    
+    Some useful links:
+    - [ChainUp Cloud](https://www.chainupcloud.com/)
+    - [ChainUp Cloud Documentation](https://docs.chainupcloud.com/)
+  termsOfService: https://www.chainup.com/en-US/privacyPolicy
+  contact:
+    email: sales@ChainUp.com
+  version: 1.0.0
+externalDocs:
+  description: Find out more about ChainUp
+  url: https://www.chainup.com/en-US/
+servers:
+  - url: https://staking.chainupcloud.com/aggregator/api/v1
+tags:
+  - name: quote
+    description: Quote the different staking strategies (routes)
+  - name: address
+    description: Query the staking information on an address
+paths:
+  /quote/stake:
+    get:
+      tags:
+        - quote
+      summary: Returns a stake transaction
+      description: Create a transaction that stakes ETH. 
+  
+  
+        https://docs.metamask.io/guide/sending-transactions.html
+      operationId: stake  
+      parameters:
+        - name: source
+          in: query
+          description: query source.
+          explode: true
+          schema:
+            type: string
+            default:
+              "xxx"
+        - name: StrategyId
+          in: query
+          description: Id of the strategy.
+          explode: true
+          schema:
+            type: string
+            default:
+              "32x"
+        - name: address
+          in: query
+          description: The address performing the staking action. The address will have the authority to unstake.
+          required: true
+          explode: true
+          schema:
+            type: string
+            example:
+              "chainup.eth"
+        - name: amount
+          in: query
+          description: The amount of ETH to stake (in uint256).
+          required: true
+          explode: true
+          schema:
+            type: string
+            example:
+              "32000000000"
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Stake'          
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/Stake'
+        '405':
+          description: Invalid input
+
+  /quote/unstake:
+    get:
+      tags:
+        - quote
+      summary:  Returns a unstake transaction, Not supported now until Shanghai upgrade
+      description: Reserved, not available until Shanghai upgrade
+      operationId: unstake
+      parameters:
+        - name: source
+          in: query
+          description: query source.
+          explode: true
+          schema:
+            type: string
+            default:
+              "xxx"
+        - name: address
+          in: query
+          description: The address performing the staking action. The address will have the authority to sell.
+          required: true
+          explode: true
+          schema:
+            type: string
+            default:
+              "chainup.eth"
+        - name: pubkeys
+          in: query
+          description: The pubey of the validator that will be sold. When selling all, can fill in "all"
+          required: true
+          explode: true
+          schema:
+            type: string
+            example:
+              "ad28d4ce9afdac1584e4ce9440b7e1a9dc4a8c5f4bc8c66883723647fce77e42fe7898615a7af1e4971cd7a08403e349,ccd544ce9afdac1584e4ce9440b7e1a9dc4a8c5f4bc8c66883723647fce77e42fe7898615a7af1e4971cd7a08403e350"
+        - name: amount
+          in: query
+          description: Used to support partial exits after staking pools (in uint256).
+          explode: true
+          schema:
+            type: string
+            example:
+              "32000000000"
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Tx'     
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/Tx'
+        '405':
+          description: Invalid input 
+  /quote/sell:
+    get:
+      tags:
+        - quote
+      summary: Returns a sell validator transaction, before the Shanghai upgrade
+      description: Create a transaction that sell validator. The validity period is one month. If the sell is not successful after the time expires, the sell transaction will be invalid.
+      
+      
+        
+        https://docs.metamask.io/guide/sending-transactions.html
+      operationId: sell
+      parameters:
+        - name: source
+          in: query
+          description: query source.
+          explode: true
+          schema:
+            type: string
+            default:
+              "xxx"
+        - name: address
+          in: query
+          description: The address performing the staking action. The address will have the authority to sell.
+          required: true
+          explode: true
+          schema:
+            type: string
+            default:
+              "chainup.eth"
+        - name: pubkeys
+          in: query
+          description: The pubey of the validator that will be sold. When selling all, can fill in "all"
+          required: true
+          explode: true
+          schema:
+            type: string
+            example:
+              "ad28d4ce9afdac1584e4ce9440b7e1a9dc4a8c5f4bc8c66883723647fce77e42fe7898615a7af1e4971cd7a08403e349,ccd544ce9afdac1584e4ce9440b7e1a9dc4a8c5f4bc8c66883723647fce77e42fe7898615a7af1e4971cd7a08403e350"
+        - name: amount
+          in: query
+          description: Used to support partial exits after staking pools (in uint256).
+          explode: true
+          schema:
+            type: string
+            example:
+              "32000000000"
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Tx'          
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/Tx'
+        '405':
+          description: Invalid input
+  /quote/routes:
+    get:
+      tags:
+        - quote
+      summary: Returns multiple staking transactions
+      description: Returns an array of staking strategies
+      operationId: getRoutes
+      parameters:
+        - name: source
+          in: query
+          description: query source.
+          explode: true
+          schema:
+            type: string
+            default:
+              "xxx"
+        - name: amount
+          in: query
+          description: The amount of ETH to stake (in uint256).
+          required: true
+          explode: true
+          schema:
+            type: string
+            example:
+              "32000000000"
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Strategy'     
+            application/xml:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Strategy'
+        '405':
+          description: Invalid input
+  /address/balance:
+    get:
+      tags:
+        - address
+      summary: Staking balance of a particular address
+      description: Returns an object containing ETH balances of a particular address
+      operationId: balance
+      parameters:
+        - name: source
+          in: query
+          description: query source.
+          explode: true
+          schema:
+            type: string
+            default:
+              "xxx"
+        - name: address
+          in: query
+          description: The address to query
+          required: true
+          schema:
+            type: string
+            example: '0x2f318C334780961FB129D2a6c30D0763d9a5C970'
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Stakepool'     
+            application/xml:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Stakepool'
+        '405':
+          description: Invalid input
+  /address/validator:
+    get:
+      tags:
+        - address
+      summary: Get the validator information under the address
+      description: Returns an object containing the ETH balance and validator pubkey for a specific address
+      operationId: validator
+      parameters:
+        - name: source
+          in: query
+          description: query source.
+          explode: true
+          schema:
+            type: string
+            default:
+              "xxx"
+        - name: address
+          in: query
+          description: The address to query
+          required: true
+          schema:
+            type: string
+            example: '0x2f318C334780961FB129D2a6c30D0763d9a5C970'
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Eth32node'     
+            application/xml:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Eth32node'
+        '405':
+          description: Invalid input
+components:
+  schemas:
+    Tx:
+      type: object
+      properties:
+        gas:
+          type: string
+          example: '0x2710'
+        to:
+          type: string
+          example: '0x0000000000000000000000000000000000000000'
+        from:
+          type: string
+          example: '0xD0d76886cF8D952ca26177EB7CfDf83bad08C00C'
+        value:
+          type: string
+          example: '0x00'
+        data:
+          type: string
+          example: '0x7f7465737432000000000000000000000000000000000000000000000000000000600057'
+        chainId:
+          type: string
+          example:
+            '0x3'
+      xml:
+        name: tx
+    Stake:
+      type: object
+      properties:
+        strategyId:
+          type: string
+          example: '32x'
+        routes:
+          type: array
+          items:
+            type: string
+            example: 'ChainupPool'
+        weights:
+          type: array
+          items:
+            type: string
+            example: '100%'
+        yieldsBreakdown:
+          type: array
+          items:
+            type: string
+            example: '5.7%'
+        totalYield:
+          type: string
+          example: '5.7%'
+        transaction:
+          $ref: '#/components/schemas/Tx'
+    Strategy:
+      type: object
+      properties:
+        strategyId:
+          type: string
+          example: '32x'
+        routes:
+          type: array
+          items:
+            type: string
+            example: 'ChainupPool'
+        weights:
+          type: array
+          items:
+            type: string
+            example: '100%'
+        yieldsBreakdown:
+          type: array
+          items:
+            type: string
+            example: '5.7%'
+        totalYield:
+          type: string
+          example: '5.7%'
+        best:
+          type: boolean
+          example: true
+          
+      xml:
+        name: strategy
+    Balance:
+      type: object
+      properties:
+        amount:
+          type: string
+          example: '0.567'
+        denomination:
+          type: string
+          example: 'Eth'
+      xml:
+        name: balance
+    Stakepool:
+      type: object
+      properties:
+        pool:
+          type: string
+          example: 'Rocketpool'
+        balances:
+          type: array
+          items:
+            $ref: '#/components/schemas/Balance'
+      xml:
+        name: stakepool
+    Eth32node:
+      type: object
+      properties:
+        pubkey:
+          type: string
+          example: 'ad28d4ce9afdac1584e4ce9440b7e1a9dc4a8c5f4bc8c66883723647fce77e42fe7898615a7af1e4971cd7a08403e349'
+        balance:
+          type: string
+          example: '35.567'
+      xml:
+        name: eth32node
+  parameters:
+    Pagelength:
+      name: pagelength
+      in: query
+      description: Number of records to return
+      schema:
+        type: number
+    Startindex:
+      name: startindex
+      in: query
+      description: Start index for paging
+      schema:
+        type: number

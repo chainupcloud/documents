@@ -2,7 +2,7 @@
 
 ### Litecoin RPC
 
-You can review the official Litecoin RPC documentation [**HERE**](https://litecoin.info/index.php/Litecoin\_API)****
+You can review the official Litecoin RPC documentation [**HERE**](https://litecoin.info/index.php/Litecoin\_API)
 
 ### Example RPC
 
