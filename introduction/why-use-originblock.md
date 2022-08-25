@@ -41,4 +41,4 @@ We are also launching Advanced APIs to complement the available RPC and REST API
 | **Web3 Connoisseurs**      | Stake your crypto directly on our platform without ever needing to leave our website                         |
 | **Block Explorers**        | Guarantee that your explorer is reliable at all times for your users                                         |
 
-[**Sign up for free now**](https://app.chainupcloud.com/register) **** to start building in seconds and discover the omniscience ChainUp Cloud can offer you!
+[**Sign up for free now**](https://app.chainupcloud.com/register) to start building in seconds and discover the omniscience ChainUp Cloud can offer you!
