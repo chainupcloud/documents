@@ -1,2 +1,2 @@
-# 💧 Sui
+# ✨ Starknet
 

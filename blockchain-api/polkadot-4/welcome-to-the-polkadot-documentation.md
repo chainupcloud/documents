@@ -1,15 +1,15 @@
 ---
-description: Learn how to interact with Sui using ChainUp Cloud
+description: Learn how to interact with Starknet using ChainUp Cloud
 ---
 
-# Welcome to the Sui documentation!
+# Welcome to the Starknet documentation!
 
-In this section, you will be able to learn about what makes Sui special and how you can leverage available tools to build amazing products!
+In this section, you will be able to learn about what makes Starknet special and how you can leverage available tools to build amazing products!
 
 You can then get started with the available RPC & REST APIs we support [**via ChainUp Cloud**](https://app.chainupcloud.com/login).
 
 Last but not least, if you are looking for guidelines or simply some inspiration, check out available tutorials in [**For Developers**](../../introduction/for-developers/use-blockchain-api.md).
 
-Be sure to check out the [**official Sui documentation**](https://docs.sui.io/).
+Be sure to check out the [**official Starknet documentation**](https://starknet.io/docs/).
 
 🚀 Let's start building the decentralized web 🚀

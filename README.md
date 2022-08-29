@@ -58,6 +58,10 @@ Use these docs to learn more about ChainUp Cloud core products, explore guides, 
 [polkadot-1](blockchain-api/polkadot-1/)
 {% endcontent-ref %}
 
+{% content-ref url="blockchain-api/bsc/" %}
+[bsc](blockchain-api/bsc/)
+{% endcontent-ref %}
+
 {% content-ref url="blockchain-api/polkadot-2/" %}
 [polkadot-2](blockchain-api/polkadot-2/)
 {% endcontent-ref %}
@@ -92,10 +96,6 @@ Use these docs to learn more about ChainUp Cloud core products, explore guides, 
 
 {% content-ref url="blockchain-api/polkadot-10/" %}
 [polkadot-10](blockchain-api/polkadot-10/)
-{% endcontent-ref %}
-
-{% content-ref url="blockchain-api/polkadot-11/" %}
-[polkadot-11](blockchain-api/polkadot-11/)
 {% endcontent-ref %}
 
 {% hint style="info" %}
