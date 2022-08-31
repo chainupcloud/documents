@@ -8,4 +8,6 @@ ChainUp Cloud provides fullnode services so that you do not have to spend engine
 
 Running your own nodes can be very expensive from storage to bandwidth to valuable engineering time. Things like spinning up more nodes when scaling, upgrading nodes to the latest versions, and ensuring state consistency, can distract from building and spending resources on your desired Web3 product.
 
-## :construction: Under construction
+### What is a fullnode?
+
+An fullnode builds an archive of historical states. This type of node is useful when querying historical blockchain data that is not accessible on full nodes. Archive nodes aren’t required to participate in block validation.
