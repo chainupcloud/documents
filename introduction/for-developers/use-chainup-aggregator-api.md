@@ -52,3 +52,6 @@ The staking transaction is done completely on-chain, users can see how much they
 Swagger docs
 {% endembed %}
 
+{% hint style="info" %}
+`source` - Can be used by developers to keep track of requests from different applications by providing different strings
+{% endhint %}

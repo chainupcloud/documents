@@ -12,8 +12,8 @@ Use these docs to learn more about ChainUp Cloud core products, explore guides, 
 
 :round\_pushpin:Introduction to ChainUp Cloud
 
-{% content-ref url="introduction/why-use-originblock.md" %}
-[why-use-originblock.md](introduction/why-use-originblock.md)
+{% content-ref url="introduction/what-is-chainupcloud.md" %}
+[what-is-chainupcloud.md](introduction/what-is-chainupcloud.md)
 {% endcontent-ref %}
 
 :book:Overview of ChainUp Cloud Products
@@ -54,48 +54,48 @@ Use these docs to learn more about ChainUp Cloud core products, explore guides, 
 [polkadot](blockchain-api/polkadot/)
 {% endcontent-ref %}
 
-{% content-ref url="blockchain-api/polkadot-1/" %}
-[polkadot-1](blockchain-api/polkadot-1/)
+{% content-ref url="blockchain-api/polygon/" %}
+[polygon](blockchain-api/polygon/)
 {% endcontent-ref %}
 
 {% content-ref url="blockchain-api/bsc/" %}
 [bsc](blockchain-api/bsc/)
 {% endcontent-ref %}
 
-{% content-ref url="blockchain-api/polkadot-2/" %}
-[polkadot-2](blockchain-api/polkadot-2/)
+{% content-ref url="blockchain-api/aptos/" %}
+[aptos](blockchain-api/aptos/)
 {% endcontent-ref %}
 
-{% content-ref url="blockchain-api/polkadot-3/" %}
-[polkadot-3](blockchain-api/polkadot-3/)
+{% content-ref url="blockchain-api/sui/" %}
+[sui](blockchain-api/sui/)
 {% endcontent-ref %}
 
-{% content-ref url="blockchain-api/polkadot-4/" %}
-[polkadot-4](blockchain-api/polkadot-4/)
+{% content-ref url="blockchain-api/starknet/" %}
+[starknet](blockchain-api/starknet/)
 {% endcontent-ref %}
 
-{% content-ref url="blockchain-api/polkadot-5/" %}
-[polkadot-5](blockchain-api/polkadot-5/)
+{% content-ref url="blockchain-api/harmony/" %}
+[harmony](blockchain-api/harmony/)
 {% endcontent-ref %}
 
-{% content-ref url="blockchain-api/polkadot-6/" %}
-[polkadot-6](blockchain-api/polkadot-6/)
+{% content-ref url="blockchain-api/fantom/" %}
+[fantom](blockchain-api/fantom/)
 {% endcontent-ref %}
 
-{% content-ref url="blockchain-api/polkadot-7/" %}
-[polkadot-7](blockchain-api/polkadot-7/)
+{% content-ref url="blockchain-api/avalanche/" %}
+[avalanche](blockchain-api/avalanche/)
 {% endcontent-ref %}
 
-{% content-ref url="blockchain-api/polkadot-8/" %}
-[polkadot-8](blockchain-api/polkadot-8/)
+{% content-ref url="blockchain-api/solana/" %}
+[solana](blockchain-api/solana/)
 {% endcontent-ref %}
 
-{% content-ref url="blockchain-api/polkadot-9/" %}
-[polkadot-9](blockchain-api/polkadot-9/)
+{% content-ref url="blockchain-api/near/" %}
+[near](blockchain-api/near/)
 {% endcontent-ref %}
 
-{% content-ref url="blockchain-api/polkadot-10/" %}
-[polkadot-10](blockchain-api/polkadot-10/)
+{% content-ref url="blockchain-api/tron/" %}
+[tron](blockchain-api/tron/)
 {% endcontent-ref %}
 
 {% hint style="info" %}
