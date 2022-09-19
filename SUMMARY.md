@@ -102,5 +102,9 @@
 
 ## RESOURCES
 
-* [FAQ](resources/faq.md)
+* [📕 FAQ](resources/faq/README.md)
+  * [⛓ Blockchain API](resources/faq/blockchain-api.md)
+  * [⚒ Dedicated Node](resources/faq/dedicated-node.md)
+  * [🍧 ChainUp Aggregator](resources/faq/chainup-aggregator/README.md)
+    * [Contract](resources/faq/chainup-aggregator/contract.md)
 * [🗳 Support](resources/support.md)
