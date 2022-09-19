@@ -20,6 +20,7 @@
 * [👾 For Investors](introduction/for-investors/README.md)
   * [👥 Run your own validators](introduction/for-investors/run-your-own-validators.md)
   * [⛲ How to stake?](introduction/for-investors/delegate-your-token.md)
+  * [🍧 How to use ChainUp Aggregator?](introduction/for-investors/how-to-use-chainup-aggregator.md)
 
 ## Blockchain API
 
