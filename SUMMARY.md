@@ -89,6 +89,7 @@
 * [📱 Staking on Mina](staking/staking-on-mina.md)
 * [🍆 Staking on EOS](staking/staking-eos.md)
 * [📂 Staking on FIL](staking/staking-fil.md)
+* [📀 Shanghai Upgrade](staking/shanghai-upgrade.md)
 
 ## Validator Node
 
