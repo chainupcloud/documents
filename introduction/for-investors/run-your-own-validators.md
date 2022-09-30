@@ -12,7 +12,9 @@ c. Deposit 32 ETH either through Ethereum launchpad ([Mainnet](https://launchpad
 
 
 
-The following video walkthrough covers prerequisites b and c.&#x20;
+#### Ethereum2 Launchpad Demo Walkthrough
+
+The following **video walkthrough** covers prerequisites b and c.&#x20;
 
 {% embed url="https://www.youtube.com/watch?ab_channel=ConsenSysMedia&v=4jpzo9qOaP8" %}
 
