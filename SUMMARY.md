@@ -31,7 +31,6 @@
   * [Welcome to the Ethereum documentation!](blockchain-api/ethereum/getting-started.md)
   * [JSON-RPC methods](blockchain-api/ethereum/json-rpc-methods.md)
   * [WebSocket stream](blockchain-api/ethereum/websocket-stream.md)
-  * [📀 Shanghai Upgrade](blockchain-api/ethereum/shanghai-upgrade.md)
 * [📂 Filecoin](blockchain-api/filecoin/README.md)
   * [Welcome to the Filecoin documentation!](blockchain-api/filecoin/welcome-to-the-filecoin-documentation.md)
   * [JSON-RPC methods](blockchain-api/filecoin/json-rpc-methods.md)
@@ -85,7 +84,8 @@
 ## Staking
 
 * [📘 Overview](staking/overview.md)
-* [💎 Staking on Ethereum](staking/staking-on-ethereum.md)
+* [💎 Staking on Ethereum](staking/staking-on-ethereum/README.md)
+  * [📀 Shanghai Upgrade](staking/staking-on-ethereum/shanghai-upgrade.md)
 * [🌌 Staking on Cosmos](staking/staking-on-cosmos.md)
 * [📱 Staking on Mina](staking/staking-on-mina.md)
 * [🍆 Staking on EOS](staking/staking-eos.md)
