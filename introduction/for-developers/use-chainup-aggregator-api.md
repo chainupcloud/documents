@@ -24,15 +24,11 @@ The staking transaction is done completely on-chain, users can see how much they
 
 ## API
 
-{% swagger src="https://chainupcloud.github.io/swagger/swagger.json" path="/batch_stake" method="get" %}
+{% swagger src="https://chainupcloud.github.io/swagger/swagger.json" path="/quote/stake" method="post" %}
 [https://chainupcloud.github.io/swagger/swagger.json](https://chainupcloud.github.io/swagger/swagger.json)
 {% endswagger %}
 
-{% swagger src="https://chainupcloud.github.io/swagger/swagger.json" path="/quote/stake" method="get" %}
-[https://chainupcloud.github.io/swagger/swagger.json](https://chainupcloud.github.io/swagger/swagger.json)
-{% endswagger %}
-
-{% swagger src="https://chainupcloud.github.io/swagger/swagger.json" path="/quote/unstake" method="get" %}
+{% swagger src="https://chainupcloud.github.io/swagger/swagger.json" path="/quote/unstake" method="post" %}
 [https://chainupcloud.github.io/swagger/swagger.json](https://chainupcloud.github.io/swagger/swagger.json)
 {% endswagger %}
 
@@ -48,11 +44,11 @@ The staking transaction is done completely on-chain, users can see how much they
 [https://chainupcloud.github.io/swagger/swagger.json](https://chainupcloud.github.io/swagger/swagger.json)
 {% endswagger %}
 
-{% swagger src="https://chainupcloud.github.io/swagger/swagger.json" path="/nft/list" method="get" %}
+{% swagger src="https://chainupcloud.github.io/swagger/swagger.json" path="/nft/list" method="post" %}
 [https://chainupcloud.github.io/swagger/swagger.json](https://chainupcloud.github.io/swagger/swagger.json)
 {% endswagger %}
 
-{% swagger src="https://chainupcloud.github.io/swagger/swagger.json" path="/nft/cancel_listing" method="get" %}
+{% swagger src="https://chainupcloud.github.io/swagger/swagger.json" path="/nft/cancel_listing" method="post" %}
 [https://chainupcloud.github.io/swagger/swagger.json](https://chainupcloud.github.io/swagger/swagger.json)
 {% endswagger %}
 
@@ -60,7 +56,7 @@ The staking transaction is done completely on-chain, users can see how much they
 [https://chainupcloud.github.io/swagger/swagger.json](https://chainupcloud.github.io/swagger/swagger.json)
 {% endswagger %}
 
-{% swagger src="https://chainupcloud.github.io/swagger/swagger.json" path="/nft/buy" method="get" %}
+{% swagger src="https://chainupcloud.github.io/swagger/swagger.json" path="/nft/buy" method="post" %}
 [https://chainupcloud.github.io/swagger/swagger.json](https://chainupcloud.github.io/swagger/swagger.json)
 {% endswagger %}
 
