@@ -18,9 +18,9 @@
   * [☁ Use distributed storage with IPFS API](introduction/for-developers/use-distributed-storage-with-ifps-api.md)
   * [🍧 Use ChainUp Aggregator API](introduction/for-developers/use-chainup-aggregator-api.md)
 * [👾 For Investors](introduction/for-investors/README.md)
+  * [⛲ How to stake?](introduction/for-investors/delegate-your-token.md)
   * [👥 Running your own validators](introduction/for-investors/run-your-own-validators.md)
   * [🍧 How to use ChainUp Aggregator?](introduction/for-investors/how-to-use-chainup-aggregator.md)
-  * [⛲ How to stake?](introduction/for-investors/delegate-your-token.md)
 
 ## Blockchain API
 
