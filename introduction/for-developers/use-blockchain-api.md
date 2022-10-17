@@ -42,7 +42,7 @@ description: Quick start guide for Web3 developers
 
 ### 3. Accessing the Blockchain
 
-In this example, we’ll access the Polkadot Blockchain -
+In this example, we’ll access the Polkadot Blockchain.
 
 **Step 1:** When scrolling down to the integration section, you will be provided with the URL for this service.
 
