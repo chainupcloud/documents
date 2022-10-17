@@ -44,7 +44,7 @@ The following **video walkthrough** covers prerequisites **b** and **c**.&#x20;
 
 <figure><img src="../../.gitbook/assets/14.PNG" alt=""><figcaption><p>Create Validator</p></figcaption></figure>
 
-**Step 6:**  Import the keys (`depositdata_timestamp.json`) - this has been generated from the `deposit-cli` tool by following the **** [**video above**](https://www.youtube.com/watch?v=4jpzo9qOaP8\&ab\_channel=ConsenSysMedia).&#x20;
+**Step 6:**  Import the keys (`keystore-m_timestamp.json`) - this has been generated from the `deposit-cli` tool by following the **** [**video above**](https://www.youtube.com/watch?v=4jpzo9qOaP8\&ab\_channel=ConsenSysMedia).&#x20;
 
 <figure><img src="../../.gitbook/assets/5.png" alt=""><figcaption><p>Import Keys - upload deposit_data.json </p></figcaption></figure>
 
