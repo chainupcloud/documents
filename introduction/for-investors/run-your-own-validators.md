@@ -6,7 +6,7 @@ A short guide to set up an Ethereum validator with [**ChainUp Cloud**](https://w
 
 **a.** A compatible wallet (currently only supports [**Metamask**](https://metamask.io/)) that holds more than 32 Eth
 
-**b.** Generate Validator Keys and Deposit Data(`keystore-m_timestamp.json and deposit_data-timestamp.json`), which can be done through the Ethereum launchpad ([**Mainnet**](https://launchpad.ethereum.org/en/overview), [**Goerli**](https://goerli.launchpad.ethereum.org/en/)) and the [**deposit-cli tool**](https://github.com/ethereum/staking-deposit-cli/releases/).&#x20;
+**b.** Generate Validator Keys and Deposit Data(`keystore_timestamp.json and deposit_data-timestamp.json`), which can be done through the Ethereum launchpad ([**Mainnet**](https://launchpad.ethereum.org/en/overview), [**Goerli**](https://goerli.launchpad.ethereum.org/en/)) and the [**deposit-cli tool**](https://github.com/ethereum/staking-deposit-cli/releases/).&#x20;
 
 **c.** Deposit 32 Eth either through Ethereum launchpad ([**Mainnet**](https://launchpad.ethereum.org/en/overview), [**Goerli**](https://goerli.launchpad.ethereum.org/en/)) or through the [**Abyss Eth2 Depositer**](https://abyss.finance/eth2depositor) (which currently supports only [**Mainnet**](https://etherscan.io/address/0xFA5f9EAa65FFb2A75de092eB7f3fc84FC86B5b18) and [**Goerli**](https://goerli.etherscan.io/address/0x2cB1A746A8652dfbb0FC11BdA71Bd991EB2Fd52e)).&#x20;
 
