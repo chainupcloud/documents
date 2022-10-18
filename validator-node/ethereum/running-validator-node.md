@@ -1,6 +1,6 @@
 # Running Validator Node
 
-A short guide to set up an Ethereum validator with [**ChainUp Cloud**](https://www.chainupcloud.com/) as your validator as a service provider. If you simply just want to stake Eth, it is recommended to check out the [**Ethereum Staking Guide**](../../introduction/for-investors/delegate-your-token.md) **** instead.
+A short guide to set up an Ethereum validator with [**ChainUp Cloud**](https://www.chainupcloud.com/) as your validator as a service provider. If you simply just want to stake Eth, it is recommended to check out the [**Ethereum Staking Guide**](../../introduction/for-investors/how-to-stake.md) **** instead.
 
 ### **Prerequisites**
 
