@@ -40,7 +40,7 @@ Please make sure that you are downloading from the Ethereum Foundation's officia
 
 <figure><img src="../../.gitbook/assets/gg.PNG" alt=""><figcaption><p>Generate keys &#x26; <code>deposit_data</code></p></figcaption></figure>
 
-**Step 6:** Please note down the mnemonic phrase and locate the `deposit_data` file
+**Step 6:** <mark style="color:red;">Please note down the mnemonic phrase</mark> and locate the `deposit_data` file
 
 <figure><img src="../../.gitbook/assets/depo.png" alt=""><figcaption><p><code>deposit_data</code> file will be uploaded to ChainUp Cloud later</p></figcaption></figure>
 
