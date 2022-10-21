@@ -46,7 +46,7 @@ Nonetheless, you can use any email account to sign up for ChainUp Cloud easily. 
 
 ### Is it free to use ChainUp Aggregator? <a href="#is-it-free-to-use-chainup-clouds-services" id="is-it-free-to-use-chainup-clouds-services"></a>
 
-Yes. It is a smart contract that anyone can interact with. You can even integrate ChainUp Aggregator into your applications by using our [API](../../../introduction/for-developers/use-chainup-aggregator-api.md).
+Yes. It is a smart contract that anyone can interact with. You can even integrate ChainUp Aggregator into your applications by using our [API](../../../introduction/for-developers/use-kinghash-aggregator-api.md).
 
 ### Is the Validator NFT free?
 
