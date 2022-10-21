@@ -2,15 +2,15 @@
 description: Quick start guide for users
 ---
 
-# 🍧 How to use ChainUp Aggregator?
+# 🍧 How to use KingHash Aggregator?
 
-### 1.  Staking using [ChainUp Aggregator](https://staking.chainupcloud.com/)
+### 1.  Staking using [KingHash Aggregator](https://www.kinghash.com/)
 
 **Step 1:** [Install a wallet](https://metamask.io/) and have some Eth.
 
 <figure><img src="../../.gitbook/assets/Capture.PNG" alt=""><figcaption><p>Metamask is a popular wallet</p></figcaption></figure>
 
-**Step 2:** [Visit ChainUp Aggregator page](https://staking.chainupcloud.com/).
+**Step 2:** [Visit KingHash Aggregator page](https://www.kinghash.com/).
 
 <figure><img src="../../.gitbook/assets/stakingpage.PNG" alt=""><figcaption><p>ChainUp Aggregator </p></figcaption></figure>
 
@@ -26,8 +26,8 @@ description: Quick start guide for users
 
 <figure><img src="../../.gitbook/assets/clickconfirm.png" alt=""><figcaption><p>Click to confirm to sign your transaction</p></figcaption></figure>
 
-**Step 6:** You can view the breakdown of your portfolio on the dashboard, through [ChainUp Cloud's](https://app.chainupcloud.com/eth2.0) main page or on Opensea! :ship:
+**Step 6:** You can view the breakdown of your portfolio on the dashboard, through our partner's [ChainUp Cloud's](https://www.chainupcloud.com/) main page or on Opensea! :ship:
 
 <figure><img src="../../.gitbook/assets/dash.png" alt=""><figcaption><p>Simple dashboard to view statistics</p></figcaption></figure>
 
-[Start staking here now!](https://staking.chainupcloud.com/)
+[Start staking here now!](https://www.kinghash.com/)

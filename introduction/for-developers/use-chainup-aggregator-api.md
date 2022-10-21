@@ -2,21 +2,21 @@
 description: Quick start guide for Web3 developers
 ---
 
-# 🍧 Use ChainUp Aggregator API
+# 🍧 Use KingHash Aggregator API
 
 ## Quick Description
 
-ChainUp Aggregator API allows developers to query and expose all data related to staking. Users can query all sort of staking strategies, trade their validator nodes and check their balances. Developers can also integrate ChainUp Aggregator API into their applications. This means customers of all sizes, from small app developers to exchanges and custodians can safely implement staking-facing products for their users.
+KingHash Aggregator API allows developers to query and expose all data related to staking. Users can query all sort of staking strategies, trade their validator nodes and check their balances. Developers can also integrate KingHash Aggregator API into their applications. This means customers of all sizes, from small app developers to exchanges and custodians can safely implement staking-facing products for their users.
 
 ## Benefits
 
 ### Maximize yield when staking on Ethereum
 
-ChainUp Aggregator is the only protocol out there which maximizes staking yield on Ethereum by integrating with all other existing staking protocols. It is not possible to get any better yield out there.
+KingHash Aggregator is the only protocol out there which maximizes staking yield on Ethereum by integrating with all other existing staking protocols. It is not possible to get any better yield out there.
 
 ### Easy to Integrate
 
-ChainUp Aggregator is extremely easy to integrate. Calling the API returns a prepared transaction which can be signed by any wallets! All developers need to do is call the API and prepare a frontend for users to interact with.
+KingHash Aggregator is extremely easy to integrate. Calling the API returns a prepared transaction which can be signed by any wallets! All developers need to do is call the API and prepare a frontend for users to interact with.
 
 ### Transparent staking experience
 

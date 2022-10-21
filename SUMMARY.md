@@ -11,16 +11,16 @@
   * [⚒ Dedicated Node](introduction/products/dedicated-node.md)
   * [👥 White Label Validator](introduction/products/validator-node.md)
   * [⛲ Staking](introduction/products/staking.md)
-  * [🍧 ChainUp Aggregator](introduction/products/chainup-aggregator.md)
+  * [🍧 KingHash Aggregator](introduction/products/chainup-aggregator.md)
 * [👷 For Developers](introduction/for-developers/README.md)
   * [⛓ Use Blockchain API](introduction/for-developers/use-blockchain-api.md)
   * [⚒ Deploy Dedicated Node](introduction/for-developers/deploy-dedicated-node.md)
   * [☁ Use distributed storage with IPFS API](introduction/for-developers/use-distributed-storage-with-ifps-api.md)
-  * [🍧 Use ChainUp Aggregator API](introduction/for-developers/use-chainup-aggregator-api.md)
+  * [🍧 Use KingHash Aggregator API](introduction/for-developers/use-chainup-aggregator-api.md)
 * [👾 For Investors](introduction/for-investors/README.md)
   * [⛲ How to stake?](introduction/for-investors/how-to-stake.md)
   * [👥 Running your own validators](introduction/for-investors/run-your-own-validators.md)
-  * [🍧 How to use ChainUp Aggregator?](introduction/for-investors/how-to-use-chainup-aggregator.md)
+  * [🍧 How to use KingHash Aggregator?](introduction/for-investors/how-to-use-kinghash-aggregator.md)
 
 ## Blockchain API
 
@@ -86,6 +86,7 @@
 * [📘 Overview](staking/overview.md)
 * [💎 Staking on Ethereum](staking/staking-on-ethereum/README.md)
   * [📀 Shanghai Upgrade](staking/staking-on-ethereum/shanghai-upgrade.md)
+  * [⛲ How to stake?](staking/staking-on-ethereum/how-to-stake.md)
 * [🌌 Staking on Cosmos](staking/staking-on-cosmos.md)
 * [📱 Staking on Mina](staking/staking-on-mina.md)
 * [🍆 Staking on EOS](staking/staking-eos.md)
