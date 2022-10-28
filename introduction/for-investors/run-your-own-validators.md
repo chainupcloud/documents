@@ -1,6 +1,6 @@
 # 👥 Running your own validators
 
-A short guide to set up an Ethereum validator with [**ChainUp Cloud**](https://www.chainupcloud.com/) as your validator as a service provider. If you simply just want to stake Eth, it is recommended to check out the [**Ethereum Staking Guide**](how-to-stake.md) **** instead.
+A short guide to set up an Ethereum validator with [**ChainUp Cloud**](https://cloud.chainup.com/) as your validator as a service provider. If you simply just want to stake Eth, it is recommended to check out the [**Ethereum Staking Guide**](how-to-stake.md) **** instead.
 
 ### **Prerequisites**
 
@@ -18,11 +18,11 @@ The following **video walkthrough** covers prerequisites **b** and **c**.&#x20;
 
 ### 1. Creating an Account
 
-**Step 1:** Users are able to sign up on [**ChainUp Cloud**](https://app.chainupcloud.com/register).
+**Step 1:** Users are able to sign up on [**ChainUp Cloud**](https://cloud.chainup.com/app/register).
 
 ![Sign Up](../../.gitbook/assets/chainupcloudregister.PNG)
 
-**Step 2:** Login to [**ChainUp Cloud**](https://app.chainupcloud.com/login) with your newly created account.
+**Step 2:** Login to [**ChainUp Cloud**](https://cloud.chainup.com/app/login) with your newly created account.
 
 ![Login](../../.gitbook/assets/chainupcloudlogin.PNG)
 
@@ -41,7 +41,7 @@ We assume users have already completed all the prerequisites prior to reaching t
 <figure><img src="../../.gitbook/assets/15.PNG" alt=""><figcaption><p>Make Deposit - Hosting your own nodes</p></figcaption></figure>
 
 {% hint style="info" %}
-[**ChainUp Cloud**](https://www.chainupcloud.com/) is still providing support for the Ropsten Testnet. You can manually add the Ropsten network to your wallet with our [**Blockchain API**](../products/blockchain-api.md).
+[**ChainUp Cloud**](https://cloud.chainup.com/) is still providing support for the Ropsten Testnet. You can manually add the Ropsten network to your wallet with our [**Blockchain API**](../products/blockchain-api.md).
 {% endhint %}
 
 **Step 3:** If you have deposited 32 Eth through the official staking launchpad or [**Abyss Eth2 Depositer**](https://abyss.finance/eth2depositor) (prerequisites **b** and **c**), the wallet details should be reflected on the dashboard.
@@ -64,4 +64,4 @@ We assume users have already completed all the prerequisites prior to reaching t
 After the initial 32 Eth deposit, you may check back after some time or so, as it may take [**more than 12 hours**](https://kb.beaconcha.in/ethereum-2.0-depositing) for a transaction to reach the deposit contract on Beacon Chain.
 {% endhint %}
 
-[**Sign up now**](https://app.chainupcloud.com/register) to start running your own validators and discover the wonders of ChainUp Cloud!
+[**Sign up now**](https://cloud.chainup.com/app/register) to start running your own validators and discover the wonders of ChainUp Cloud!

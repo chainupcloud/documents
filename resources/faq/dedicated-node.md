@@ -14,7 +14,7 @@ We now support Ethereum, Filecoin, Bitcoin, Solana and more. More chains coming 
 
 ### How to create a ChainUp Cloud account?
 
-You can use any email account to sign up for ChainUp Cloud easily. With ChainUp Cloud account, you can get access to a variety of services such as Blockchain API, Validator Nodes and more. To do this, go to [https://app.chainupcloud.com/register](https://app.chainupcloud.com/register)
+You can use any email account to sign up for ChainUp Cloud easily. With ChainUp Cloud account, you can get access to a variety of services such as Blockchain API, Validator Nodes and more. To do this, go to [https://cloud.chainup.com/app/register](https://cloud.chainup.com/app/register)
 
 ## ​💰Pricing <a href="#pricing" id="pricing"></a>
 
@@ -32,4 +32,4 @@ No, unlike other vendors, you do NOT need a credit card to sign up. Just login, 
 
 ### Can I ask for additional Dedicated Node usage? <a href="#can-i-ask-for-additional-blockchain-api-usage" id="can-i-ask-for-additional-blockchain-api-usage"></a>
 
-Yes. If you’re interested in higher levels of usage, please contact [sales@chainup.com](mailto:sales@chainup.com)
+Yes. If you’re interested in higher levels of usage, please contact [marketing@chainupcloud.com](mailto:marketing@chainupcloud.com)

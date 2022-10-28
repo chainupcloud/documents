@@ -4,7 +4,7 @@ description: Delegate to any of our validators and staking networks that we supp
 
 # ⛲ How to stake?
 
-A short guide to set up staking on Ethereum with [**ChainUp Cloud**](https://www.chainupcloud.com/).
+A short guide to set up staking on Ethereum with [**ChainUp Cloud**](https://cloud.chainup.com/).
 
 ### **Prerequisites**
 
@@ -56,7 +56,7 @@ You can find alternative key generating tools [here](https://ethereum.org/en/sta
 
 **Step 2:** Choose the network you are going to use and connect your [**Metamask**](https://metamask.io/) wallet.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Make Deposit - Hosting your own nodes</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Make Deposit - Hosting your own nodes</p></figcaption></figure>
 
 **Step 3:**  Import the deposit data (`deposit_data.json`) - this has been generated from the `deposit-cli` tool earlier.
 
@@ -66,7 +66,7 @@ You can find alternative key generating tools [here](https://ethereum.org/en/sta
 
 **Step 5:** Await the transaction to be confirmed on-chain, and that's all! Your Eth is now staked and earning yield! :fire:
 
-[**Sign up now**](https://app.chainupcloud.com/register) to start staking and discover the wonders of ChainUp Cloud!
+[**Sign up now**](https://cloud.chainup.com/app/register) to start staking and discover the wonders of ChainUp Cloud!
 
 {% hint style="info" %}
 **Random Fact:** Founded in 2017 and headquartered in Singapore, ChainUp is a leader in blockchain technology and crypto ecosystem solutions.

@@ -26,8 +26,8 @@ description: Quick start guide for users
 
 <figure><img src="../../.gitbook/assets/kinghashconfirm (1).png" alt=""><figcaption><p>Click <strong>Confirm</strong> to sign your transaction</p></figcaption></figure>
 
-**Step 6:** You can view the breakdown of your portfolio on the dashboard, through our partner's [**ChainUp Cloud's**](https://www.chainupcloud.com/) **** main page or on Opensea! :ship:
+**Step 6:** You can view the breakdown of your portfolio on the dashboard, through our partner's [**ChainUp Cloud's**](https://cloud.chainup.com/app/eth2.0) **** main page or on Opensea! :ship:
 
 <figure><img src="../../.gitbook/assets/kinghashdash.png" alt=""><figcaption><p>Simple dashboard to view statistics</p></figcaption></figure>
 
-[Start staking here now!](https://www.kinghash.com/)
+****[**Start staking here now!**](https://www.kinghash.com/)****

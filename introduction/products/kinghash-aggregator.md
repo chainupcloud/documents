@@ -22,4 +22,4 @@ The aggregator is non-custodial in nature. Users can see the exact breakdown of 
 
 The modern portfolio theory (MPT) is a practical method for selecting investments in order to maximize their overall returns within an acceptable level of risk. The key insight is that by combining assets with different expected returns and volatilities, one can decide on a mathematically optimal allocation which minimizes the risk for a target return – the set of all such optimal portfolios is referred to as the efficient frontier. And that is precisely what KingHash aggregator offers.
 
-[Start staking here now!](https://www.kinghash.com/)
+****[**Start staking here now!**](https://www.kinghash.com/)****
