@@ -17,6 +17,7 @@ wscat -c wss://api.chainup.net/ws/polygon/mainnet/<YOUR_API_KEY>
 const web3 = new Web3("wss://api.chainup.net/ws/polygon/mainnet/&#x3C;YOUR_API_KEY>")
 
 web3.eth.getBlockNumber().then(console.log) // -> 9022457
+
 </code></pre>
 {% endtab %}
 
