@@ -30,17 +30,17 @@ The simplest way to reduce transaction fees on L2s is to lower the cost of stori
 
 Another proposal, which gets us closer to a full sharding deployment, is [EIP-4844](https://eips.ethereum.org/EIPS/eip-4844) , which introduces Shard Blob Transactions. At a high-level, this new type of transaction would include commitments to blobs of data which are gossiped on the Beacon Chain.
 
-&#x20;This proposal can be thought of as a "mini-sharding", where instead of relying on data availability sampling, every node on the network needs to validate all the data in blobs. The key point is that data inside the blobs can be be stored on secondary blockchains after a period of time and only made accessible only when needed, so it won’t increase the main blockchain size considerably.
+This proposal can be thought of as a "mini-sharding", where instead of relying on data availability sampling, every node on the network needs to validate all the data in blobs. The key point is that data inside the blobs can be be stored on secondary blockchains after a period of time and only made accessible only when needed, so it won’t increase the main blockchain size considerably.
 
 ### 4. References
 
 Shanghai Upgrade Specs - [https://github.com/ethereum/execution...](https://www.youtube.com/redirect?event=video\_description\&redir\_token=QUFFLUhqa2JNdzBLbDBZZjVjdGN6UjJERTc1LWdaUU1GUXxBQ3Jtc0ttUF9idi1BNjFZSnh3UTY4bUNUU2dvSDFmNmlLYnBfRXNsNGhMS1MzZ0dJUUVIZVFUWW8wRnRWaHdiUWVnbmo2WmlFVUlUQ04yRnhuLVltTUJVM1JmTTk0QWQwNUhFUTBlQk5qQ3BleC00MUo3RHprcw\&q=https%3A%2F%2Fgithub.com%2Fethereum%2Fexecution-specs%2Fblob%2Fmaster%2Fnetwork-upgrades%2Fmainnet-upgrades%2Fshanghai.md\&v=65hxeeox1iI)
 
-EIP-3540: Implementation of EVM Object Format (EOF) - https://eips.ethereum.org/EIPS/eip-3540
+EIP-3540: Implementation of EVM Object Format (EOF) - [https://eips.ethereum.org/EIPS/eip-3540](https://eips.ethereum.org/EIPS/eip-3540)
 
 Beacon Chain Withdrawals - [https://eips.ethereum.org/EIPS/eip-4895](https://www.youtube.com/redirect?event=video\_description\&redir\_token=QUFFLUhqbW5ZV09jZW9TREpDZmFkcW91ZWItOFVfblJWQXxBQ3Jtc0ttOENMT1dVYldVaGZwMk10Q3pDWHJlbkx1Nm94b1llekVtODVlYU9jb3pTWVU1dG9mNlNEQkdtQlFDYTRPUDVNdFNfdGJKUnFYeVVtY0d3eGV3dWd0aHJWUnF4WjZTYVF3SEcwcDVOSFEweHd1MDQ2NA\&q=https%3A%2F%2Feips.ethereum.org%2FEIPS%2Feip-4895\&v=65hxeeox1iI)
 
-&#x20;Fee Reductions - [https://eips.ethereum.org/EIPS/eip-4488](https://www.youtube.com/redirect?event=video\_description\&redir\_token=QUFFLUhqbUZsUGczN2xXalEwbXhocjZQMlY4NTV3MDdEUXxBQ3Jtc0tsclBUQWJoRGZzTm5PVXZYcXE1VThkekJwc0dxUEZrUjY4QnRzMDk4M2JrNFJqWUZEM2dyTmpOWTZHNHByRDVrRExsSGlEMFVsVllsTU1XSnFWU2pkVmdBeGh2ZjdTcS1uMXJBWnNDRzN0QWlaYWVRaw\&q=https%3A%2F%2Feips.ethereum.org%2FEIPS%2Feip-4488\&v=65hxeeox1iI)
+Fee Reductions - [https://eips.ethereum.org/EIPS/eip-4488](https://www.youtube.com/redirect?event=video\_description\&redir\_token=QUFFLUhqbUZsUGczN2xXalEwbXhocjZQMlY4NTV3MDdEUXxBQ3Jtc0tsclBUQWJoRGZzTm5PVXZYcXE1VThkekJwc0dxUEZrUjY4QnRzMDk4M2JrNFJqWUZEM2dyTmpOWTZHNHByRDVrRExsSGlEMFVsVllsTU1XSnFWU2pkVmdBeGh2ZjdTcS1uMXJBWnNDRzN0QWlaYWVRaw\&q=https%3A%2F%2Feips.ethereum.org%2FEIPS%2Feip-4488\&v=65hxeeox1iI)
 
 Sharding Improvements - [https://eips.ethereum.org/EIPS/eip-4844](https://www.youtube.com/redirect?event=video\_description\&redir\_token=QUFFLUhqbkd2a0ppV2ZHRVQzbWJCRnY2YnBPRGpJcjJtZ3xBQ3Jtc0ttQWF5ZFFKMGp1WjEyZ3BQUjRjb2R6MUtFM1dJOENJZ2M5d19KV054NmctODBFLTNrcThKRk90emtKM1JaWDJUWWhyc3JZQzFkUWtTc3dTMklMc043Y2ozUnczNGpNZVV4UHg2aWZlanBKOHk1enl0aw\&q=https%3A%2F%2Feips.ethereum.org%2FEIPS%2Feip-4844\&v=65hxeeox1iI)
 

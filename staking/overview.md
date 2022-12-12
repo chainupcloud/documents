@@ -10,4 +10,4 @@ Integrating and staking new tokens can be a time-consuming and expensive process
 
 ![Staking](<../.gitbook/assets/chainupcloud stake.PNG>)
 
-[Start staking here now!](https://app.chainupcloud.com/staking)
+****[**Start staking here now!**](https://app.chainupcloud.com/staking)****
