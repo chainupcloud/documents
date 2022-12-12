@@ -2,7 +2,7 @@
 
 ### Fantom RPC
 
-You can review the official Fantom RPC documentation [**HERE**](https://docs.harmony.one/home/developers/api)****
+You can review the official Fantom RPC documentation [**HERE**](https://docs.fantom.foundation/api/web3-api)****
 
 ### Example RPC
 

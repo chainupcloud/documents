@@ -1,18 +1,18 @@
 # JSON-RPC methods
 
-### Tron RPC
+### Bitcoin SV RPC
 
-You can review the official Tron RPC documentation [**HERE**](https://developers.tron.network/reference/json-rpc-api-overview)****
+You can review the official Bitcoin SV RPC documentation [**HERE**](https://github.com/bitcoin-sv-specs/protocol/blob/master/rpc/GetMiningCandidate.md)
 
 ### Example RPC
 
 {% tabs %}
 {% tab title="Curl" %}
 ```
-curl https://api.chainup.net/tron/mainnet/<YOUR_API_KEY> \
+curl https://api.chainup.net/bsv/mainnet/<YOUR_API_KEY> \
 -X POST \
 -H 'content-type: application/json' \
---data '{"jsonrpc":"2.0","method":"net_peerCount","params":[],"id":1}' 
+--data '{"jsonrpc":"2.0","method":"getblockchaininfo","params":[],"id":1}'
 ```
 {% endtab %}
 
@@ -21,13 +21,13 @@ curl https://api.chainup.net/tron/mainnet/<YOUR_API_KEY> \
 const request = require('request');
 
 let options = {
-    url: "https://api.chainup.net/tron/mainnet/<YOUR_API_KEY>",
+    url: "https://api.chainup.net/bsv/mainnet/<YOUR_API_KEY>",
     method: "post",
     headers:
     { 
      "content-type": "application/json"
     },
-    body: JSON.stringify({"jsonrpc":"2.0","method":"net_peerCount","params":[],"id":1})
+    body: JSON.stringify({"jsonrpc":"2.0","method":"getblockchaininfo","params":[],"id":1})
 };
 
 request(options, (error, response, body) => {
@@ -49,10 +49,10 @@ headers = {"content-type": "application/json"}
 payload = json.dumps({
     "id": 1,
     "jsonrpc": "2.0",
-    "method": "net_peerCount",
+    "method": "getblockchaininfo",
     "params": []
 })
-r = requests.post(url="https://api.chainup.net/tron/mainnet/<YOUR_API_KEY>", headers=headers, data=payload)
+r = requests.post(url="https://api.chainup.net/bsv/mainnet/<YOUR_API_KEY>", headers=headers, data=payload)
 if r.status_code == 200:
     print("Post successful: response: ", r.content)
 else:

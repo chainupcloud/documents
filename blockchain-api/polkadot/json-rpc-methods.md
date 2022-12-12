@@ -9,7 +9,7 @@ You can review the official Polkadot RPC documentation [**HERE**](https://polkad
 {% tabs %}
 {% tab title="Curl" %}
 ```
-curl https://api.chainup.net/polkadot/polkadot/<YOUR_API_KEY> \
+curl https://api.chainup.net/polkadot/mainnet/<YOUR_API_KEY> \
 -X POST \
 -H 'content-type: application/json' \
 --data '{"jsonrpc":"2.0","method":"chain_getBlock","params":[],"id":32}'
@@ -21,7 +21,7 @@ curl https://api.chainup.net/polkadot/polkadot/<YOUR_API_KEY> \
 const request = require('request');
 
 let options = {
-    url: "https://api.chainup.net/polkadot/polkadot/<YOUR_API_KEY>",
+    url: "https://api.chainup.net/polkadot/mainnet/<YOUR_API_KEY>",
     method: "post",
     headers:
     { 
@@ -52,7 +52,7 @@ payload = json.dumps({
     "method": "chain_getBlock",
     "params": []
 })
-r = requests.post(url="https://api.chainup.net/polkadot/polkadot/<YOUR_API_KEY>", headers=headers, data=payload)
+r = requests.post(url="https://api.chainup.net/polkadot/mainnet/<YOUR_API_KEY>", headers=headers, data=payload)
 if r.status_code == 200:
     print("Post successful: response: ", r.content)
 else:
