@@ -4,7 +4,7 @@
 
 **Step 1:**  Visit[ imToken](https://token.im/download) and download
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 **Step 2:**  Search KingHash
 
