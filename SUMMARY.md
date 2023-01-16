@@ -21,6 +21,7 @@
   * [⛲ How to stake?](introduction/for-investors/how-to-stake.md)
   * [👥 Running your own validators](introduction/for-investors/run-your-own-validators.md)
   * [🍧 How to use KingHash Aggregator?](introduction/for-investors/how-to-use-kinghash-aggregator.md)
+  * [⛱ How to use KingHash Aggregator with imToken ?](introduction/for-investors/how-to-use-kinghash-aggregator-with-imtoken.md)
 
 ## Blockchain API
 
