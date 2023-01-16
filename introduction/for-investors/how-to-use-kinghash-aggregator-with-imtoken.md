@@ -2,15 +2,15 @@
 
 ### 1.  Staking using [KingHash Aggregator](https://www.kinghash.com/)
 
-**Step 1:**  Visite[ imToken](https://token.im/) and download
+**Step 1:**  Visit[ imToken](https://token.im/) and download
 
 <figure><img src="../../.gitbook/assets/771d7a70dcd312df7ebc6a152a97398.png" alt=""><figcaption></figcaption></figure>
 
-**Step 2:**  Research KingHash
+**Step 2:**  Search KingHash
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-**Step 3:** Visite Kinghash and connect imToken
+**Step 3:** Visit KingHash and connect imToken
 
 <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
