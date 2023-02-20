@@ -2,7 +2,7 @@
 description: Delegate to any of our validators and staking networks that we support
 ---
 
-# ⛲ How to stake?
+# ⛲ How to stake Ethereum?
 
 A short guide to set up staking on Ethereum with [**ChainUp Cloud**](https://cloud.chainup.com/).
 
@@ -52,21 +52,27 @@ You can find alternative key generating tools [here](https://ethereum.org/en/sta
 
 **Step 1:** Click on **Ethereum 2** (sidebar). Make sure, you are in the **Ethereum2** subpage, and click on the **Stake Button**.
 
-<figure><img src="../../.gitbook/assets/dd.png" alt=""><figcaption><p>Eth2 Validator Dashboard</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Eth2 Validator Dashboard</p></figcaption></figure>
 
 **Step 2:** Choose the network you are going to use and connect your [**Metamask**](https://metamask.io/) wallet.
 
-<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption><p>Make Deposit - Hosting your own nodes</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Make Deposit - Hosting your own nodes</p></figcaption></figure>
 
 **Step 3:**  Import the deposit data (`deposit_data.json`) - this has been generated from the `deposit-cli` tool earlier.
 
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Upload the deposit.data json file</p></figcaption></figure>
+
 **Step 4:** Click **Check Immediately** and a transaction should appear for you to confirm.
 
-<figure><img src="../../.gitbook/assets/check.png" alt=""><figcaption><p>Submit the transaction</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Submit the transaction</p></figcaption></figure>
+
+****
 
 **Step 5:** Await the transaction to be confirmed on-chain, and that's all! Your Eth is now staked and earning yield! :fire:
 
 [**Sign up now**](https://cloud.chainup.com/app/register) to start staking and discover the wonders of ChainUp Cloud!
+
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Validators Statistics- Rewards, Creation Date</p></figcaption></figure>
 
 {% hint style="info" %}
 **Random Fact:** Founded in 2017 and headquartered in Singapore, ChainUp is a leader in blockchain technology and crypto ecosystem solutions.
