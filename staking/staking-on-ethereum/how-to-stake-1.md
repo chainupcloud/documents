@@ -52,7 +52,9 @@ You can find alternative key generating tools [here](https://ethereum.org/en/sta
 
 **Step 1:** Click on **Ethereum 2** (sidebar). Make sure, you are in the **Ethereum2** subpage, and click on the **Stake Button**.
 
-<figure><img src="../../.gitbook/assets/stake (1).png" alt=""><figcaption><p>Eth2 Validator Dashboard</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Eth2 Validator Dashboard</p></figcaption></figure>
+
+****
 
 **Step 2:** Choose the network you are going to use, connect your [**Metamask**](https://metamask.io/) wallet and select the SSV option.
 
@@ -68,7 +70,7 @@ Currently, the SSV Network only supports the selection of 4 SSV operators
 
 **Step 4:**  Upload/Import the deposit data (`deposit_data.json`) - this has been generated from the `deposit-cli` tool earlier.
 
-<figure><img src="../../.gitbook/assets/upload.png" alt=""><figcaption><p>Upload deposit data</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption><p>Upload deposit data</p></figcaption></figure>
 
 **Step 5:** Click **Confirm Payment** and a series of transaction should appear for you to confirm. Do remember to store your mnemonic phrase safely!
 

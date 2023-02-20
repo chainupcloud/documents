@@ -60,11 +60,11 @@ You can find alternative key generating tools [here](https://ethereum.org/en/sta
 
 **Step 3:**  Import the deposit data (`deposit_data.json`) - this has been generated from the `deposit-cli` tool earlier.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Upload the deposit.data json file</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p>Upload the deposit.data json file</p></figcaption></figure>
 
 **Step 4:** Click **Check Immediately** and a transaction should appear for you to confirm.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Submit the transaction</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Submit the transaction</p></figcaption></figure>
 
 ****
 
