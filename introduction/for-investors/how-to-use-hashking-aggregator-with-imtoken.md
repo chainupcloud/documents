@@ -1,6 +1,6 @@
-# ⛱ How to use KingHash Aggregator with imToken ?
+# ⛱ How to use HashKing Aggregator with imToken ?
 
-### 1.  Staking using [KingHash Aggregator](https://www.kinghash.com/)
+### 1.  Staking using HashKing Aggregator
 
 **Step 1:**  Visit[ imToken](https://token.im/download) and download
 

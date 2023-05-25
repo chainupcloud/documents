@@ -20,8 +20,8 @@
 * [👾 For Investors](introduction/for-investors/README.md)
   * [⛲ How to stake?](introduction/for-investors/how-to-stake.md)
   * [👥 Running your own validators](introduction/for-investors/run-your-own-validators.md)
-  * [🍧 How to use KingHash Aggregator?](introduction/for-investors/how-to-use-kinghash-aggregator.md)
-  * [⛱ How to use KingHash Aggregator with imToken ?](introduction/for-investors/how-to-use-kinghash-aggregator-with-imtoken.md)
+  * [🍧 How to use HashKing Aggregator?](introduction/for-investors/how-to-use-hashking-aggregator.md)
+  * [⛱ How to use HashKing Aggregator with imToken ?](introduction/for-investors/how-to-use-hashking-aggregator-with-imtoken.md)
 
 ## Blockchain API
 

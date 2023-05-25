@@ -2,15 +2,16 @@
 description: Quick start guide for users
 ---
 
-# 🍧 How to use KingHash Aggregator?
+# 🍧 How to use HashKing Aggregator?
 
-### 1.  Staking using [KingHash Aggregator](https://www.kinghash.com/)
+### 1.  Staking using HashKing Aggregator
 
 **Step 1:** [**Install a wallet**](https://metamask.io/) and have some Eth.
 
 <figure><img src="../../.gitbook/assets/Capture.PNG" alt=""><figcaption><p>Metamask is a popular wallet</p></figcaption></figure>
 
-**Step 2:** [**Visit KingHash Aggregator page**](https://www.kinghash.com/).
+**Step 2:** **Visit** [**HashKing Aggregator page**](https://www.kinghash.com). \
+
 
 <figure><img src="../../.gitbook/assets/kinghashfullsite.png" alt=""><figcaption><p>KingHash Aggregator</p></figcaption></figure>
 
