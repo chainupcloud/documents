@@ -54,7 +54,7 @@ You can find alternative key generating tools [here](https://ethereum.org/en/sta
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Eth2 Validator Dashboard</p></figcaption></figure>
 
-****
+
 
 **Step 2:** Choose the network you are going to use, connect your [**Metamask**](https://metamask.io/) wallet and select the SSV option.
 

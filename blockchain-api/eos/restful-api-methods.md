@@ -2,7 +2,7 @@
 
 ### EOS API
 
-You can review the official EOS API documentation [**HERE**](https://developers.eos.io/manuals/eos/latest/nodeos/plugins/chain\_api\_plugin/api-reference/index)****
+You can review the official EOS API documentation [**HERE**](https://developers.eos.io/manuals/eos/latest/nodeos/plugins/chain\_api\_plugin/api-reference/index)
 
 ### Example API
 

@@ -22,8 +22,8 @@
 
 <figure><img src="../../.gitbook/assets/5dc83d3e99c523d3c716b2c0b157048.png" alt=""><figcaption></figcaption></figure>
 
-**Step 6:** You can view the breakdown of your portfolio on the dashboard, through our partner's [**ChainUp Cloud's**](https://cloud.chainup.com/app/eth2.0) **** main page or on Opensea! :ship:
+**Step 6:** You can view the breakdown of your portfolio on the dashboard, through our partner's [**ChainUp Cloud's**](https://cloud.chainup.com/app/eth2.0) main page or on Opensea! :ship:
 
 <figure><img src="../../.gitbook/assets/415add8b4ff33203135848cc68ebc63.png" alt=""><figcaption></figcaption></figure>
 
-****[**Start staking here now!**](https://www.kinghash.com/)****
+[**Start staking here now!**](https://www.kinghash.com/)

@@ -1,6 +1,6 @@
 # 👥 Running your own validators
 
-A short guide to set up an Ethereum validator with [**ChainUp Cloud**](https://cloud.chainup.com/) as your validator as a service provider. If you simply just want to stake Eth, it is recommended to check out the [**Ethereum Staking Guide**](how-to-stake.md) **** instead.
+A short guide to set up an Ethereum validator with [**ChainUp Cloud**](https://cloud.chainup.com/) as your validator as a service provider. If you simply just want to stake Eth, it is recommended to check out the [**Ethereum Staking Guide**](how-to-stake.md) instead.
 
 ### **Prerequisites**
 
@@ -52,7 +52,7 @@ We assume users have already completed all the prerequisites prior to reaching t
 
 <figure><img src="../../.gitbook/assets/14.PNG" alt=""><figcaption><p>Create validator</p></figcaption></figure>
 
-**Step 5:**  Import the keys (`keystore_timestamp.json`) and password - this has been generated from the `deposit-cli` tool by following the **** [**video above**](https://www.youtube.com/watch?v=4jpzo9qOaP8\&ab\_channel=ConsenSysMedia).&#x20;
+**Step 5:**  Import the keys (`keystore_timestamp.json`) and password - this has been generated from the `deposit-cli` tool by following the [**video above**](https://www.youtube.com/watch?v=4jpzo9qOaP8\&ab\_channel=ConsenSysMedia).&#x20;
 
 <figure><img src="../../.gitbook/assets/5.png" alt=""><figcaption><p>Import Keys - upload deposit_data.json </p></figcaption></figure>
 

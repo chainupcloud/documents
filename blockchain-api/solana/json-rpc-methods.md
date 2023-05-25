@@ -2,7 +2,7 @@
 
 ### Solana RPC
 
-You can review the official Solana RPC documentation [**HERE**](https://docs.solana.com/developing/clients/jsonrpc-api)****
+You can review the official Solana RPC documentation [**HERE**](https://docs.solana.com/developing/clients/jsonrpc-api)
 
 ### Example RPC
 

@@ -2,7 +2,7 @@
 
 ### Sui RPC
 
-You can review the official Sui RPC documentation [**HERE**](https://docs.sui.io/sui-jsonrpc)****
+You can review the official Sui RPC documentation [**HERE**](https://docs.sui.io/sui-jsonrpc)
 
 ### Example RPC
 

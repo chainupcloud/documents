@@ -2,7 +2,7 @@
 
 ### Near RPC
 
-You can review the official Near RPC documentation [**HERE**](https://docs.near.org/api/rpc/introduction)****
+You can review the official Near RPC documentation [**HERE**](https://docs.near.org/api/rpc/introduction)
 
 ### Example RPC
 

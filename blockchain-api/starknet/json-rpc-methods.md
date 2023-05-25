@@ -2,7 +2,7 @@
 
 ### Starknet RPC
 
-You can review the official Starknet RPC documentation [**HERE**](https://github.com/starkware-libs/starknet-specs/blob/master/starknet\_vs\_ethereum\_node\_apis.md)****
+You can review the official Starknet RPC documentation [**HERE**](https://github.com/starkware-libs/starknet-specs/blob/master/starknet\_vs\_ethereum\_node\_apis.md)
 
 ### Example RPC
 

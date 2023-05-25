@@ -66,7 +66,7 @@ You can find alternative key generating tools [here](https://ethereum.org/en/sta
 
 <figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Submit the transaction</p></figcaption></figure>
 
-****
+
 
 **Step 5:** Await the transaction to be confirmed on-chain, and that's all! Your Eth is now staked and earning yield! :fire:
 

@@ -2,7 +2,7 @@
 
 ### Heco RPC
 
-You can review the official Heco RPC documentation [**HERE**](https://docs.hecochain.com/#/dev/sdk)****
+You can review the official Heco RPC documentation [**HERE**](https://docs.hecochain.com/#/dev/sdk)
 
 ### Example RPC
 

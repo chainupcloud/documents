@@ -2,7 +2,7 @@
 
 ### Aptos API
 
-You can review the official Aptos API documentation [**HERE**](https://aptos.dev/nodes/aptos-api-spec/#/)****
+You can review the official Aptos API documentation [**HERE**](https://aptos.dev/nodes/aptos-api-spec/#/)
 
 ### Example API
 

@@ -2,7 +2,7 @@
 
 ### Ethereum Beacon API
 
-You can review the official Ethereum Beacon API documentation [**HERE**](https://ethereum.github.io/beacon-APIs/?urls.primaryName=dev#/Beacon)****
+You can review the official Ethereum Beacon API documentation [**HERE**](https://ethereum.github.io/beacon-APIs/?urls.primaryName=dev#/Beacon)
 
 ### Example API
 

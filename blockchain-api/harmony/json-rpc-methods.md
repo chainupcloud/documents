@@ -2,7 +2,7 @@
 
 ### Harmony RPC
 
-You can review the official Harmony RPC documentation [**HERE**](https://docs.harmony.one/home/developers/api)****
+You can review the official Harmony RPC documentation [**HERE**](https://docs.harmony.one/home/developers/api)
 
 ### Example RPC
 

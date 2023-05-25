@@ -2,7 +2,7 @@
 
 ### Ethereum Classic RPC
 
-You can review the official Ethereum Classic RPC documentation [**HERE**](https://docs.ethereumclassic.org/docs/doc2)****
+You can review the official Ethereum Classic RPC documentation [**HERE**](https://docs.ethereumclassic.org/docs/doc2)
 
 ### Example RPC
 

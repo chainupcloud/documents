@@ -2,7 +2,7 @@
 
 ### Avalanche RPC
 
-You can review the official Avalanche RPC documentation [**HERE**](https://docs.avax.network/apis/avalanchego/apis/c-chain)****
+You can review the official Avalanche RPC documentation [**HERE**](https://docs.avax.network/apis/avalanchego/apis/c-chain)
 
 ### Example RPC
 

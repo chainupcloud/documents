@@ -1,26 +1,26 @@
-# 🍧 KingHash Aggregator
+# 🍧 HashKing Aggregator
 
 ## :gear:General
 
-### What is KingHash Aggregator?
+### What is HashKing Aggregator?
 
-KingHash Aggregator is a smart contract that leverages cutting-edge, innovative algorithms that can help users to discover the best staking strategies.
+HashKing Aggregator is a smart contract that leverages cutting-edge, innovative algorithms that can help users to discover the best staking strategies.
 
-### How does KingHash Aggregator works?
+### How does HashKing Aggregator works?
 
-KingHash have a set of strategies which each optimize different parameters. KingHash's backend will run various financial simulations, and provide various strategies for the user to select. In the future, the user is also feel free to select and create their own strategy.&#x20;
+HashKing have a set of strategies which each optimize different parameters. HashKing's backend will run various financial simulations, and provide various strategies for the user to select. In the future, the user is also feel free to select and create their own strategy.&#x20;
 
-Subsequently, user can select and sign the transaction which will interact with KingHash Aggregator smart contract and distribute Eth to the various protocols.
+Subsequently, user can select and sign the transaction which will interact with HashKingAggregator smart contract and distribute Eth to the various protocols.
 
-### Why should I use KingHash Aggregator?
+### Why should I use HashKing Aggregator?
 
 Lower risks, higher rewards and better decentralization. Users can spread their risks by staking their Eth across multiple protocols, a single [Blackswan event](https://en.wikipedia.org/wiki/Black\_swan\_theory) would not affect all your investments. This can also result in higher yield thanks to the [modern portfolio theory](https://www.investopedia.com/terms/m/modernportfoliotheory.asp). And most importantly, you will help in the decentralization of Ethereum by spreading your Eth across various protocols!
 
 ### How does the Validator NFT works?
 
-KingHash Aggregator uses the Validator NFT Contract as one of its many strategies. The Validator NFT currently can be minted through the KingHash Aggregator Contract.&#x20;
+HashKing Aggregator uses the Validator NFT Contract as one of its many strategies. The Validator NFT currently can be minted through the HashKing Aggregator Contract.&#x20;
 
-Each Validator NFT corresponds to an actual physical node somewhere in the world. It can traded on NFT marketplaces such as Opensea or on our platform. As it is an actual Validator node, it produces rewards overtime. KingHash's Validator NFT by default utilizes MEV-boost technology to maximize Ethereum rewards. Along with our other proprietary software and inventions, we are able to increase validator rewards **significantly** and reward holders **handsomely**.
+Each Validator NFT corresponds to an actual physical node somewhere in the world. It can traded on NFT marketplaces such as Opensea or on our platform. As it is an actual Validator node, it produces rewards overtime. HashKing's Validator NFT by default utilizes MEV-boost technology to maximize Ethereum rewards. Along with our other proprietary software and inventions, we are able to increase validator rewards **significantly** and reward holders **handsomely**.
 
 {% hint style="info" %}
 We welcome any Blockchain Infrastructure Company/Institutions & reputable individuals who wishes to publish their own Validator NFT and integrate with us. Our code is Open Source and [available on Github](https://github.com/ChainUp-Cloud).
@@ -38,15 +38,15 @@ This ensures that each NFT holder get their fair share of reward proportional to
 
 ### How to create a ChainUp Cloud account?
 
-You do not need a ChainUp Cloud account to use KingHash Aggregator, it is permissionless in nature.&#x20;
+You do not need a ChainUp Cloud account to use HashKing Aggregator, it is permissionless in nature.&#x20;
 
 Nonetheless, you can use any email account to sign up for ChainUp Cloud easily. With ChainUp Cloud account, you can get access to a variety of services such as Blockchain API, Validator Nodes and more. To do this, go to [https://cloud.chainup.com/app/register](https://cloud.chainup.com/app/register)
 
 ## 💰Pricing <a href="#pricing" id="pricing"></a>
 
-### Is it free to use KingHash Aggregator? <a href="#is-it-free-to-use-chainup-clouds-services" id="is-it-free-to-use-chainup-clouds-services"></a>
+### Is it free to use HashKing Aggregator? <a href="#is-it-free-to-use-chainup-clouds-services" id="is-it-free-to-use-chainup-clouds-services"></a>
 
-Yes. It is a smart contract that anyone can interact with. You can even integrate KingHash Aggregator into your applications by using KingHash's [API](../../../introduction/for-developers/use-kinghash-aggregator-api.md).
+Yes. It is a smart contract that anyone can interact with. You can even integrate HashKing Aggregator into your applications by using HashKing 's [API](../../../introduction/for-developers/use-kinghash-aggregator-api.md).
 
 ### Is the Validator NFT free?
 

@@ -2,7 +2,7 @@
 
 ### Tron RPC
 
-You can review the official Tron RPC documentation [**HERE**](https://developers.tron.network/reference/json-rpc-api-overview)****
+You can review the official Tron RPC documentation [**HERE**](https://developers.tron.network/reference/json-rpc-api-overview)
 
 ### Example RPC
 
