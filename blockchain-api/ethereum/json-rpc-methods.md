@@ -4,6 +4,49 @@
 
 You can review the official Ethereum RPC documentation [**HERE**](https://ethereum.org/en/developers/docs/apis/json-rpc/)
 
+**Available Ethereum API request methods**
+
+```solidity
+          "eth_accounts"
+          "eth_blockNumber"
+          "eth_call"
+          "eth_chainId"
+          "eth_freeHistory"
+          "eth_getBalance"
+          "eth_getBlockByHash"
+          "eth_getBlockByNumber"
+          "eth_getBlockTransactionCountByHash"
+          "eth_getBlocTransactionCountByNumber"
+          "eth_getCode"
+          "eth_getFilterChanges"
+          "eth_getFilterLogs"
+          "eth_getLogs"
+          "eth_getStorageAt"
+          "eth_getTransactionByHash"
+          "eth_getTransactionByCount"
+          "eth_getTransactionHashByCid"
+          "eth_getTransactionReceipt"
+          "eth_maxPriorityFeePerGas"
+          "eth_newBlockFilter"
+          "eth_newPendingTransactionFilter"
+          "eth_sendRawTransaction"
+          "eth_uninstallFilter"
+          "eth_requestAccounts"
+          "eth_sendTransaction"
+          "eth_sign"
+          "eth_gasPrice"
+          "eth_estimateGas"
+          "net_version"
+```
+
+{% hint style="info" %}
+Due to the computational resources consumed by certain RPCs, the free public RPC only supports the RPCs mentioned above. The rest of the JSON-RPCs will be intercepted and return a 403 status code.
+{% endhint %}
+
+{% hint style="info" %}
+We only collect user IP addresses for the purpose of rate limiting. For more information, please visit: [https://www.chainup.com/privacyPolicy](https://www.chainup.com/privacyPolicy)
+{% endhint %}
+
 ### Example RPC
 
 {% tabs %}

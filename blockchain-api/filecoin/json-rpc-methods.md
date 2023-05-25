@@ -4,6 +4,99 @@
 
 You can review the official Filecoin RPC documentation [**HERE**](https://lotus.filecoin.io/reference/basics/overview/)
 
+**Available Filecoin API request methods**
+
+```
+      Filecoin.ChainGetBlockMessages
+      Filecoin.ChainGetGenesis
+      Filecoin.ChainGetMessage
+      Filecoin.ChainGetParentMessages
+      Filecoin.ChainGetParentReceipts
+      Filecoin.ChainGetPath
+      Filecoin.ChainGetTipSet
+      Filecoin.ChainGetTipSetAfterHeight
+      Filecoin.ChainGetTipSetByHeight
+      Filecoin.ChainHasObj
+      Filecoin.ChainHead
+      Filecoin.ChainPutObj
+      Filecoin.ChainReadObj
+      Filecoin.Discover
+      Filecoin.EthAccounts
+      Filecoin.EthBlockNumber
+      Filecoin.EthCall
+      Filecoin.EthChainId
+      Filecoin.EthEstimateGas
+      Filecoin.EthFeeHistory
+      Filecoin.EthGasPrice
+      Filecoin.EthGetBalance
+      Filecoin.EthGetBlockByHash
+      Filecoin.EthGetBlockByNumber
+      Filecoin.EthGetBlockTransactionCountByHash
+      Filecoin.EthGetBlockTransactionCountByNumber
+      Filecoin.EthGetCode
+      Filecoin.EthGetFilterChanges
+      Filecoin.EthGetFilterLogs
+      Filecoin.EthGetLogs
+      Filecoin.EthGetMessageCidByTransactionHash
+      Filecoin.EthGetStorageAt
+      Filecoin.EthGetTransactionByHash
+      Filecoin.EthGetTransactionCount
+      Filecoin.EthGetTransactionHashByCid
+      Filecoin.EthGetTransactionReceipt
+      Filecoin.EthMaxPriorityFeePerGas
+      Filecoin.EthNewBlockFilter
+      Filecoin.EthNewFilter
+      Filecoin.EthNewPendingTransactionFilter
+      Filecoin.EthProtocolVersion
+      Filecoin.EthSendRawTransaction
+      Filecoin.EthSubscribe
+      Filecoin.EthUninstallFilter
+      Filecoin.EthUnsubscribe
+      Filecoin.GasEstimateGasPremium
+      Filecoin.GasEstimateMessageGas
+      Filecoin.MpoolGetNonce
+      Filecoin.MpoolPush
+      Filecoin.MsigGetAvailableBalance
+      Filecoin.MsigGetPending
+      Filecoin.MsigGetVested
+      Filecoin.MsigGetVestingSchedule
+      Filecoin.NetListening
+      Filecoin.NetVersion
+      Filecoin.StateAccountKey
+      Filecoin.StateCall
+      Filecoin.StateDealProviderCollateralBounds
+      Filecoin.StateDecodeParams
+      Filecoin.StateGetActor
+      Filecoin.StateListMiners
+      Filecoin.StateLookupID
+      Filecoin.StateMarketBalance
+      Filecoin.StateMarketStorageDeal
+      Filecoin.StateMinerInfo
+      Filecoin.StateMinerPower
+      Filecoin.StateMinerProvingDeadline
+      Filecoin.StateMinerSectorCount
+      Filecoin.StateNetworkName
+      Filecoin.StateNetworkVersion
+      Filecoin.StateReadState
+      Filecoin.StateReplay
+      Filecoin.StateSearchMsg
+      Filecoin.StateSectorGetInfo
+      Filecoin.StateVerifiedClientStatus
+      Filecoin.StateVerifierStatus
+      Filecoin.StateWaitMsg
+      Filecoin.Version
+      Filecoin.WalletBalance
+      Filecoin.Web3ClientVersion
+```
+
+{% hint style="info" %}
+Due to the computational resources consumed by certain RPCs, the free public RPC only supports the RPCs mentioned above. The rest of the JSON-RPCs will be intercepted and return a 403 status code.
+{% endhint %}
+
+{% hint style="info" %}
+We only collect user IP addresses for the purpose of rate limiting. For more information, please visit: [https://www.chainup.com/privacyPolicy](https://www.chainup.com/privacyPolicy)
+{% endhint %}
+
 ### Example RPC
 
 {% tabs %}
