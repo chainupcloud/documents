@@ -2,21 +2,21 @@
 description: Quick start guide for Web3 developers
 ---
 
-# 🍧 Use KingHash Aggregator API
+# 🍧 Use HashKing Aggregator API
 
 ## Quick Description
 
-KingHash Aggregator API allows developers to query and expose all data related to staking. Users can query all sort of staking strategies, trade their validator nodes and check their balances. Developers can also integrate KingHash Aggregator API into their applications. This means customers of all sizes, from small app developers to exchanges and custodians can safely implement staking-facing products for their users.
+HashKing Aggregator API allows developers to query and expose all data related to staking. Users can query all sort of staking strategies, trade their validator nodes and check their balances. Developers can also integrate HashKing Aggregator API into their applications. This means customers of all sizes, from small app developers to exchanges and custodians can safely implement staking-facing products for their users.
 
 ## Benefits
 
 ### Maximize yield when staking on Ethereum
 
-KingHash Aggregator is the only protocol out there which maximizes staking yield on Ethereum by integrating with all other existing staking protocols. It is not possible to get any better yield out there.
+HashKing Aggregator is the only protocol out there which maximizes staking yield on Ethereum by integrating with all other existing staking protocols. It is not possible to get any better yield out there.
 
 ### Easy to Integrate
 
-KingHash Aggregator is extremely easy to integrate. Calling the API returns a prepared transaction which can be signed by any wallets! All developers need to do is call the API and prepare a frontend for users to interact with.
+HashKing Aggregator is extremely easy to integrate. Calling the API returns a prepared transaction which can be signed by any wallets! All developers need to do is call the API and prepare a frontend for users to interact with.
 
 ### Transparent staking experience
 
