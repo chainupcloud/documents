@@ -16,7 +16,6 @@
   * [⛓ Use Blockchain API](introduction/for-developers/use-blockchain-api.md)
   * [⚒ Deploy Dedicated Node](introduction/for-developers/deploy-dedicated-node.md)
   * [☁ Use distributed storage with IPFS API](introduction/for-developers/use-distributed-storage-with-ifps-api.md)
-  * [🍧 Use HashKing Aggregator API](introduction/for-developers/use-kinghash-aggregator-api.md)
 * [👾 For Investors](introduction/for-investors/README.md)
   * [⛲ How to stake?](introduction/for-investors/how-to-stake.md)
   * [👥 Running your own validators](introduction/for-investors/run-your-own-validators.md)
