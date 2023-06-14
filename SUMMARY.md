@@ -40,6 +40,8 @@
   * [Public APIs](blockchain-api/filecoin/public-apis.md)
 * [📁 IPFS](blockchain-api/ipfs/README.md)
   * [Welcome to the IPFS documentation!](blockchain-api/ipfs/getting-started.md)
+* [📁 Polkadot](blockchain-api/ipfs-1/README.md)
+  * [Welcome to the Polkadot documentation!](blockchain-api/ipfs-1/getting-started.md)
 * [🪙 Bitcoin](blockchain-api/bitcoin/README.md)
   * [Welcome to the Bitcoin documentation!](blockchain-api/bitcoin/getting-started.md)
   * [JSON-RPC methods](blockchain-api/bitcoin/json-rpc-methods.md)
