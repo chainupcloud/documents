@@ -12,7 +12,7 @@ You can review the[ official Omni RPC documentation **HERE**](https://docs.omni.
 curl https://api.chainup.net/omni/mainnet/<YOUR_API_KEY> \
 -X POST \
 -H 'content-type: application/json' \
---data '{"jsonrpc":"2.0","method":"/v2/address/addr/","params":[],"id":1}' 
+--data '{"jsonrpc":"2.0","method":"getpeerinfo","params":[],"id":32}'
 ```
 {% endtab %}
 
@@ -27,7 +27,7 @@ let options = {
     { 
      "content-type": "application/json"
     },
-    body: JSON.stringify({"jsonrpc":"2.0","method":"/v2/address/addr/","params":[],"id":1})
+    body: JSON.stringify({"jsonrpc":"2.0","method":"getpeerinfo","params":[],"id":1})
 };
 
 request(options, (error, response, body) => {
@@ -49,7 +49,7 @@ headers = {"content-type": "application/json"}
 payload = json.dumps({
     "id": 1,
     "jsonrpc": "2.0",
-    "method": "/v2/address/addr/",
+    "method": "getpeerinfo",
     "params": []
 })
 r = requests.post(url="https://api.chainup.net/omni/mainnet/<YOUR_API_KEY>", headers=headers, data=payload)

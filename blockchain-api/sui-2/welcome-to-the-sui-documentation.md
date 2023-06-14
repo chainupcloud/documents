@@ -1,5 +1,5 @@
 ---
-description: Learn how to interact with Omni using ChainUp Cloud
+description: Learn how to interact with Cosmos  using ChainUp Cloud
 ---
 
 # Welcome to the Cosmos documentation!
