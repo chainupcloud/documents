@@ -2,7 +2,7 @@
 
 ### Bitcoin RPC
 
-You can review the official Bitcoin RPC documentation [**HERE**](https://developer.bitcoin.org/reference/rpc/)
+You can review the official[ Bitcoin RPC documentation **HERE**](https://bitcoincore.org/en/doc/24.0.0/rpc/blockchain/getbestblockhash/)**.**&#x20;
 
 ### Example RPC
 
@@ -60,3 +60,38 @@ else:
 ```
 {% endtab %}
 {% endtabs %}
+
+### **Available  Bitcoin  API request methods**
+
+```
+      "getbestblockhash"
+      "getblock"
+      "getblockchaininfo"
+      "getblockcount"
+      "getblockfilter"
+      "getblockfrompeer"
+      "getblockhash"
+      "getblockheader"
+      "getblockstats"
+      "getchaintips"
+      "getchaintxstats"
+      "getdeploymentinfo"
+      "getdifficulty"
+      "getmempoolancestors"
+      "getmempooldescendants"
+      "getmempoolentry"
+      "getmempoolinfo"
+      "getrawmempool"
+      "gettxout"
+      "gettxoutproof"
+      "gettxoutsetinfo"
+      "gettxspendingprevout"
+      "preciousblock"
+      "pruneblockchain"
+      "savemempool"
+      "scantxoutset"
+      "verifychain"
+      "verifytxoutproof"
+```
+
+### &#x20;

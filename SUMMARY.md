@@ -87,6 +87,18 @@
 * [🔭 Omni](blockchain-api/sui/README.md)
   * [Welcome to the Omni documentation!](blockchain-api/sui/welcome-to-the-sui-documentation.md)
   * [JSON-RPC methods](blockchain-api/sui/json-rpc-methods.md)
+* [💴 Arbitrum](blockchain-api/sui-1/README.md)
+  * [Welcome to the Arbitrum documentation!](blockchain-api/sui-1/welcome-to-the-sui-documentation.md)
+  * [JSON-RPC methods](blockchain-api/sui-1/json-rpc-methods.md)
+* [🔑 Cosmos](blockchain-api/sui-2/README.md)
+  * [Welcome to the Cosmos documentation!](blockchain-api/sui-2/welcome-to-the-sui-documentation.md)
+  * [JSON-RPC methods](blockchain-api/sui-2/json-rpc-methods.md)
+* [🚨 Dogecoin](blockchain-api/sui-3/README.md)
+  * [Welcome to the Dogecoin documentation!](blockchain-api/sui-3/welcome-to-the-sui-documentation.md)
+  * [JSON-RPC methods](blockchain-api/sui-3/json-rpc-methods.md)
+* [🥌 Optimism](blockchain-api/sui-4/README.md)
+  * [Welcome to the Optimism documentation!](blockchain-api/sui-4/welcome-to-the-sui-documentation.md)
+  * [JSON-RPC methods](blockchain-api/sui-4/json-rpc-methods.md)
 
 ## Staking
 

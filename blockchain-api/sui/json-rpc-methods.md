@@ -52,7 +52,7 @@ payload = json.dumps({
     "method": "/v2/address/addr/",
     "params": []
 })
-r = requests.post(url="https://api.chainup.net/sui/mainnet/<YOUR_API_KEY>", headers=headers, data=payload)
+r = requests.post(url="https://api.chainup.net/omni/mainnet/<YOUR_API_KEY>", headers=headers, data=payload)
 if r.status_code == 200:
     print("Post successful: response: ", r.content)
 else:

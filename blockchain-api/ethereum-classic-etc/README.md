@@ -1,2 +1,2 @@
-# 🪨 Ethereum Classic
+# 🪨 Ethereum Classic - ETC
 

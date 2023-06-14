@@ -1,2 +1,2 @@
-# 🥀 Bitcoin Cash
+# 🥀 Bitcoin Cash - BCH
 

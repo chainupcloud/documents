@@ -2,7 +2,7 @@
 
 ### BSC RPC
 
-You can review the official BSC RPC documentation [**HERE**](https://ethereum.org/en/developers/docs/apis/json-rpc/)
+You can review the official BSC RPC documentation **HERE**
 
 ### Example RPC
 
@@ -12,7 +12,7 @@ You can review the official BSC RPC documentation [**HERE**](https://ethereum.or
 curl https://api.chainup.net/bsc/mainnet/<YOUR_API_KEY> \
 -X POST \
 -H 'content-type: application/json' \
---data '{"jsonrpc":"2.0","method":"net_peerCount","params":[],"id":1}' 
+--data '{"jsonrpc":"2.0","method":"eth_syncing","params":[],"id":1}' 
 ```
 {% endtab %}
 
