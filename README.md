@@ -38,8 +38,8 @@ Use these docs to learn more about ChainUp Cloud core products, explore guides, 
 [filecoin](blockchain-api/filecoin/)
 {% endcontent-ref %}
 
-{% content-ref url="blockchain-api/ipfs/" %}
-[ipfs](blockchain-api/ipfs/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="blockchain-api/bitcoin/" %}
@@ -66,16 +66,16 @@ Use these docs to learn more about ChainUp Cloud core products, explore guides, 
 [aptos](blockchain-api/aptos/)
 {% endcontent-ref %}
 
-{% content-ref url="blockchain-api/sui/" %}
-[sui](blockchain-api/sui/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="blockchain-api/starknet/" %}
-[starknet](blockchain-api/starknet/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="blockchain-api/harmony/" %}
-[harmony](blockchain-api/harmony/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="blockchain-api/fantom/" %}
@@ -86,12 +86,12 @@ Use these docs to learn more about ChainUp Cloud core products, explore guides, 
 [avalanche](blockchain-api/avalanche/)
 {% endcontent-ref %}
 
-{% content-ref url="blockchain-api/solana/" %}
-[solana](blockchain-api/solana/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% content-ref url="blockchain-api/near/" %}
-[near](blockchain-api/near/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="blockchain-api/tron/" %}

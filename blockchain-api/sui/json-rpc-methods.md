@@ -1,18 +1,18 @@
 # JSON-RPC methods
 
-### Sui RPC
+### Omni RPC
 
-You can review the official Sui RPC documentation [**HERE**](https://docs.sui.io/sui-jsonrpc)
+You can review the[ official Omni RPC documentation **HERE**](https://docs.omni.network/)**.**&#x20;
 
 ### Example RPC
 
 {% tabs %}
 {% tab title="Curl" %}
 ```
-curl https://api.chainup.net/sui/mainnet/<YOUR_API_KEY> \
+curl https://api.chainup.net/omni/mainnet/<YOUR_API_KEY> \
 -X POST \
 -H 'content-type: application/json' \
---data '{"jsonrpc":"2.0","method":"sui_getTotalTransactionNumber","params":[],"id":1}' 
+--data '{"jsonrpc":"2.0","method":"/v2/address/addr/","params":[],"id":1}' 
 ```
 {% endtab %}
 
@@ -21,13 +21,13 @@ curl https://api.chainup.net/sui/mainnet/<YOUR_API_KEY> \
 const request = require('request');
 
 let options = {
-    url: "https://api.chainup.net/sui/mainnet/<YOUR_API_KEY>",
+    url: "https://api.chainup.net/omni/mainnet/<YOUR_API_KEY>",
     method: "post",
     headers:
     { 
      "content-type": "application/json"
     },
-    body: JSON.stringify({"jsonrpc":"2.0","method":"sui_getTotalTransactionNumber","params":[],"id":1})
+    body: JSON.stringify({"jsonrpc":"2.0","method":"/v2/address/addr/","params":[],"id":1})
 };
 
 request(options, (error, response, body) => {
@@ -49,7 +49,7 @@ headers = {"content-type": "application/json"}
 payload = json.dumps({
     "id": 1,
     "jsonrpc": "2.0",
-    "method": "sui_getTotalTransactionNumber",
+    "method": "/v2/address/addr/",
     "params": []
 })
 r = requests.post(url="https://api.chainup.net/sui/mainnet/<YOUR_API_KEY>", headers=headers, data=payload)
