@@ -1,8 +1,8 @@
 # JSON-RPC methods
 
-### Cosmos RPC
+### **Dogecoin** RPC
 
-You can review the official **Dogecoin API documentation HERE.**&#x20;
+You can review the official [**Dogecoin API documentation HERE**](https://docs.dogechain.dog/docs/get-started/json-rpc-commands)**.**&#x20;
 
 ### Example RPC
 
