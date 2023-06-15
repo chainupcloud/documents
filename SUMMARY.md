@@ -31,7 +31,6 @@
   * [JSON-RPC methods](blockchain-api/ethereum/json-rpc-methods.md)
   * [WebSocket stream](blockchain-api/ethereum/websocket-stream.md)
 * [🪙 Bitcoin](blockchain-api/bitcoin/README.md)
-  * [Untitled](blockchain-api/bitcoin/getting-started.md)
   * [JSON-RPC methods](blockchain-api/bitcoin/json-rpc-methods.md)
 * [📂 Filecoin](blockchain-api/filecoin/README.md)
   * [JSON-RPC methods](blockchain-api/filecoin/json-rpc-methods.md)
