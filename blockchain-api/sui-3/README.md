@@ -1,11 +1,11 @@
 ---
-description: Welcome to the Dogecoin documentation!
+description: >-
+  Welcome to the Dogecoin documentation! Learn how to interact with Dogecoin
+  using ChainUp Cloud
 ---
 
 # 🚨 Dogecoin
 
-Learn how to interact with Dogecoin using ChainUp Cloud\
-\
 In this section, you will be able to learn about what makes Sui special and how you can leverage available tools to build amazing products!
 
 You can then get started with the available RPC & REST APIs we support [**via ChainUp Cloud**](https://app.chainupcloud.com/login).
