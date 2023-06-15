@@ -1,4 +1,4 @@
-# RESTful API methods
+# JSON-RPC methods
 
 ### Aptos API
 
