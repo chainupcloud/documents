@@ -52,7 +52,7 @@ You can find alternative key generating tools [here](https://ethereum.org/en/sta
 
 **Step 1:** Click on **Ethereum 2** (sidebar). Make sure, you are in the **Ethereum2** subpage, and click on the **Stake Button**.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Eth2 Validator Dashboard</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (2).png" alt=""><figcaption><p>Eth2 Validator Dashboard</p></figcaption></figure>
 
 **Step 2:** Choose the network you are going to use and connect your [**Metamask**](https://metamask.io/) wallet.
 
@@ -60,7 +60,7 @@ You can find alternative key generating tools [here](https://ethereum.org/en/sta
 
 **Step 3:**  Import the deposit data (`deposit_data.json`) - this has been generated from the `deposit-cli` tool earlier.
 
-<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p>Upload the deposit.data json file</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3) (1).png" alt=""><figcaption><p>Upload the deposit.data json file</p></figcaption></figure>
 
 **Step 4:** Click **Check Immediately** and a transaction should appear for you to confirm.
 
