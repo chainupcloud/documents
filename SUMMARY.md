@@ -40,6 +40,8 @@
   * [WebSocket stream](blockchain-api/polkadot/websocket-stream.md)
 * [⚪ Litecoin](blockchain-api/litecoin/README.md)
   * [JSON-RPC methods](blockchain-api/litecoin/json-rpc-methods.md)
+* [🚃 Near](blockchain-api/litecoin-1/README.md)
+  * [JSON-RPC methods](blockchain-api/litecoin-1/json-rpc-methods.md)
 * [💎 Ethereum Beacon](blockchain-api/ethereum-beacon/README.md)
   * [JSON-RPC methods](blockchain-api/ethereum-beacon/json-rpc-methods.md)
 * [⛽ Polygon (Matic)](blockchain-api/polygon/README.md)
