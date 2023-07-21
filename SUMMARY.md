@@ -89,7 +89,7 @@
   * [⛲ How to stake Ethereum?](staking/staking-on-ethereum/how-to-stake.md)
   * [🔹 How to stake using SSV?](staking/staking-on-ethereum/how-to-stake-1.md)
 * [🌌 Delegation on Cosmos](staking/staking-on-cosmos.md)
-* [⏱ Copy of Delegation on Cardano(ADA)](staking/staking-on-cosmos-1.md)
+* [⏱ Delegation on Cardano(ADA)](staking/staking-on-cosmos-1.md)
 * [📱 Delegation on Mina](staking/staking-on-mina.md)
 * [🍆 Delegation on EOS](staking/staking-eos.md)
 * [📂 Delegation on FIL](staking/staking-fil.md)
