@@ -56,7 +56,7 @@ You can find alternative key generating tools [here](https://ethereum.org/en/sta
 
 **Step 2:** Choose the network you are going to use and connect your [**Metamask**](https://metamask.io/) wallet.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption><p>Make Deposit - Hosting your own nodes</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Make Deposit - Hosting your own nodes</p></figcaption></figure>
 
 **Step 3:**  Import the deposit data (`deposit_data.json`) - this has been generated from the `deposit-cli` tool earlier.
 
@@ -64,7 +64,7 @@ You can find alternative key generating tools [here](https://ethereum.org/en/sta
 
 **Step 4:** Click **Check Immediately** and a transaction should appear for you to confirm.
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Submit the transaction</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18) (1).png" alt=""><figcaption><p>Submit the transaction</p></figcaption></figure>
 
 
 
@@ -72,7 +72,7 @@ You can find alternative key generating tools [here](https://ethereum.org/en/sta
 
 [**Sign up now**](https://cloud.chainup.com/app/register) to start staking and discover the wonders of ChainUp Cloud!
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Validators Statistics- Rewards, Creation Date</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p>Validators Statistics- Rewards, Creation Date</p></figcaption></figure>
 
 {% hint style="info" %}
 **Random Fact:** Founded in 2017 and headquartered in Singapore, ChainUp is a leader in blockchain technology and crypto ecosystem solutions.

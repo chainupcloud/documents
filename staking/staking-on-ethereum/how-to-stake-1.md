@@ -52,7 +52,7 @@ You can find alternative key generating tools [here](https://ethereum.org/en/sta
 
 **Step 1:** Click on **Ethereum 2** (sidebar). Make sure, you are in the **Ethereum2** subpage, and click on the **Stake Button**.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Eth2 Validator Dashboard</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (3).png" alt=""><figcaption><p>Eth2 Validator Dashboard</p></figcaption></figure>
 
 
 

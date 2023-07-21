@@ -8,7 +8,7 @@
 
 **Step 2:**  Search KingHash
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
 
 **Step 3:** Visit KingHash and connect imToken
 
