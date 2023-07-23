@@ -1,11 +1,11 @@
-# ⏱ Copy of Delegation on Cardano(ADA)
+# ⏱ Delegation on Cardano(ADA)
 
 &#x20;1\. Download and install YOROI light wallet from the official website:[https://yoroi-wallet.com](https://yoroi-wallet.com)
 
 If you have at least 1 ADA in your wallet, please start from step 4.\
 
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
 
 2.Open the wallet and press "Create wallet" or "Restore wallet".
 
@@ -14,7 +14,7 @@ If you have at least 1 ADA in your wallet, please start from step 4.\
 4.Open the "Delegation List" tab and enter "ChainUp" in the search field.\
 
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 5.Press the "Delegate" button and follow the further instructions.
 
