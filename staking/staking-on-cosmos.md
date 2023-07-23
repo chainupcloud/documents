@@ -16,7 +16,7 @@ Steps
    ![](<../.gitbook/assets/image (19).png>)
 3. Select the validator you want to delegate your tokens to. You can use the search bar to search for “Chainup & NewHuo”\
    \
-   ![](<../.gitbook/assets/image (2) (1).png>)
+   ![](<../.gitbook/assets/image (2) (1) (3).png>)
 4. Enter the amount of ATOM you want to delegate. You can delegate any amount of ATOM, but you must have a minimum of 1 ATOM to pay for transaction fees.
 5. Click the "Review" button.\
    ![](<../.gitbook/assets/image (14).png>)
