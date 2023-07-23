@@ -1,3 +1,3 @@
-# 📂 Staking on FIL
+# 📂 Delegation on FIL
 
-Visit LendMi：[https://lendmi.finance/](https://lendmi.finance)
+Visit Hashking
