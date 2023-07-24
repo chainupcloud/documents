@@ -1,4 +1,4 @@
-# 📱 Delegation on Mina
+# 📱 Staking on Mina
 
 
 
@@ -20,3 +20,6 @@
 
 5. Your MINA tokens will now be staked and you will start earning rewards.
 
+staking address is:
+
+xx
