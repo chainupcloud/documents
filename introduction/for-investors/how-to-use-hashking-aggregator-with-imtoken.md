@@ -4,7 +4,7 @@
 
 **Step 1:**  Visit[ imToken](https://token.im/download) and download
 
-<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2:**  Search KingHash
 
@@ -12,7 +12,7 @@
 
 **Step 3:** Visit KingHash and connect imToken
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 4:** Input how much you want to stake and click stake! In this example we chose the **32x** strategy to get a real validator node which is represented using a NFT!
 
