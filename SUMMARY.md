@@ -88,11 +88,11 @@
   * [📀 Shanghai Upgrade](staking/staking-on-ethereum/shanghai-upgrade.md)
   * [⛲ How to stake Ethereum?](staking/staking-on-ethereum/how-to-stake.md)
   * [🔹 How to stake using SSV?](staking/staking-on-ethereum/how-to-stake-1.md)
-* [🌌 Delegation on Cosmos](staking/staking-on-cosmos.md)
-* [⏱ Delegation on Cardano(ADA)](staking/staking-on-cosmos-1.md)
-* [📱 Delegation on Mina](staking/staking-on-mina.md)
-* [🍆 Delegation on EOS](staking/staking-eos.md)
-* [📂 Delegation on FIL](staking/staking-fil.md)
+* [🌌 Staking on Cosmos](staking/staking-on-cosmos.md)
+* [⏱ Staking  on Cardano(ADA)](staking/staking-on-cosmos-1.md)
+* [📱 Staking on Mina](staking/staking-on-mina.md)
+* [🍆 Staking on EOS](staking/staking-eos.md)
+* [📂 Staking on FIL](staking/staking-fil.md)
 
 ## Validator Node
 
