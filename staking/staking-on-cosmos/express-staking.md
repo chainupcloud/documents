@@ -13,7 +13,7 @@
 3. Choose the express staking option. \
    The ChainUp Cloud platform automatically creates a special account for you called a validator account and  a key pair, which is a set of two keys, a private key and a public key. The private key is used to sign transactions, and the public key is used to verify signatures.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (4).png" alt=""><figcaption></figcaption></figure>
 
 4.  You need to choose the cluster of network operators for running your validator. Within this cluster, the operator's annual fee is visible, and it is set at 5 SSV.&#x20;
 
