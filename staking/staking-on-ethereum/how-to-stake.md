@@ -64,7 +64,7 @@ You can find alternative key generating tools [here](https://ethereum.org/en/sta
 
 **Step 4:** Click **Check Immediately** and a transaction should appear for you to confirm.
 
-<figure><img src="../../.gitbook/assets/image (18) (1).png" alt=""><figcaption><p>Submit the transaction</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18) (1) (1).png" alt=""><figcaption><p>Submit the transaction</p></figcaption></figure>
 
 
 

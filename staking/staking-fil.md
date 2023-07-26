@@ -14,7 +14,7 @@ The MetaMask plug-in installation supports the ETH main chain wallet by default.
 
 * Click "Extensions"; open the "MetaMask Plugin" extension;
 * Switch network on "MetaMask" \
-  ![](<../.gitbook/assets/image (7) (3).png>)
+  ![](<../.gitbook/assets/image (7) (4).png>)
 * Select "Add Network"\
   ![](<../.gitbook/assets/image (10) (1).png>)
 *   Select "Manually add a network"\
@@ -24,7 +24,7 @@ The MetaMask plug-in installation supports the ETH main chain wallet by default.
 *   Configure the Filecoin-EVM network\
 
 
-    <figure><img src="../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 Network name: Filecoin-mainnet
 
@@ -39,7 +39,7 @@ Block Manager URL: https://filfox.info/en
 *   After saving, "MetaMask" is added successfully, and it will automatically switch to the Filecoin mainnet\
 
 
-    <figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ### The official website automatically adds the main chain information
 
@@ -50,7 +50,7 @@ Block Manager URL: https://filfox.info/en
 *   Click "Connect Wallet"  \
 
 
-    <figure><img src="../.gitbook/assets/image (9) (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 *   Select "MetaMask" in the pop-up box and approve adding the network\
 
 
@@ -66,7 +66,7 @@ At present, Filecoin has wallet addresses with different prefixes. The addresses
 
     <figure><img src="../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 * Transferred Assets
 

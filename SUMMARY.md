@@ -87,7 +87,7 @@
 * [💎 Staking on Ethereum](staking/staking-on-ethereum/README.md)
   * [📀 Shanghai Upgrade](staking/staking-on-ethereum/shanghai-upgrade.md)
   * [⛲ How to stake Ethereum?](staking/staking-on-ethereum/how-to-stake.md)
-  * [🔹 How to generate withdrawal credentials](staking/staking-on-ethereum/how-to-stake-1.md)
+  * [🔹 How to generate deposit keys](staking/staking-on-ethereum/how-to-stake-1.md)
 * [🚨 Staking on Ethereum with SSV](staking/staking-on-cosmos/README.md)
   * [Native Staking](staking/staking-on-cosmos/native-staking.md)
   * [Express Staking](staking/staking-on-cosmos/express-staking.md)

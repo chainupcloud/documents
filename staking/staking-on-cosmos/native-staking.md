@@ -4,13 +4,20 @@ description: Native Staking
 
 # Native Staking
 
-&#x20;1\. Click on the ETH Logo⟠   , select SSV Validator option
+&#x20;1\. To proceed, locate the "Ethereum 2" dropdown menu, and then select the option labeled "SSV Validator."
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
-2. Select Add Cluster, then Native Staking
+2. To get started, please connect your MetaMask wallet. Once your wallet is connected, you will need to select the "Add a Cluster" option. This will allow you to configure and connect to a specific cluster. Choose the **native staking** option.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption><p> Choose the native staking option.</p></figcaption></figure>
+
+For the native staking option, users are required to create a validator account and generate a key pair in the keystore format.
+
+\
+
+
+
 
 3. Add Cluster, select four desired operators of your choice
 

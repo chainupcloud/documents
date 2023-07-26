@@ -2,9 +2,10 @@
 description: Use distributed validator technology to stake your Eth
 ---
 
-# 🔹 How to generate withdrawal credentials
+# 🔹 How to generate deposit keys
 
-A short guide to set up staking on Ethereum with [**ChainUp Cloud**](https://cloud.chainup.com/)**,** using the SSV Network.
+A short guide to set up staking deposit keys. \
+The official Ethereum Launchpad guide can be found here, [https://launchpad.ethereum.org/en/generate-keys](https://launchpad.ethereum.org/en/generate-keys)&#x20;
 
 ### **Prerequisites**
 
@@ -48,41 +49,7 @@ Please make sure that you are downloading from the Ethereum Foundation's officia
 You can find alternative key generating tools [here](https://ethereum.org/en/staking/solo/#key-generators) recommended by the Ethereum foundation.
 {% endhint %}
 
-### 2. Uploading `deposit_data`/`withdrawal_credentials`
 
-**Step 1:** Click on **Ethereum 2** (sidebar). Make sure, you are in the **Ethereum2** subpage, and click on the **Stake Button**.
-
-<figure><img src="../../.gitbook/assets/image (7) (3) (1) (1).png" alt=""><figcaption><p>Eth2 Validator Dashboard</p></figcaption></figure>
-
-
-
-**Step 2:** Choose the network you are going to use, connect your [**Metamask**](https://metamask.io/) wallet and select the SSV option.
-
-<figure><img src="../../.gitbook/assets/select.png" alt=""><figcaption><p>Selecting the options</p></figcaption></figure>
-
-**Step 3:** Select the SSV operators you want to use.&#x20;
-
-<figure><img src="../../.gitbook/assets/fee.png" alt=""><figcaption><p>The fees of each operator (in SSV tokens) can be seen at the right column</p></figcaption></figure>
-
-{% hint style="info" %}
-Currently, the SSV Network only supports the selection of 4 SSV operators
-{% endhint %}
-
-**Step 4:**  Upload/Import the deposit data (`deposit_data.json`) - this has been generated from the `deposit-cli` tool earlier.
-
-<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption><p>Upload deposit data</p></figcaption></figure>
-
-**Step 5:** Click **Confirm Payment** and a series of transaction should appear for you to confirm. Do remember to store your mnemonic phrase safely!
-
-<figure><img src="../../.gitbook/assets/confirm.png" alt=""><figcaption><p>Confirm payment</p></figcaption></figure>
-
-**Step 6:** Await the transaction to be confirmed on-chain, and that's all! Your Eth is now staked and earning yield! :fire:
-
-{% hint style="danger" %}
-Do note that the fee charged is a yearly payment, you should top-up your SSV tokens if you wish to stake for a period longer than a year.
-{% endhint %}
-
-[**Sign up now**](https://cloud.chainup.com/app/register) to start staking and discover the wonders of ChainUp Cloud!
 
 {% hint style="info" %}
 **Random Fact:** Founded in 2017 and headquartered in Singapore, ChainUp is a leader in blockchain technology and crypto ecosystem solutions.
