@@ -40,12 +40,12 @@ To participate in native staking, users must create a validator account and gene
 
 
 
-It may take some time for the dashboard to display the newly registered cluster.\
+8. It may take some time for the dashboard to display the newly registered clusterID. BUt after that you can view its de \
 
 
 <figure><img src="../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
-
+<figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
 
 
