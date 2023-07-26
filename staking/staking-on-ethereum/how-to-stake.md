@@ -72,7 +72,7 @@ You can find alternative key generating tools [here](https://ethereum.org/en/sta
 
 [**Sign up now**](https://cloud.chainup.com/app/register) to start staking and discover the wonders of ChainUp Cloud!
 
-<figure><img src="../../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption><p>Validators Statistics- Rewards, Creation Date</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1) (1) (1).png" alt=""><figcaption><p>Validators Statistics- Rewards, Creation Date</p></figcaption></figure>
 
 {% hint style="info" %}
 **Random Fact:** Founded in 2017 and headquartered in Singapore, ChainUp is a leader in blockchain technology and crypto ecosystem solutions.

@@ -4,15 +4,15 @@ description: Native Staking
 
 # Native Staking
 
-&#x20;1\. Click on the third button , select SSV Validator option
+&#x20;1\. Click on the ETH Logo⟠   , select SSV Validator option
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 2. Select Add Cluster, then Native Staking
 
 <figure><img src="../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
-3. Add Cluster, Select four
+3. Add Cluster, select four desired operators of your choice
 
 <figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption><p>after choosing operators of ur choice, click next</p></figcaption></figure>
 
@@ -25,7 +25,7 @@ description: Native Staking
 
 6. Upload the keystore.json, and also the password . after that press confirm
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

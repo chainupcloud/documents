@@ -1,4 +1,4 @@
-# 🌌 Delegation on Cosmos
+# 🌌 Staking on Cosmos
 
 Prerequisites
 
@@ -19,7 +19,7 @@ Steps
    ![](<../.gitbook/assets/image (2) (1) (3).png>)
 4. Enter the amount of ATOM you want to delegate. You can delegate any amount of ATOM, but you must have a minimum of 1 ATOM to pay for transaction fees.
 5. Click the "Review" button.\
-   ![](<../.gitbook/assets/image (14).png>)
+   ![](<../.gitbook/assets/image (14) (1).png>)
 6. If you are using a hardware wallet, you will be prompted to confirm the delegation transaction on your hardware wallet.
 
 Tips

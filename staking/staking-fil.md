@@ -1,4 +1,4 @@
-# 📂 Delegation on FIL
+# 📂 Staking on FIL
 
 ### 1 . Install the MetaMask plug-in wallet
 
@@ -14,17 +14,17 @@ The MetaMask plug-in installation supports the ETH main chain wallet by default.
 
 * Click "Extensions"; open the "MetaMask Plugin" extension;
 * Switch network on "MetaMask" \
-  ![](<../.gitbook/assets/image (7).png>)
+  ![](<../.gitbook/assets/image (7) (3).png>)
 * Select "Add Network"\
-  ![](<../.gitbook/assets/image (10).png>)
+  ![](<../.gitbook/assets/image (10) (1).png>)
 *   Select "Manually add a network"\
 
 
-    <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 *   Configure the Filecoin-EVM network\
 
 
-    <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
 
 Network name: Filecoin-mainnet
 
@@ -39,22 +39,22 @@ Block Manager URL: https://filfox.info/en
 *   After saving, "MetaMask" is added successfully, and it will automatically switch to the Filecoin mainnet\
 
 
-    <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### The official website automatically adds the main chain information
 
 *   Open [Hashking FilStaking official website](https://fil.hashking.fi/stake)\
 
 
-    <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 *   Click "Connect Wallet"  \
 
 
-    <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (9) (2).png" alt=""><figcaption></figcaption></figure>
 *   Select "MetaMask" in the pop-up box and approve adding the network\
 
 
-    <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (2) (4).png" alt=""><figcaption></figcaption></figure>
 * After the addition is successful, I will automatically switch to the Filecoin-EVM network
 
 ### 3. Withdraw funds to the Filecoin Mainnet network
@@ -64,9 +64,9 @@ At present, Filecoin has wallet addresses with different prefixes. The addresses
 *   View payment address\
 
 
-    <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 * Transferred Assets
 
