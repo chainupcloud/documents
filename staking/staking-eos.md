@@ -1,4 +1,4 @@
-# 🍆 Delegation on EOS
+# 🍆 Staking on EOS
 
 ## **Step 1: Install Wombat Wallet on Desktop**
 
@@ -27,7 +27,7 @@ That's it! You're now ready to start using Wombat Wallet.
 
 **Step 5 :** After successfully staking, go back to the "**Vote**" button in the upper right. Remember, simply staking won't bring you rewards!   Vote for the '**hashfineosio**' validator.
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption><p>Press the "Vote" button and sign the transaction in the Wallet extension.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22) (1).png" alt=""><figcaption><p>Press the "Vote" button and sign the transaction in the Wallet extension.</p></figcaption></figure>
 
 **Step 6 :**  Congratulations! You have staked resources and voted for **hashfineosio**. Feel free to check the transaction status on bloks.io with the hash provided:\
 To check the **status** of your stake, go to the top menu on bloks.io: _**‘Wallet’**_** → **_**‘Stake CPU/NET’**_** → **_**‘Breakdown’**_**.**
