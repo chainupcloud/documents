@@ -1,4 +1,4 @@
-# Register Operator
+# 📪 Register Operator
 
 1. Click on the nodes logo, and then proceed to select the "Create Node" button.
 
