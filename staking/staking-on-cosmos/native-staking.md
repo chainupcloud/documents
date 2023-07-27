@@ -31,9 +31,7 @@ Follow the instructions provided in the [detailed guide to generate deposit keys
 
 <figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
-7.  A confirmation prompt will appear in MetaMask. Review the details carefully before clicking on "Confirm" button.&#x20;
-
-    , your validator will be registered and tagged under the cluster of previously selected four network operators.&#x20;
+7. A confirmation prompt will appear in MetaMask. Review the details carefully before clicking on "Confirm" button. The validator will be registered and tagged under the cluster of previously selected four network operators.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
