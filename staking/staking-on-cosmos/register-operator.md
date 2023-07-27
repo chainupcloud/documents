@@ -24,6 +24,8 @@
 
 6. After successfully registering as an operator, the user will have clear visibility of the operator details, including the key, name, and ID.
 
+<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption><p>transaction is confirmed.</p></figcaption></figure>
+
 <figure><img src="../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
 
 7.  &#x20;Two features of the platform are as follows:
