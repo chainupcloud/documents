@@ -27,10 +27,11 @@ Follow the instructions provided in the [detailed guide to generate deposit keys
 
 
 
-6. After uploading the `keystore.json` file and providing the associated password, proceed by clicking the "Confirm" button.
+6.  After uploading the `keystore.json` file and providing the associated password, proceed by clicking the "Confirm" button.\
+    \
 
-<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
+    <figure><img src="../../.gitbook/assets/image (44).png" alt=""><figcaption><p>Review the Cluster Balances and fees (T&#x26;C) carefully then select the confirm option. </p></figcaption></figure>
 7. A confirmation prompt will appear in MetaMask. Review the details carefully before clicking on "Confirm" button. The validator will be registered and tagged under the cluster of previously selected four network operators.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
