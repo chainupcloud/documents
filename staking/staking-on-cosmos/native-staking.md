@@ -49,7 +49,7 @@ Follow the instructions provided in the [detailed guide to generate deposit keys
 
 Be patient and check back later to see the status.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (4).png" alt=""><figcaption></figcaption></figure>
 
 
 

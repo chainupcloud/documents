@@ -56,7 +56,7 @@ You can find alternative key generating tools [here](https://ethereum.org/en/sta
 
 **Step 2:** Choose the network you are going to use and connect your [**Metamask**](https://metamask.io/) wallet.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (2) (1).png" alt=""><figcaption><p>Make Deposit - Hosting your own nodes</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (2) (1) (1).png" alt=""><figcaption><p>Make Deposit - Hosting your own nodes</p></figcaption></figure>
 
 **Step 3:**  Import the deposit data (`deposit_data.json`) - this has been generated from the `deposit-cli` tool earlier.
 
