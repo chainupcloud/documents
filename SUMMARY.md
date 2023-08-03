@@ -86,18 +86,14 @@
   * [📀 Shanghai Upgrade](staking/staking-on-ethereum/shanghai-upgrade.md)
   * [⛲ How to stake Ethereum?](staking/staking-on-ethereum/how-to-stake.md)
   * [🔹 How to generate deposit keys](staking/staking-on-ethereum/how-to-stake-1.md)
-* [🚨 Staking on Ethereum with SSV](staking/staking-on-cosmos/README.md)
-  * [🚍 Native Staking](staking/staking-on-cosmos/native-staking.md)
-  * [🏓 Express Staking](staking/staking-on-cosmos/express-staking.md)
-  * [📪 Register Operator](staking/staking-on-cosmos/register-operator.md)
-* [🌌 Staking on Cosmos](staking/staking-on-cosmos-1/README.md)
-  * [Page 1](staking/staking-on-cosmos-1/page-1.md)
+* [⚓ Staking on Ethereum with SSV](staking/staking-on-ethereum-with-ssv/README.md)
+  * [Native Staking](staking/staking-on-ethereum-with-ssv/native-staking.md)
+  * [Express Staking](staking/staking-on-ethereum-with-ssv/express-staking.md)
+* [🌌 Staking on Cosmos](staking/staking-on-cosmos/README.md)
+  * [Page 1](staking/staking-on-cosmos/page-1.md)
 * [📱 Staking on Mina](staking/staking-on-mina.md)
 * [🍆 Staking on EOS](staking/staking-eos.md)
 * [📂 Staking on FIL](staking/staking-fil.md)
-* [📞 Staking on Ethereum with SSV](staking/staking-on-ethereum-with-ssv/README.md)
-  * [Native Staking](staking/staking-on-ethereum-with-ssv/native-staking.md)
-  * [Express Staking](staking/staking-on-ethereum-with-ssv/express-staking.md)
 
 ## Validator Node
 

@@ -1,4 +1,4 @@
-# 📞 Staking on Ethereum with SSV
+# ⚓ Staking on Ethereum with SSV
 
 ## Staking on Ethereum with SSV
 
