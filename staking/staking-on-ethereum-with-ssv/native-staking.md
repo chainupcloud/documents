@@ -2,7 +2,7 @@
 description: Native Staking
 ---
 
-# Native Staking
+# 🎀 Native Staking
 
 &#x20;1\. Locate and click on the "Ethereum 2" dropdown menu in the MetaMask wallet, select the option labeled "SSV Validator."\
 \

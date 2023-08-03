@@ -1,4 +1,4 @@
-# Express Staking
+# 📏 Express Staking
 
 1. To proceed, locate the "Ethereum 2" dropdown menu, and then select the option labeled "SSV Validator."
 
