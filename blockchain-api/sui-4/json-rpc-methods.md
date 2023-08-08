@@ -1,6 +1,6 @@
 # JSON-RPC methods
 
-### Cosmos RPC
+### **Optimism** RPC
 
 You can review the official **Optimism API documentation HERE.**&#x20;
 
