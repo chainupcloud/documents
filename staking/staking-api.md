@@ -1,70 +1,50 @@
 # Staking API
 
-
-
-Base URL & Auth
+### Base URL & Auth
 
 http://staking.chainup.net/${protocol}/mainnet/${token}\
-**Support agreement**
+**Supporting Protocol**
 
-| Agreement | Network |
-| --------- | ------- |
-| ethereum  | mainnet |
+| Protocol | Network |
+| -------- | ------- |
+| Ethereum | Mainnet |
 
 \
 **Path Params**
 
-| **Parameter name** | **Data type** | **Whether it must be passed.** | **Description**                                                                |
-| ------------------ | ------------- | ------------------------------ | ------------------------------------------------------------------------------ |
-| protocol           | string        | true                           | Protocol (ethereum)                                                            |
-| token              | string        | true                           | The user is bound to the token of Staking and authenticated through the token. |
+<table data-header-hidden><thead><tr><th></th><th></th><th width="160"></th><th></th></tr></thead><tbody><tr><td><strong>Parameter Name</strong></td><td><strong>Data Type</strong></td><td><strong>Mandatory</strong></td><td><strong>Description</strong></td></tr><tr><td>protocol</td><td>string</td><td>true</td><td>Protocol(ethereum)</td></tr><tr><td>token</td><td>string</td><td>true</td><td>The user is bound to the Staking token and authenticated through the token.</td></tr></tbody></table>
 
 \
 **Create token**
 
 1. ChainUp creates a token and sends it to the customer via email.
-2. User side generates Token.
+2. The client generates token.
 
 \
 
 
 ### ETH Staking API
 
-> Only count validators of ChainUpCloud platform.
+> Only the validators of the ChainUpCloud platform are counted.
 
 #### Validator Total Rewards
 
-**Query user's validator history cumulative reward**\
+**查询用户的验证者历史累计奖励 Query the user’s historical cumulative rewards for validators**\
 **HTTP Request**
 
 ```HTTP
 Get /api/v1/validator/total-rewards
 ```
 
-**Path Params**No param\
+**Path Params:** No param\
 **Request Params**
 
-| **Parameter name** | **Data type** | **Whether it must be passed.** | **Description**                                                  |
-| ------------------ | ------------- | ------------------------------ | ---------------------------------------------------------------- |
-| page               | int           | false                          | Page number (default is 1)                                       |
-| limit              | int           | false                          | Number of articles per page (default 10 , maximum support 1000 ) |
+<table data-header-hidden><thead><tr><th></th><th></th><th width="154"></th><th></th></tr></thead><tbody><tr><td><strong>Parameter Name</strong></td><td><strong>Data Type</strong></td><td><strong>Mandatory</strong></td><td><strong>Description</strong></td></tr><tr><td>page</td><td>int</td><td>false</td><td>Page number (default is 1)</td></tr><tr><td>limit</td><td>int</td><td>false</td><td>Number of items per page (default is 10, maximum supported is 1000)</td></tr></tbody></table>
 
 \
 **Response**
 
-| **Parameter name**             | **Data type** | **Description**                                                                                                                                    |
-| ------------------------------ | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| el\_total\_reward              | string        | Total revenue of the execution layer (unit: eth) (real revenue on the chain, if there is a commission ratio, it needs to be calculated separately) |
-| cl\_total\_reward              | string        | Total revenue of consensus layer (unit: eth)                                                                                                       |
-| total\_reward                  | string        | Total revenue of execution layer + consensus layer (unit: eth)                                                                                     |
-| cl\_balance                    | string        | Consensus layer balance (unit: eth)                                                                                                                |
-| effective\_balance             | string        | Effective balance of consensus layer (unit: eth)                                                                                                   |
-| status                         | string        | Validator status                                                                                                                                   |
-| <p>current_balance<br></p>     | string        | el\_total\_reward + cl\_total\_reward + effective\_balance (in eth)                                                                                |
-| validators\_active\_count      | int           | Number of active validators                                                                                                                        |
-| validators\_total\_count       | int           | Total number of validators                                                                                                                         |
-| validators\_total\_rewards     | string        | Validator Cumulative Total Rewards                                                                                                                 |
-| validators\_total\_cl\_balance | string        | Validator consensus layer total balance                                                                                                            |
+<table data-header-hidden><thead><tr><th></th><th width="184.33333333333331"></th><th></th></tr></thead><tbody><tr><td><strong>Parameter Name</strong></td><td><strong>Data Type</strong></td><td><strong>Description</strong></td></tr><tr><td>el_total_reward</td><td>string</td><td>Total revenue of the execution layer (unit: eth) (real revenue on the chain, if there is settlement, it needs to be calculated separately)</td></tr><tr><td>cl_total_reward</td><td>string</td><td>Total income of the consensus layer (unit: eth)</td></tr><tr><td>total_reward</td><td>string</td><td>Total revenue of execution layer + consensus layer (unit: eth)</td></tr><tr><td>cl_balance</td><td>string</td><td>Consensus layer balance (unit: eth)</td></tr><tr><td>effective_balance</td><td>string</td><td>Effective balance of consensus layer (unit: eth)</td></tr><tr><td>status</td><td>string</td><td>Validator status</td></tr><tr><td>validators_active_count</td><td>int</td><td>Number of active validators</td></tr><tr><td>validators_total_count</td><td>int</td><td>Total number of validators</td></tr><tr><td>validators_total_rewards</td><td>string</td><td>Accumulated total rewards for validators</td></tr><tr><td>validators_total_cl_balance</td><td>string</td><td>Total balance of validator consensus layer</td></tr></tbody></table>
 
 **Example:**
 
@@ -87,8 +67,7 @@ Get /api/v1/validator/total-rewards
                 "total_reward": "0.0837508901764954",
                 "cl_balance": "32.0837508901764954",
                 "effective_balance": "32",
-                "status": "active",
-                "current_balance": "32.1246064811764954"
+                "status": "active"
             },
             {
                 "validator_index": 2,
@@ -98,8 +77,7 @@ Get /api/v1/validator/total-rewards
                 "total_reward": "0.0837508901764954",
                 "cl_balance": "32.0837508901764954",
                 "effective_balance": "32",
-                "status": "active",
-                "current_balance": "32.1246064811764954"
+                "status": "active"
             }
         ],
         "validators_active_count": 2,
@@ -115,37 +93,33 @@ Get /api/v1/validator/total-rewards
 
 #### Validator Daily Rewards
 
-**Query the daily reward within the specified date of the user verifierHTTP Request**
+Query the daily rewards of user verifiers within the specified date **(HTTP Request)**
 
 ```HTTP
 Get /api/v1/validator/daliy-rewards
 ```
 
-**Path Params**No param\
+**Path Params:** No param\
 **Request Params**
 
-| **Parameter name** | **Data type** | **Whether it must be passed.** | **Description**                                                 |
-| ------------------ | ------------- | ------------------------------ | --------------------------------------------------------------- |
-| start\_date        | string        | false                          | Start date (YYYY-MM-DD) (UTC + 8)                               |
-| end\_date          | string        | false                          | End date (YYYY-MM-DD) (UTC + 8)                                 |
-| page               | int           | false                          | Page number (default is 1)                                      |
-| limit              | int           | false                          | Number of articles per page (default 10 , maximum support 1000) |
+<table data-header-hidden><thead><tr><th></th><th width="129"></th><th width="148"></th><th></th></tr></thead><tbody><tr><td><strong>Parameter Name</strong></td><td><strong>Data Type</strong></td><td><strong>Mandatory</strong></td><td><strong>Description</strong></td></tr><tr><td>start_date</td><td>string</td><td>false</td><td>Start date (YYYY-MM-DD) (UTC+8)</td></tr><tr><td>end_date</td><td>string</td><td>false</td><td>End date (YYYY-MM-DD) (UTC+8)</td></tr><tr><td>page</td><td>int</td><td>false</td><td>Page number (default is 1)</td></tr><tr><td>limit</td><td>int</td><td>false</td><td>Number of items per page (default is 10, maximum supported is 1000)</td></tr></tbody></table>
 
-**Note: Request date limit is up to one month**
+**注意:请求日期限制最多一个月** Note: Request date limit is one month at most
 
-1. start\_date cannot be less than 30 days from the current date.
+1. start\_date cannot be less than the current date -30 days.
 2. end\_date cannot be greater than the current date.
-3. If no date is passed in, the default query is the reward data of the previous day.
+3. If no date is passed in, the reward data of the previous day will be queried by default.
 
-**Example:**start\_date="2023-07-01"end\_date="2023-07-03"The date to be queried is \[2023-07-01, 2023-07-03) left closed right open interval**Response**
+**Example** :start\_date="2023-07-01"end\_date="2023-07-03"The date to be queried is \[2023-07-01, 2023-07-03) left closed and right open interval  \
+**Response**&#x20;
 
-| **Parameter name**        | **Data type** | **Description**                                                                                                                   |
-| ------------------------- | ------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| date                      | string        | Date (UTC + 8)                                                                                                                    |
-| el\_reward                | string        | Execution layer revenue (unit: eth) (real on-chain revenue, if there is a commission ratio, it needs to be calculated separately) |
-| cl\_reward                | string        | Consensus layer revenue (unit: eth)                                                                                               |
-| total\_reward             | string        | Total revenue of execution layer + consensus layer (unit: eth)                                                                    |
-| validators\_active\_count | int           | Number of validators generating revenue                                                                                           |
+| **参数名**                   | **数据类型** | **描述**                          |
+| ------------------------- | -------- | ------------------------------- |
+| date                      | string   | 日期（UTC+8）                       |
+| el\_reward                | string   | 执行层收益（单位：eth）（链上真实收益，如有结算需另外计算） |
+| cl\_reward                | string   | 共识层收益（单位：eth）                   |
+| total\_reward             | string   | 执行层+共识层总收益（单位：eth）              |
+| validators\_active\_count | int      | 产生收益的验证者数量                      |
 
 **Example:**
 
@@ -177,13 +151,21 @@ Get /api/v1/validator/daliy-rewards
         ]
     }
 }
-
 ```
-
-
 
 
 
 ## Code
 
-<table data-header-hidden><thead><tr><th width="225"></th><th></th></tr></thead><tbody><tr><td>code</td><td>message</td></tr><tr><td>200</td><td>Success</td></tr><tr><td>400</td><td>Param error</td></tr><tr><td>401</td><td>Authentication failed</td></tr><tr><td>404</td><td>Path Not Found</td></tr><tr><td>500</td><td>Server error</td></tr></tbody></table>
+| code | message                            |
+| ---- | ---------------------------------- |
+| 200  | Success                            |
+| 400  | Param error                        |
+| 401  | Authentication failed              |
+| 404  | Path Not Found                     |
+| 500  | Server error                       |
+| 4001 | Date format is incorrect           |
+| 4002 | Date can not be greater than today |
+| 4003 | Only support nearly 30 reward data |
+
+\
