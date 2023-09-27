@@ -26,6 +26,7 @@
   * [Create Blockchain API for your project](blockchain-api/overview/create-blockchain-api-for-your-project.md)
   * [Dashboard stats](blockchain-api/overview/dashboard-stats.md)
 * [💎 Ethereum](blockchain-api/ethereum/README.md)
+  * [ChainUpCloud Open API](blockchain-api/ethereum/chainupcloud-open-api.md)
   * [JSON-RPC methods](blockchain-api/ethereum/json-rpc-methods.md)
   * [WebSocket stream](blockchain-api/ethereum/websocket-stream.md)
 * [🪙 Bitcoin](blockchain-api/bitcoin/README.md)
