@@ -1,4 +1,4 @@
-# Staking API
+# ⚖ Staking API
 
 ### Base URL & Auth
 
@@ -18,9 +18,7 @@ http://staking.chainup.net/${protocol}/mainnet/${token}\
 **Create token**
 
 1. ChainUp creates a token and sends it to the customer via email.
-2. The client generates token.
-
-\
+2. The client generates token.\
 
 
 ### ETH Staking API
@@ -29,7 +27,7 @@ http://staking.chainup.net/${protocol}/mainnet/${token}\
 
 #### Validator Total Rewards
 
-**查询用户的验证者历史累计奖励 Query the user’s historical cumulative rewards for validators**\
+**Query the user’s historical cumulative rewards for validators**\
 **HTTP Request**
 
 ```HTTP
@@ -44,7 +42,7 @@ Get /api/v1/validator/total-rewards
 \
 **Response**
 
-<table data-header-hidden><thead><tr><th></th><th width="184.33333333333331"></th><th></th></tr></thead><tbody><tr><td><strong>Parameter Name</strong></td><td><strong>Data Type</strong></td><td><strong>Description</strong></td></tr><tr><td>el_total_reward</td><td>string</td><td>Total revenue of the execution layer (unit: eth) (real revenue on the chain, if there is settlement, it needs to be calculated separately)</td></tr><tr><td>cl_total_reward</td><td>string</td><td>Total income of the consensus layer (unit: eth)</td></tr><tr><td>total_reward</td><td>string</td><td>Total revenue of execution layer + consensus layer (unit: eth)</td></tr><tr><td>cl_balance</td><td>string</td><td>Consensus layer balance (unit: eth)</td></tr><tr><td>effective_balance</td><td>string</td><td>Effective balance of consensus layer (unit: eth)</td></tr><tr><td>status</td><td>string</td><td>Validator status</td></tr><tr><td>validators_active_count</td><td>int</td><td>Number of active validators</td></tr><tr><td>validators_total_count</td><td>int</td><td>Total number of validators</td></tr><tr><td>validators_total_rewards</td><td>string</td><td>Accumulated total rewards for validators</td></tr><tr><td>validators_total_cl_balance</td><td>string</td><td>Total balance of validator consensus layer</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th></th><th width="184.33333333333331"></th><th></th></tr></thead><tbody><tr><td><strong>Parameter Name</strong></td><td><strong>Data Type</strong></td><td><strong>Description</strong></td></tr><tr><td>el_total_reward</td><td>string</td><td>Total revenue of the execution layer (unit: eth) (real revenue on the chain, if there is settlement, it needs to be calculated separately)</td></tr><tr><td>cl_total_reward</td><td>string</td><td>Total income of the consensus layer (unit: eth)</td></tr><tr><td>total_reward</td><td>string</td><td>Total revenue of execution layer + consensus layer (unit: eth)</td></tr><tr><td>cl_balance</td><td>string</td><td>Consensus layer balance (unit: eth)</td></tr><tr><td>status</td><td>string</td><td>Validator status</td></tr><tr><td>validators_active_count</td><td>int</td><td>Number of active validators</td></tr><tr><td>validators_total_count</td><td>int</td><td>Total number of validators</td></tr><tr><td>validators_total_rewards</td><td>string</td><td>Accumulated total rewards for validators</td></tr><tr><td>validators_total_cl_balance</td><td>string</td><td>Total balance of validator consensus layer</td></tr></tbody></table>
 
 **Example:**
 
@@ -111,6 +109,7 @@ Get /api/v1/validator/daliy-rewards
 3. If no date is passed in, the reward data of the previous day will be queried by default.
 
 **Example** :start\_date="2023-07-01"end\_date="2023-07-03"The date to be queried is \[2023-07-01, 2023-07-03) left closed and right open interval  \
+\
 **Response**&#x20;
 
 | **Parameter Name**        | **Data Type** | **Description**                                                                                                             |

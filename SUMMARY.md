@@ -95,7 +95,7 @@
 * [📱 Staking on Mina](staking/staking-on-mina.md)
 * [🍆 Staking on EOS](staking/staking-eos.md)
 * [📂 Staking on FIL](staking/staking-fil.md)
-* [⚓ Staking API](staking/staking-api.md)
+* [⚖ Staking API](staking/staking-api.md)
 
 ## Validator Node
 
