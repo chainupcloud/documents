@@ -104,7 +104,7 @@ Get /api/v1/validator/daliy-rewards
 
 <table data-header-hidden><thead><tr><th></th><th width="129"></th><th width="148"></th><th></th></tr></thead><tbody><tr><td><strong>Parameter Name</strong></td><td><strong>Data Type</strong></td><td><strong>Mandatory</strong></td><td><strong>Description</strong></td></tr><tr><td>start_date</td><td>string</td><td>false</td><td>Start date (YYYY-MM-DD) (UTC+8)</td></tr><tr><td>end_date</td><td>string</td><td>false</td><td>End date (YYYY-MM-DD) (UTC+8)</td></tr><tr><td>page</td><td>int</td><td>false</td><td>Page number (default is 1)</td></tr><tr><td>limit</td><td>int</td><td>false</td><td>Number of items per page (default is 10, maximum supported is 1000)</td></tr></tbody></table>
 
-**注意:请求日期限制最多一个月** Note: Request date limit is one month at most
+**Note: Request date limit is one month at most**
 
 1. start\_date cannot be less than the current date -30 days.
 2. end\_date cannot be greater than the current date.
@@ -113,13 +113,13 @@ Get /api/v1/validator/daliy-rewards
 **Example** :start\_date="2023-07-01"end\_date="2023-07-03"The date to be queried is \[2023-07-01, 2023-07-03) left closed and right open interval  \
 **Response**&#x20;
 
-| **参数名**                   | **数据类型** | **描述**                          |
-| ------------------------- | -------- | ------------------------------- |
-| date                      | string   | 日期（UTC+8）                       |
-| el\_reward                | string   | 执行层收益（单位：eth）（链上真实收益，如有结算需另外计算） |
-| cl\_reward                | string   | 共识层收益（单位：eth）                   |
-| total\_reward             | string   | 执行层+共识层总收益（单位：eth）              |
-| validators\_active\_count | int      | 产生收益的验证者数量                      |
+| **Parameter Name**        | **Data Type** | **Description**                                                                                                             |
+| ------------------------- | ------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| date                      | string        | Date (UTC+8)                                                                                                                |
+| el\_reward                | string        | Execution layer income (unit: eth) (real income on the chain, if there is settlement, it needs to be calculated separately) |
+| cl\_reward                | string        | Consensus layer income (unit: eth)                                                                                          |
+| total\_reward             | string        | Total revenue of execution layer + consensus layer (unit: eth)                                                              |
+| validators\_active\_count | int           | Number of validators generating revenue                                                                                     |
 
 **Example:**
 
