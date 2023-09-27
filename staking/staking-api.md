@@ -7,7 +7,7 @@ http://staking.chainup.net/${protocol}/mainnet/${token}\
 
 | Protocol | Network |
 | -------- | ------- |
-| Ethereum | Mainnet |
+| ethereum | mainnet |
 
 \
 **Path Params**
