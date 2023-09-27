@@ -26,7 +26,6 @@
   * [Create Blockchain API for your project](blockchain-api/overview/create-blockchain-api-for-your-project.md)
   * [Dashboard stats](blockchain-api/overview/dashboard-stats.md)
 * [💎 Ethereum](blockchain-api/ethereum/README.md)
-  * [ChainUpCloud Open API](blockchain-api/ethereum/chainupcloud-open-api.md)
   * [JSON-RPC methods](blockchain-api/ethereum/json-rpc-methods.md)
   * [WebSocket stream](blockchain-api/ethereum/websocket-stream.md)
 * [🪙 Bitcoin](blockchain-api/bitcoin/README.md)
@@ -96,6 +95,7 @@
 * [📱 Staking on Mina](staking/staking-on-mina.md)
 * [🍆 Staking on EOS](staking/staking-eos.md)
 * [📂 Staking on FIL](staking/staking-fil.md)
+* [Staking API](staking/staking-api.md)
 
 ## Validator Node
 

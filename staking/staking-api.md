@@ -1,8 +1,8 @@
-# ChainUpCloud Open API
+# Staking API
 
-## Staking API
 
-### Base URL & Auth
+
+Base URL & Auth
 
 http://staking.chainup.net/${protocol}/mainnet/${token}\
 **Support agreement**
