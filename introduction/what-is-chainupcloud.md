@@ -6,39 +6,16 @@ description: All in one Web3 platform
 
 ## :dark\_sunglasses:ChainUp Cloud Overview
 
-**We are the AWS of Web3. We provide a range of Web3 services such as API services for developers, Defi products for users and node services for everyone.**
+Explore our in-depth API documentation for **ChainUp Cloud,** covering over 20 supported blockchains. Gain insights into utilizing a wide range of RPC methods across different chains and APIs, such as RPC and REST APIs, and more. Learn how to implement these methods using JavaScript, Python, Ruby, and popular Web3 SDKs.
 
 With ChainUp Cloud, developers now have access to Web3 protocols through our **industrial-grade infrastructure**. We make sure they can focus on building without worrying about node maintenance and security.
 
-We provide APIs that can handle millions of requests per second across multiple chains with peak reliability.
+### Supported Chains
 
-We are also launching Advanced APIs to complement the available RPC and REST APIs to view and manipulate Web3 data in new sophisticated ways so you can build the next generation of Web3's killer apps!
+**ChainUp Cloud** supports both EVM and non-EVM chains, view API references below:\
+\
 
-{% hint style="info" %}
-**What is Web3:** Web 3 is the next generation of the Internet. Web 3, or the decentralized web, promises to make the Internet more free, transparent, and user-focused. Users of Web 3 will be in complete control of their accounts, data, transactions, and identity. The vision of Web 3 is coming to life today, and its foundation is being built by thousands of developers and designers across the globe.
-{% endhint %}
 
-## :confetti\_ball:What ChainUp Cloud offers
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><img src="../.gitbook/assets/image (51).png" alt="https://docs.chainupcloud.com/blockchain-api/ethereum/json-rpc-methods" data-size="original"></td><td></td><td></td><td><a href="https://docs.chainupcloud.com/blockchain-api/ethereum/json-rpc-methods">https://docs.chainupcloud.com/blockchain-api/ethereum/json-rpc-methods</a></td></tr><tr><td></td><td><img src="../.gitbook/assets/image (52).png" alt="" data-size="original"></td><td></td><td><a href="https://docs.chainupcloud.com/blockchain-api/sui-4">https://docs.chainupcloud.com/blockchain-api/sui-4</a></td></tr><tr><td></td><td></td><td></td><td></td></tr></tbody></table>
 
-* Peak reliability
-* Multi-cloud, multi-region
-* Easy integration
-* 24/7 support
-* Zero maintenance
-* Industrial-grade infrastructure
-* Enterprise security
-* Infinite scalability
-* Accurate data
-
-## :gift:ChainUp Cloud **benefits everyone in Web3**
-
-| Who?                       | Why ChainUp Cloud?                                                                                           |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| **Web3 Developers**        | Remove the complexities of building on Web3 protocols, while ensuring reliability for your users             |
-| **Data Providers**         | Focus on analysis, processing, and packaging of data without having to worry about access to the data source |
-| **Wallets**                | Guarantee to your users that you are always connected to the token networks you support                      |
-| **Exchanges & Custodians** | Focus on building powerful feature sets while staying connected to the Web3 ecosystem                        |
-| **Web3 Connoisseurs**      | Stake your crypto directly on our platform without ever needing to leave our website                         |
-| **Block Explorers**        | Guarantee that your explorer is reliable at all times for your users                                         |
-
-[**Sign up for free now**](https://cloud.chainup.com/app/register) to start building in seconds and discover the omniscience ChainUp Cloud can offer you!
+[**Sign up for free now**](https://cloud.chainup.com/app/register) to start building in seconds and discover what ChainUp Cloud can offer you!
