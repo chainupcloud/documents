@@ -8,13 +8,13 @@ description: Native Staking
 \
 
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
 2. To get started, please connect your MetaMask wallet. Once your wallet is connected, you will need to select the "Add a Cluster" option. This will allow you to configure and connect to a specific cluster. Choose the **native staking** option. \
    \
-   ![](<../../.gitbook/assets/image (1).png>)
+   ![](<../../.gitbook/assets/image (1) (1).png>)
 
 To participate in native staking, users must create a validator account and generate deposit keys . \
 Follow the instructions provided in the [detailed guide to generate deposit keys](https://docs.chainupcloud.com/staking/staking-on-ethereum/how-to-stake-1).

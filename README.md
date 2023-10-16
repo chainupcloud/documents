@@ -24,80 +24,14 @@ Use these docs to learn more about ChainUp Cloud core products, explore guides, 
 
 ### :gear:ChainUp Cloud API
 
-:brain:Learn how to use ChainUp Cloud API to access multiple blockchain protocols - quickly, easily and securely.
+:brain:Learn how to use ChainUp Cloud API to access multiple blockchain protocols - quickly, easily and securely.\
+\
+Supported Chains
 
-{% content-ref url="blockchain-api/overview/" %}
-[overview](blockchain-api/overview/)
-{% endcontent-ref %}
+**ChainUp Cloud** supports both EVM and non-EVM chains, view API references below:\
+\
 
-{% content-ref url="blockchain-api/ethereum/" %}
-[ethereum](blockchain-api/ethereum/)
-{% endcontent-ref %}
 
-{% content-ref url="blockchain-api/filecoin/" %}
-[filecoin](blockchain-api/filecoin/)
-{% endcontent-ref %}
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td><img src=".gitbook/assets/image (52).png" alt="" data-size="original"></td><td></td><td><a href="https://docs.chainupcloud.com/blockchain-api/sui-4">https://docs.chainupcloud.com/blockchain-api/sui-4</a></td></tr><tr><td><img src=".gitbook/assets/image.png" alt="" data-size="original"></td><td></td><td></td><td><a href="https://docs.chainupcloud.com/blockchain-api/ethereum/json-rpc-methods">https://docs.chainupcloud.com/blockchain-api/ethereum/json-rpc-methods</a></td></tr></tbody></table>
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="blockchain-api/bitcoin/" %}
-[bitcoin](blockchain-api/bitcoin/)
-{% endcontent-ref %}
-
-{% content-ref url="blockchain-api/litecoin/" %}
-[litecoin](blockchain-api/litecoin/)
-{% endcontent-ref %}
-
-{% content-ref url="blockchain-api/polkadot/" %}
-[polkadot](blockchain-api/polkadot/)
-{% endcontent-ref %}
-
-{% content-ref url="blockchain-api/polygon/" %}
-[polygon](blockchain-api/polygon/)
-{% endcontent-ref %}
-
-{% content-ref url="blockchain-api/bsc/" %}
-[bsc](blockchain-api/bsc/)
-{% endcontent-ref %}
-
-{% content-ref url="blockchain-api/aptos/" %}
-[aptos](blockchain-api/aptos/)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="blockchain-api/fantom/" %}
-[fantom](blockchain-api/fantom/)
-{% endcontent-ref %}
-
-{% content-ref url="blockchain-api/avalanche/" %}
-[avalanche](blockchain-api/avalanche/)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="blockchain-api/tron/" %}
-[tron](blockchain-api/tron/)
-{% endcontent-ref %}
-
-{% hint style="info" %}
-**Random Fact:** Satoshi Nakamoto is the name used by the presumed pseudonymous person or persons who developed Bitcoin, authored the Bitcoin white paper, and created and deployed Bitcoin's original reference implementation. And up till today, nobody knows who Satoshi Nakamoto is.
-{% endhint %}
+[**Sign up for free now**](https://cloud.chainup.com/app/register)&#x20;
