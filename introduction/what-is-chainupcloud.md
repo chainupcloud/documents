@@ -2,12 +2,42 @@
 description: All in one Web3 platform
 ---
 
-# 🔎 What is ChainUp Cloud?
+# 🔎 Getting Started
 
-## :dark\_sunglasses:ChainUp Cloud Overview
+## &#x20;
 
-Explore our in-depth API documentation for **ChainUp Cloud,** covering over 20 supported blockchains. Gain insights into utilizing a wide range of RPC methods across different chains and APIs, such as RPC and REST APIs, and more. Learn how to implement these methods using JavaScript, Python, Ruby, and popular Web3 SDKs.
+### The Chainup Cloud platform API allows you to interact with:
 
-With ChainUp Cloud, developers now have access to Web3 protocols through our **industrial-grade infrastructure**. We make sure they can focus on building without worrying about node maintenance and security.
+Your organization
 
-[**Sign up for free now**](https://cloud.chainup.com/app/register) to start building in seconds and discover what ChainUp Cloud can offer you!
+* Your projects
+* Your networks
+* Your nodes
+* Your identities
+
+### Create API key
+
+You must create an API key to authenticate your requests to the Chainup Cloud API.\
+
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Create API</p></figcaption></figure>
+
+To create an API key:
+
+1. Go to the API keys section.
+2. Click **Create key**.
+3. Type in a name for the key and click **Next**.
+4. Copy or write down the created API key.
+
+> Hint: Make sure you keep the API key secure.
+
+### Delete API key
+
+You can delete your existing API keys.
+
+To delete an API key:
+
+1. Go to the API keys section.
+2. Click the edit icon next to the key you want to delete.
+3. Click **Delete**.
+

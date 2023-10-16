@@ -4,7 +4,7 @@
 
 ## INTRODUCTION
 
-* [🔎 What is ChainUp Cloud?](introduction/what-is-chainupcloud.md)
+* [🔎 Getting Started](introduction/what-is-chainupcloud.md)
 * [🕹 Products](introduction/products/README.md)
   * [⛓ Blockchain API](introduction/products/blockchain-api.md)
   * [⚙ Fullnode Service](introduction/products/node-service.md)

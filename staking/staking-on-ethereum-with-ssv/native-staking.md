@@ -8,7 +8,7 @@ description: Native Staking
 \
 
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -21,7 +21,7 @@ Follow the instructions provided in the [detailed guide to generate deposit keys
 
 3. Add Cluster - From the list of available network operators, choose four of them to create a cluster for running your validator.\
    \
-   ![](<../../.gitbook/assets/image (2).png>)
+   ![](<../../.gitbook/assets/image (2) (1).png>)
 4.  Determine the funding period for your validator. The amount you deposit will determine how long your validator can operate. You can adjust it later by depositing more funds or withdrawing some.
 
     <figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
