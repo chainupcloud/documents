@@ -1,11 +1,5 @@
 # Registering SSV Operator
 
-&#x20;[**ChainUp Cloud**](https://cloud.chainup.com/)
-
-
-
-
-
 **Step 1:** Once you have logged in to [**ChainUp Cloud**](https://cloud.chainup.com/app/nodes), you will need to select the option of creating a new node(SSV).
 
 <figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
