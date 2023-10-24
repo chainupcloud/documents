@@ -55,7 +55,7 @@ Precaution: **Never** do an **online key splitting operation** on the **testnet*
 
 
     <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Ensure that you have sufficient Ethereum (ETH) in your wallet, review the transaction details carefully, and press the "Confirm" button on your MetaMask wallet interface to complete the transaction.</p></figcaption></figure>
-8. &#x20;After the network confirms the transaction, you'll see a summary screen of the validators clusters.
+8. &#x20;After the network confirms the transaction, you'll see a summary screen of the validators clusters. This includes cluster balance, estimated runway (how long the cluster can sustain operational costs), and details about individual validators, such as their balance and status (active or inactive).
 
 <figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption><p>Cluster/Validator Details</p></figcaption></figure>
 
