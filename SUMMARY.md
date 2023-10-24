@@ -100,6 +100,7 @@
 * [📗 Overview](validator-node/overview.md)
 * [💎 Ethereum](validator-node/ethereum/README.md)
   * [Running Validator Node](validator-node/ethereum/running-validator-node.md)
+  * [How to create Validator Keys?](validator-node/ethereum/how-to-create-validator-keys.md)
 * [🔹 SSV](validator-node/ssv/README.md)
   * [Registering SSV Operator](validator-node/ssv/running-operator-node.md)
 
