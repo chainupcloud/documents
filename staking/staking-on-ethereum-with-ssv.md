@@ -10,7 +10,7 @@ description: >-
 Once you have started staking, your SSV node will start participating in the Ethereum consensus process and you will start earning rewards.\
 
 
-1.  Once logged in Chainup Cloud. Locate the "Ethereum" dropdown menu, and then select the option labeled "SSV Validator."\
+1.  Once logged in Chainup Cloud. [Sign up an account with this guide](https://docs.chainupcloud.com/introduction/for-investors/run-your-own-validators#1.-creating-an-account).  Locate the "Ethereum" dropdown menu, and then select the option labeled "SSV Validator."\
 
 
     <figure><img src="../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
@@ -21,7 +21,9 @@ Once you have started staking, your SSV node will start participating in the Eth
 
 <figure><img src="../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
 
-3.  You need to choose the cluster of network operators for running your validator. Within this cluster, the operator's annual fee is visible, and it is set at 4 SSV.&#x20;
+3.  Validators are managed by clusters, which consist of selected operators managing them.\
+    \
+    You need to choose the cluster of network operators for running your validator. Within this cluster, the operator's annual fee is visible, and it is set at 4 SSV. &#x20;
 
 
 
@@ -33,25 +35,26 @@ Once you have started staking, your SSV node will start participating in the Eth
 
 
         <figure><img src="../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
-4.  Review the Cluster Balances and fees (T\&C) carefully then select the confirm option.&#x20;
+4.  Review the Cluster Balances and fees (T\&C) carefully then select the confirm option. The longer the cluster can sustain and operate depends on the amount of SSV you deposit.
 
-    <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
-5.  Review your Withdrawal Credential:  Make sure you have this information accurately written down or saved securely.\
+    <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p>Potential fee changes due to market dynamics and understanding the risks of cluster liquidation.</p></figcaption></figure>
+5.  Review your Cluster of selected operators. Then proceed to select the +Add Validator option. \
 
 
-    <figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption><p> Selected cluster</p></figcaption></figure>
 
-Back Up the Mnemonic Phrase: If you have received a mnemonic phrase during the setup process, make sure to back it up securely.\
-\
-Double-Check and Confirm: Before proceeding, carefully review all the information you have stored and backed up. Ensure that it is accurate and accessible to you whenever needed.
+You will need to decide how to manage operational costs concerning your current cluster balance.
 
 <figure><img src="../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Remember, keeping your withdrawal address keypair and mnemonic phrase safe is of utmost importance to maintain control over your Ethereum2 funds. Always be cautious and avoid sharing this sensitive information with anyone you don't trust.
+Precaution: **Never** do an **online key splitting operation** on the **testnet** using a **private key** that is intended for use on the **mainnet**.
 {% endhint %}
 
-7. Ensure that you have sufficient Ethereum (ETH) in your wallet, review the transaction details carefully, and press the "Confirm" button on your MetaMask wallet interface to complete the transaction.
+7.  Next, you will be required to upload the Validator key file (named keystore) and enter the password to decrypt it. If you do not have a validator key file, you may follow the following how-to-create-validator-key guide. \
+
+
+    <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Ensure that you have sufficient Ethereum (ETH) in your wallet, review the transaction details carefully, and press the "Confirm" button on your MetaMask wallet interface to complete the transaction.</p></figcaption></figure>
 8. Once your deposit is confirmed, you will become a validator on the Ethereum 2.0 network. Your node will start participating in the validation process. As a validator, you will earn rewards for successfully validating transactions and securing the network. These rewards will be paid in ETH.
 
 <figure><img src="../.gitbook/assets/image (78).png" alt=""><figcaption><p>view ur cluster details on mainnet</p></figcaption></figure>

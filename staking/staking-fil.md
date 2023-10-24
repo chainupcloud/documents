@@ -20,7 +20,7 @@ The MetaMask plug-in installation supports the ETH main chain wallet by default.
 *   Select "Manually add a network"\
 
 
-    <figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 *   Configure the Filecoin-EVM network\
 
 

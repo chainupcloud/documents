@@ -18,7 +18,7 @@ Chainup Cloud’s API makes it easy for developers to interact with the Ethereum
 
 You must create an API key to authenticate your requests to the Chainup Cloud API.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Create API</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Create API</p></figcaption></figure>
 
 To create an API key:
 
