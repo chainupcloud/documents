@@ -51,7 +51,7 @@ You will need to decide how to manage operational costs concerning your current 
 Precaution: **Never** do an **online key splitting operation** on the **testnet** using a **private key** that is intended for use on the **mainnet**.
 {% endhint %}
 
-7.  Next, you will be required to upload the Validator key file (named keystore) and enter the password to decrypt it. If you do not have a validator key file, you may follow the following how-to-create-validator-key guide. \
+7.  Next, you will be required to upload the Validator key file (named keystore) and enter the password to decrypt it. If you do not have a validator key file, you may follow the [following how-to-create-validator-key guide](https://docs.chainupcloud.com/validator-node/ethereum/how-to-create-validator-keys). \
 
 
     <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Ensure that you have sufficient Ethereum (ETH) in your wallet, review the transaction details carefully, and press the "Confirm" button on your MetaMask wallet interface to complete the transaction.</p></figcaption></figure>
