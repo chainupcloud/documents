@@ -38,12 +38,12 @@ Once you have started staking, your SSV node will start participating in the Eth
 4.  Review the Cluster Balances and fees (T\&C) carefully then select the confirm option. The longer the cluster can sustain and operate depends on the amount of SSV you deposit.
 
     <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p>Potential fee changes due to market dynamics and understanding the risks of cluster liquidation.</p></figcaption></figure>
-5.  Review your Cluster of selected operators. Then proceed to select the +Add Validator option. \
+5.  Review your Cluster of selected operators. Then proceed to select the +Add Validator option to add a validator on SSV.network. \
 
 
     <figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption><p> Selected cluster</p></figcaption></figure>
 
-You will need to decide how to manage operational costs concerning your current cluster balance.
+You'll need to confirm your choice and transfer the necessary SSV balance to cover operational costs. &#x20;
 
 <figure><img src="../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
 
@@ -55,9 +55,9 @@ Precaution: **Never** do an **online key splitting operation** on the **testnet*
 
 
     <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Ensure that you have sufficient Ethereum (ETH) in your wallet, review the transaction details carefully, and press the "Confirm" button on your MetaMask wallet interface to complete the transaction.</p></figcaption></figure>
-8. Once your deposit is confirmed, you will become a validator on the Ethereum 2.0 network. Your node will start participating in the validation process. As a validator, you will earn rewards for successfully validating transactions and securing the network. These rewards will be paid in ETH.
+8. &#x20;After the network confirms the transaction, you'll see a summary screen of the validators clusters.
 
-<figure><img src="../.gitbook/assets/image (78).png" alt=""><figcaption><p>view ur cluster details on mainnet</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption><p>Cluster/Validator Details</p></figcaption></figure>
 
 
 
