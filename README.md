@@ -32,6 +32,6 @@ Supported Chains
 \
 
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td><img src=".gitbook/assets/image (52).png" alt="" data-size="original"></td><td></td><td><a href="https://docs.chainupcloud.com/blockchain-api/sui-4">https://docs.chainupcloud.com/blockchain-api/sui-4</a></td></tr><tr><td><img src=".gitbook/assets/image (1) (1) (1).png" alt="" data-size="original"></td><td></td><td></td><td><a href="https://docs.chainupcloud.com/blockchain-api/ethereum/json-rpc-methods">https://docs.chainupcloud.com/blockchain-api/ethereum/json-rpc-methods</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td><img src=".gitbook/assets/image (52).png" alt="" data-size="original"></td><td></td><td><a href="https://docs.chainupcloud.com/blockchain-api/sui-4">https://docs.chainupcloud.com/blockchain-api/sui-4</a></td></tr><tr><td><img src=".gitbook/assets/image (1) (1) (1) (1).png" alt="" data-size="original"></td><td></td><td></td><td><a href="https://docs.chainupcloud.com/blockchain-api/ethereum/json-rpc-methods">https://docs.chainupcloud.com/blockchain-api/ethereum/json-rpc-methods</a></td></tr></tbody></table>
 
 [**Sign up for free now**](https://cloud.chainup.com/app/register)&#x20;
