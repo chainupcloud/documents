@@ -15,7 +15,7 @@ That's it! You're now ready to start using Wombat Wallet.
 
 **Step 2:**  Open the **URL** [https://bloks.io/account/hashfineosio](https://bloks.io/account/hashfineosio) in your browser.
 
-<figure><img src="../.gitbook/assets/image (5) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 3 :** Click on "**Login**" and choose "**Wombat**" as your wallet to log in. Staking your EOS tokens adds a three-day **buffer** to protect them from theft in case your keys are compromised.
 
