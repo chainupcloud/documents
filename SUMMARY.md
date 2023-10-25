@@ -87,6 +87,7 @@
   * [⛲ How to stake Ethereum?](staking/staking-on-ethereum/how-to-stake.md)
   * [🔹 How to generate deposit keys](staking/staking-on-ethereum/how-to-stake-1.md)
 * [📏 Staking on Ethereum with SSV](staking/staking-on-ethereum-with-ssv.md)
+* [🖌 Registering SSV Operator](staking/registering-ssv-operator.md)
 * [🌌 Staking on Cosmos](staking/staking-on-cosmos-1/README.md)
   * [Staking on Cosmos](staking/staking-on-cosmos/staking-on-cosmos.md)
   * [在 Cosmos 上质押](staking/staking-on-cosmos/zai-cosmos-shang-zhi-ya.md)
@@ -101,8 +102,6 @@
 * [💎 Ethereum](validator-node/ethereum/README.md)
   * [Running Validator Node](validator-node/ethereum/running-validator-node.md)
   * [How to create Validator Keys?](validator-node/ethereum/how-to-create-validator-keys.md)
-* [🔹 SSV](validator-node/ssv/README.md)
-  * [Registering SSV Operator](validator-node/ssv/running-operator-node.md)
 
 ## RESOURCES
 
