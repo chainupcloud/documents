@@ -5,7 +5,7 @@
 Go to the Wombat website and download the[ Google Chrome extension.](https://chrome.google.com/webstore/detail/wombat-gaming-wallet-for/amkmjjmmflddogmhpjloimipbofnfjih) \
 Open the extension in your browser and sign in with Google, Facebook, Twitter, or Apple. Set a passphrase to protect your account.
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 That's it! You're now ready to start using Wombat Wallet.
 

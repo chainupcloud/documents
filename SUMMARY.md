@@ -88,6 +88,7 @@
   * [🔹 How to generate deposit keys](staking/staking-on-ethereum/how-to-stake-1.md)
 * [📏 Staking on Ethereum with SSV](staking/staking-on-ethereum-with-ssv.md)
 * [🖌 Registering SSV Operator](staking/registering-ssv-operator.md)
+* [🖌 How to delegate to SSV Cluster?](staking/how-to-delegate-to-ssv-cluster.md)
 * [🌌 Staking on Cosmos](staking/staking-on-cosmos-1/README.md)
   * [Staking on Cosmos](staking/staking-on-cosmos/staking-on-cosmos.md)
   * [在 Cosmos 上质押](staking/staking-on-cosmos/zai-cosmos-shang-zhi-ya.md)

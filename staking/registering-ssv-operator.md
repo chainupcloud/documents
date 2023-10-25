@@ -12,7 +12,7 @@ If this is your first time using SSV, you can select the `Testnet` option for th
 
 **Step 4:** Return to the dashboard and click the SSV node to configure the SSV operator.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 **Step 5:** Connect your wallet and click **Register Operator**.\
 

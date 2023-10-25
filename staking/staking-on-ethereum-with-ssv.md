@@ -37,15 +37,15 @@ Once you have started staking, your SSV node will start participating in the Eth
     <figure><img src="../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
 4.  Review the Cluster Balances and fees (T\&C) carefully then select the confirm option. The longer the cluster can sustain and operate depends on the amount of SSV you deposit.
 
-    <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p>Potential fee changes due to market dynamics and understanding the risks of cluster liquidation.</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (14) (3).png" alt=""><figcaption><p>Potential fee changes due to market dynamics and understanding the risks of cluster liquidation.</p></figcaption></figure>
 5.  Review your Cluster of selected operators. Then proceed to select the +Add Validator option to add a validator on SSV.network. \
 
 
-    <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 You'll need to confirm your choice and transfer the necessary SSV balance to cover operational costs. &#x20;
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Precaution: **Never** do an **online key splitting operation** on the **testnet** using a **private key** that is intended for use on the **mainnet**.
@@ -54,7 +54,7 @@ Precaution: **Never** do an **online key splitting operation** on the **testnet*
 7.  Next, you will be required to upload the Validator key file (named keystore) and enter the password to decrypt it. If you do not have a validator key file, you may follow the [following how-to-create-validator-key guide](https://docs.chainupcloud.com/validator-node/ethereum/how-to-create-validator-keys). \
 
 
-    <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Ensure that you have sufficient Ethereum (ETH) in your wallet, review the transaction details carefully, and press the "Confirm" button on your MetaMask wallet interface to complete the transaction.</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p>Ensure that you have sufficient Ethereum (ETH) in your wallet, review the transaction details carefully, and press the "Confirm" button on your MetaMask wallet interface to complete the transaction.</p></figcaption></figure>
 8. &#x20;After the network confirms the transaction, you'll see a summary screen of the validators clusters. This includes cluster balance, estimated runway (how long the cluster can sustain operational costs), and details about individual validators, such as their balance and status (active or inactive).
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Cluster/Validator Details</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>Cluster/Validator Details</p></figcaption></figure>
