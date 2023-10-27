@@ -16,59 +16,45 @@ A short guide to set up staking on Ethereum with [**ChainUp Cloud**](https://clo
 Specifically, what we actually need is the `withdrawal_credentials` within the `deposit_data-timestamp.json`
 {% endhint %}
 
-### 1. Generating `deposit_data`/`withdrawal_credentials`
 
-**Step 1:** Download the deposit CLI app [**here**](https://github.com/ethereum/staking-deposit-cli/releases/), ensuring you've selected the right one for your operating system.
 
-{% hint style="warning" %}
-Please make sure that you are downloading from the Ethereum Foundation's official GitHub account - [https://github.com/ethereum/staking-deposit-cli/releases/](https://github.com/ethereum/staking-deposit-cli/releases/)
-{% endhint %}
+### 1. Uploading `deposit_data`/`withdrawal_credentials`
 
-<figure><img src="../../.gitbook/assets/deposit.png" alt=""><figcaption><p>Select the corresponding executable for your operating system</p></figcaption></figure>
+**Step 1:** Click on **Ethereum 2** (sidebar). Make sure, you are in the **Ethereum2** subpage, and click on the **Add Validator Button**.
 
-**Step 2:** Once the download is complete, uncompress the downloaded file.
+<figure><img src="../../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
 
-**Step 3:** Open your command line/terminal.
+**Step 2:** &#x20;
 
-<figure><img src="../../.gitbook/assets/terminal.PNG" alt=""><figcaption><p>Open a terminal</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
 
-**Step 4:** navigate (`cd`) to the directory containing the executable **`deposit`** file.&#x20;
+**2. If You Have an Existing Validator Keystore:**
 
-<figure><img src="../../.gitbook/assets/cd (2).PNG" alt=""><figcaption><p><code>cd</code> to the directory containing the executable</p></figcaption></figure>
+a. **Key Generation and Deposit:** - Ensure you have generated your validator key securely. - Complete the deposit transaction associated with your validator key.
 
-**Step 5:** Run the executable with the following command `deposit.exe new-mnemonic --num_validators 1 --chain mainnet` for Windows and `./deposit new-mnemonic --num_validators 1 --chain mainnet` for Linux or MacOS.
+b. **Upload Validator Key:** - Log into your staking app account. - Navigate to the Validator or Account section, depending on your app's interface. - Look for the option related to 'Upload Existing Validator Keystore.' - Click on the upload option and select your validator key file. - Confirm the upload. Your validator will be activated in the system.\
+\
+![](<../../.gitbook/assets/image (85).png>)
 
-<figure><img src="../../.gitbook/assets/gg.PNG" alt=""><figcaption><p>Generate keys &#x26; <code>deposit_data</code></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
 
-**Step 6:** <mark style="color:red;">Please note down the mnemonic phrase</mark> and locate the `deposit_data` file
+c. **Confirmation:** - Wait for confirmation of the successful upload. - Once confirmed, your validator is active and staking on the network.\
+\
+**3. If You Don't Have an Existing Validator Keystore:**
 
-<figure><img src="../../.gitbook/assets/depo.png" alt=""><figcaption><p><code>deposit_data</code> file will be uploaded to ChainUp Cloud later</p></figcaption></figure>
+a. **Connect Your Wallet:** - Log into your staking app account. - Access the Wallet section within the app. - Look for the option to 'Connect a Wallet.' - Choose your preferred cryptocurrency wallet from the list. - Follow the on-screen prompts to securely connect your wallet to the app.
 
-{% hint style="info" %}
-You can find alternative key generating tools [here](https://ethereum.org/en/staking/solo/#key-generators) recommended by the Ethereum foundation.
-{% endhint %}
+b. **Initiate a Deposit Transaction:** - In the Wallet section, find the 'Deposit' or 'Stake' option. - Enter the amount you wish to stake or deposit. - Confirm the transaction details. - Follow the prompts to complete the deposit transaction securely.\
 
-### 2. Uploading `deposit_data`/`withdrawal_credentials`
 
-**Step 1:** Click on **Ethereum 2** (sidebar). Make sure, you are in the **Ethereum2** subpage, and click on the **Stake Button**.
+<figure><img src="../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (5) (2) (1).png" alt=""><figcaption><p>Eth2 Validator Dashboard</p></figcaption></figure>
-
-**Step 2:** Choose the network you are going to use and connect your [**Metamask**](https://metamask.io/) wallet.
-
-<figure><img src="../../.gitbook/assets/image (2) (1) (2) (1) (1) (1).png" alt=""><figcaption><p>Make Deposit - Hosting your own nodes</p></figcaption></figure>
-
-**Step 3:**  Import the deposit data (`deposit_data.json`) - this has been generated from the `deposit-cli` tool earlier.
-
-<figure><img src="../../.gitbook/assets/image (1) (3) (1).png" alt=""><figcaption><p>Upload the deposit.data json file</p></figcaption></figure>
-
-**Step 4:** Click **Check Immediately** and a transaction should appear for you to confirm.
-
-<figure><img src="../../.gitbook/assets/image (18) (1) (1).png" alt=""><figcaption><p>Submit the transaction</p></figcaption></figure>
+c. **Confirmation:** - Wait for the confirmation of the successful deposit transaction. - Once confirmed, your funds will be staked, and your validator will be active.\
 
 
 
-**Step 5:** Await the transaction to be confirmed on-chain, and that's all! Your Eth is now staked and earning yield! :fire:
+
+**Step 4:** Await the transaction to be confirmed on-chain, and that's all! Your Eth is now staked and earning yield! :fire:
 
 [**Sign up now**](https://cloud.chainup.com/app/register) to start staking and discover the wonders of ChainUp Cloud!
 
