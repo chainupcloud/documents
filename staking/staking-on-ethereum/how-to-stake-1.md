@@ -1,11 +1,10 @@
 ---
-description: Use distributed validator technology to stake your Eth
+description: Delegate to any of our validators and staking networks that we support
 ---
 
-# 🔹 How to generate deposit keys
+# ⛲ How to generate Deposit Data?
 
-A short guide to set up staking deposit keys. \
-The official Ethereum Launchpad guide can be found here, [https://launchpad.ethereum.org/en/generate-keys](https://launchpad.ethereum.org/en/generate-keys)&#x20;
+A short guide on generating Deposit Data
 
 ### **Prerequisites**
 
@@ -19,7 +18,7 @@ Specifically, what we actually need is the `withdrawal_credentials` within the `
 
 ### 1. Generating `deposit_data`/`withdrawal_credentials`
 
-**Step 1:** Download the deposit CLI app [**here**](https://github.com/ethereum/staking-deposit-cli/releases/), ensuring you've selected the right one for your operating system.
+**Step 1:** Install the deposit-cli tool app [**here**](https://github.com/ethereum/staking-deposit-cli/releases/), ensuring you've selected the right one for your operating system.
 
 {% hint style="warning" %}
 Please make sure that you are downloading from the Ethereum Foundation's official GitHub account - [https://github.com/ethereum/staking-deposit-cli/releases/](https://github.com/ethereum/staking-deposit-cli/releases/)
@@ -37,20 +36,39 @@ Please make sure that you are downloading from the Ethereum Foundation's officia
 
 <figure><img src="../../.gitbook/assets/cd (2).PNG" alt=""><figcaption><p><code>cd</code> to the directory containing the executable</p></figcaption></figure>
 
-**Step 5:** Run the executable with the following command `deposit.exe new-mnemonic --num_validators 1 --chain mainnet` for Windows and `./deposit new-mnemonic --num_validators 1 --chain mainnet` for Linux or MacOS.
+**Step 5:** Generate a new BLS keystore using the deposit-cli new-keystore command. Run the executable with the following command `deposit.exe new-mnemonic --num_validators 1 --chain mainnet` for Windows and `./deposit new-mnemonic --num_validators 1 --chain mainnet` for Linux or MacOS.
+
+Run the executable with the following command
+
+{% tabs %}
+{% tab title=" Linux or MacOS" %}
+`./deposit new-mnemonic --num_validators 1 --chain mainnet for`
+{% endtab %}
+
+{% tab title="Windows " %}
+&#x20;`deposit.exe new-mnemonic --num_validators 1 --chain mainnet`
+{% endtab %}
+{% endtabs %}
 
 <figure><img src="../../.gitbook/assets/gg.PNG" alt=""><figcaption><p>Generate keys &#x26; <code>deposit_data</code></p></figcaption></figure>
 
-**Step 6:** <mark style="color:red;">Please note down the mnemonic phrase</mark> and locate the `deposit_data` file
+**Step 6:** Note down the mnemonic phrase.\
 
-<figure><img src="../../.gitbook/assets/depo.png" alt=""><figcaption><p><code>deposit_data</code> file will be uploaded to ChainUp Cloud later</p></figcaption></figure>
+
+{% hint style="info" %}
+The mnemonic phrase is a 16/24-word phrase that is used to generate your validator keys. Keep it safe, write it down on paper or use a password manager, and store it where only you can access it.
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/depo.png" alt=""><figcaption></figcaption></figure>
+
+After running through all the prompts and confirmations, the `deposit-cli` tool will generate two files for each validator:
+
+* A deposit\_data-xxx.json file
+* A keystore-m\_12381\_3600\_0\_0\_n\_xxx.json file
+
+Keep these files safe. You will need them to manage your validator.
 
 {% hint style="info" %}
 You can find alternative key generating tools [here](https://ethereum.org/en/staking/solo/#key-generators) recommended by the Ethereum foundation.
 {% endhint %}
 
-
-
-{% hint style="info" %}
-**Random Fact:** Founded in 2017 and headquartered in Singapore, ChainUp is a leader in blockchain technology and crypto ecosystem solutions.
-{% endhint %}
