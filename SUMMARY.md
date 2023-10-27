@@ -17,7 +17,7 @@
   * [⚒ Deploy Dedicated Node](introduction/for-developers/deploy-dedicated-node.md)
   * [☁ Use distributed storage with IPFS API](introduction/for-developers/use-distributed-storage-with-ifps-api.md)
 * [👾 For Investors](introduction/for-investors/README.md)
-  * [⛲ How to stake?](introduction/for-investors/how-to-stake.md)
+  * [⛲ How to stake Ethereum?](introduction/for-investors/how-to-stake.md)
   * [👥 Running your own validators](introduction/for-investors/run-your-own-validators.md)
 
 ## Blockchain API
