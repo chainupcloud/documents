@@ -86,7 +86,6 @@
   * [📀 Shanghai Upgrade](staking/staking-on-ethereum/shanghai-upgrade.md)
   * [⛲ How to stake Ethereum?](staking/staking-on-ethereum/how-to-stake.md)
   * [⛲ How to generate Deposit Data?](staking/staking-on-ethereum/how-to-stake-1.md)
-  * [🔹 How to generate deposit keys](staking/staking-on-ethereum/how-to-stake-2.md)
 * [📏 Staking on Ethereum with SSV](staking/staking-on-ethereum-with-ssv.md)
 * [🖌 Registering SSV Operator](staking/registering-ssv-operator.md)
 * [🖌 How to delegate to SSV Cluster?](staking/how-to-delegate-to-ssv-cluster.md)
