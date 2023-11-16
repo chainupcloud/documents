@@ -50,6 +50,7 @@ Ethereum APIs require a valid project ID to be included with your request traffi
 curl http://api.chainup.net/ethereum/mainet/<TOKEN> \
     -X POST \
     -H "Content-Type: application/json" \
+    -H "CONSISTENT-HASH: true" \
     -d '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":1}'
 ```
 {% endtab %}
@@ -58,15 +59,6 @@ curl http://api.chainup.net/ethereum/mainet/<TOKEN> \
 ```
 wscat -c ws://api.chainup.net/ws/ethereum/mainet/<TOKEN>
 > {"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":1}
-```
-{% endtab %}
-
-{% tab title="GraphQL" %}
-```
-curl http://api.chainup.net/graphql/ethereum/mainet/<TOKEN> \
-    -X POST \
-    -H "Content-Type: application/json" \
-    --data-raw '{"query":"{block(number: 123){hash transactionCount timestamp}}"}'
 ```
 {% endtab %}
 {% endtabs %}
