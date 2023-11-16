@@ -10,20 +10,20 @@ If this is your first time using SSV, you can select the `Testnet` option for th
 
 <figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>user may configure the node configuration</p></figcaption></figure>
 
-**Step 4:** Return to the dashboard and click the SSV node to configure the SSV operator.
+**Step 3:** Return to the dashboard and click the SSV node to configure the SSV operator.
 
 <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
-**Step 5:** Connect your wallet and click **Register Operator**.\
+**Step 4:** Connect your wallet and click **Register Operator**.\
 
 
 <figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>view ssv operator's details after successful registration</p></figcaption></figure>
 
-**Step 7:** Fill in the Operator details.  Set the amount of fee you want to charge the users for your operator. To verify, press next and confirm.&#x20;
+**Step 5:** Fill in the Operator details.  Set the amount of fee you want to charge the users for your operator. To verify, press next and confirm.&#x20;
 
 <figure><img src="../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
 
-**Step 9:** Lastly, register the operator by signing the transaction, and you are done! :smile:
+**Step 6:** Lastly, register the operator by signing the transaction, and you are done! :smile:
 
 <figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
