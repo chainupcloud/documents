@@ -14,12 +14,6 @@ Websocket Endpoint
 ws://api.chainup.net/ws/<PROTOCOL>/<NETWORK>/<TOKEN>
 ```
 
-GraphQL Endpoint
-
-```
-http://api.chainup.net/graphql/<PROTOCOL>/<NETWORK>/<TOKEN>
-```
-
 ## Dedicated Node Endpoint
 
 JSON-RPC Endpoint
@@ -32,12 +26,6 @@ Websocket Endpoint
 
 ```
 ws://<YOUR-NODE-ID>.blockchain.info/ws/<TOKEN>
-```
-
-GraphQL Endpoint
-
-```
-http://<YOUR-NODE-ID>.blockchain.info/graphql/<TOKEN>
 ```
 
 ## Using a project ID
