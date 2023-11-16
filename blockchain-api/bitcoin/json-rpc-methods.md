@@ -12,6 +12,7 @@ You can review the official[ Bitcoin RPC documentation **HERE**](https://bitcoin
 curl https://api.chainup.net/bitcoin/mainnet/<YOUR_API_KEY> \
 -X POST \
 -H 'content-type: application/json' \
+
 --data '{"jsonrpc":"2.0","method":"getblockchaininfo","params":[],"id":1}'
 ```
 {% endtab %}
