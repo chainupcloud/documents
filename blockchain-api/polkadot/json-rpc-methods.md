@@ -12,6 +12,7 @@ You can review the official Polkadot RPC documentation [**HERE**](https://polkad
 curl https://api.chainup.net/polkadot/mainnet/<YOUR_API_KEY> \
 -X POST \
 -H 'content-type: application/json' \
+-H "CONSISTENT-HASH: true" \
 --data '{"jsonrpc":"2.0","method":"chain_getBlock","params":[],"id":32}'
 ```
 {% endtab %}
