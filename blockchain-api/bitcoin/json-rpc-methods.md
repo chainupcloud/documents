@@ -12,32 +12,31 @@ You can review the official[ Bitcoin RPC documentation **HERE**](https://bitcoin
 curl https://api.chainup.net/bitcoin/mainnet/<YOUR_API_KEY> \
 -X POST \
 -H 'content-type: application/json' \
-
+-H "CONSISTENT-HASH: true" \
 --data '{"jsonrpc":"2.0","method":"getblockchaininfo","params":[],"id":1}'
 ```
 {% endtab %}
 
 {% tab title="Javascript" %}
 ```
-const request = require('request');
-
+const axios = require('axios');
 let options = {
-    url: "https://api.chainup.net/bitcoin/mainnet/<YOUR_API_KEY>",
-    method: "post",
-    headers:
-    { 
-     "content-type": "application/json"
-    },
-    body: JSON.stringify({"jsonrpc":"2.0","method":"getblockchaininfo","params":[],"id":1})
+url: "https://api.chainup.net/bitcoin/mainnet/<YOUR_API_KEY>",
+method: "post",
+headers:
+{ 
+"content-type": "application/json",
+"CONSISTENT-HASH": "true" 
+},
+body: JSON.stringify({"jsonrpc":"2.0","method":"getblockchaininfo","params":[],"id":1})
 };
+axios(options)
+    .then(response => {
+        console.log('Post successful: response:', response.data);
+    })
+    .catch(error => {
+        console.error('An error has occurred:', error);
 
-request(options, (error, response, body) => {
-    if (error) {
-        console.error('An error has occurred: ', error);
-    } else {
-        console.log('Post successful: response: ', body);
-    }
-});
 ```
 {% endtab %}
 
