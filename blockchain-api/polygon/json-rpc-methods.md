@@ -12,40 +12,44 @@ You can review the official Polygon RPC documentation [**HERE**](https://ethereu
 curl https://api.chainup.net/polygon/mainnet/<YOUR_API_KEY> \
 -X POST \
 -H 'content-type: application/json' \
+-H "CONSISTENT-HASH: true" \
 --data '{"jsonrpc":"2.0","method":"net_peerCount","params":[],"id":1}' 
 ```
 {% endtab %}
 
 {% tab title="Javascript" %}
-```
-const request = require('request');
+```javascript
+const axios = require('axios');
+//npm install axios if you don have the module installed`
 
 let options = {
     url: "https://api.chainup.net/polygon/mainnet/<YOUR_API_KEY>",
     method: "post",
     headers:
     { 
-     "content-type": "application/json"
+     "content-type": "application/json" ,
+     "CONSISTENT-HASH": "true"
     },
     body: JSON.stringify({"jsonrpc":"2.0","method":"net_peerCount","params":[],"id":1})
 };
 
-request(options, (error, response, body) => {
-    if (error) {
-        console.error('An error has occurred: ', error);
-    } else {
-        console.log('Post successful: response: ', body);
-    }
+axios(options)
+.then(response => {
+console.log('Post successful: response:', response.data);
+})
+.catch(error => {
+console.error('An error has occurred:', error);
 });
 ```
 {% endtab %}
 
 {% tab title="Python" %}
-```
+```python
 import requests
 import json
 
-headers = {"content-type": "application/json"}
+headers = {"content-type": "application/json" ,
+    "CONSISTENT-HASH": "true" }
 payload = json.dumps({
     "id": 1,
     "jsonrpc": "2.0",

@@ -58,7 +58,7 @@
   * [JSON-RPC methods](blockchain-api/kusama/json-rpc-methods.md)
   * [WebSocket stream](blockchain-api/kusama/websocket-stream.md)
 * [🍆 EOS](blockchain-api/eos/README.md)
-  * [RESTful API methods](blockchain-api/eos/restful-api-methods.md)
+  * [JSON-RPC methods](blockchain-api/eos/json-rpc-methods.md)
 * [👻 Fantom](blockchain-api/fantom/README.md)
   * [JSON-RPC methods](blockchain-api/fantom/json-rpc-methods.md)
 * [〰 Aptos](blockchain-api/aptos/README.md)

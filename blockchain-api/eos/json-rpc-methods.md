@@ -1,4 +1,4 @@
-# RESTful API methods
+# JSON-RPC methods
 
 ### EOS API
 
@@ -11,39 +11,45 @@ You can review the official EOS API documentation [**HERE**](https://developers.
 ```
 curl https://api.chainup.net/eos/mainnet/<YOUR_API_KEY>/v1/chain/get_info \
 -X GET \
--H 'content-type: application/json' 
+-H 'content-type: application/json'
+-H "CONSISTENT-HASH: true" \
 ```
 {% endtab %}
 
 {% tab title="Javascript" %}
-```
-const request = require('request');
+````javascript
+```javascript
+const axios = require('axios');
+//npm install axios if you don have the module installed`
 
 let options = {
     url: "https://api.chainup.net/eos/mainnet/<YOUR_API_KEY>/v1/chain/get_info",
     method: "get",
     headers:
     { 
-     "content-type": "application/json"
+     "content-type": "application/json",
+     "CONSISTENT-HASH": "true"
     }
 };
 
-request(options, (error, response, body) => {
-    if (error) {
-        console.error('An error has occurred: ', error);
-    } else {
-        console.log('Post successful: response: ', body);
-    }
+axios(options)
+.then(response => {
+console.log('Post successful: response:', response.data);
+})
+.catch(error => {
+console.error('An error has occurred:', error);
 });
 ```
+````
 {% endtab %}
 
 {% tab title="Python" %}
-```
+```python
 import requests
 import json
 
-headers = {"content-type": "application/json"}
+headers = {"content-type": "application/json"  ,
+    "CONSISTENT-HASH": "true" } 
 r = requests.get(url="https://api.chainup.net/eos/mainnet/<YOUR_API_KEY>/v1/chain/get_info", headers=headers)
 if r.status_code == 200:
     print("Get successful: response: ", r.content)

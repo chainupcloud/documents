@@ -12,64 +12,61 @@ You can review the official[ Arbitrum API documentation **HERE.** ](https://arbi
 curl https://api.chainup.net/arbitrum/mainnet/<YOUR_API_KEY> \
 -X POST \
 -H 'content-type: application/json' \
---data '{"jsonrpc":"2.0","method":"getabi","params":[],"id":1}' 
+-H "CONSISTENT-HASH: true" \
+--data '{"jsonrpc":"2.0","method":"eth_syncing","params":[],"id":1}' 
 ```
 {% endtab %}
 
 {% tab title="Javascript" %}
+````
+```javascript
+
+const axios = require('axios');
+//npm install axios if you don have the module installed`
+
+let options = {
+    // url: "https://api.chainup.net/arbitrum/mainnet/<YOUR_API_KEY>",
+    url: "https://api.chainup.net/arbitrum/mainnet/dc59a7e90f05424a81d825d033d0f2de",
+    method: "post",
+    headers:
+    { 
+     "content-type": "application/json",
+     "CONSISTENT-HASH": "true"
+    },
+    body: JSON.stringify({"jsonrpc":"2.0","method":"eth_syncing","params":[],"id":1})
+};
+
+axios(options)
+.then(response => {
+console.log('Post successful: response:', response.data);
+})
+.catch(error => {
+console.error('An error has occurred:', error);
+});
 ```
-  var Web3 = require('web3');
-    var web3 = new Web3(new Web3.providers.HttpProvider());
-    var version = web3.version.api;
-            
-    $.getJSON('https://api.arbiscan.io/api?module=contract&action=getabi&address=0x0000000000000000000000000000000000001004&apikey=YourApiKeyToken', function (data) {
-    var contractABI = "";
-        contractABI = JSON.parse(data.result);
-        if (contractABI != ''){
-            var MyContract = web3.eth.contract(contractABI);
-            var myContractInstance = MyContract.at("0x0000000000000000000000000000000000001004");
-            var result = myContractInstance.memberId("0xfe8ad7dd2f564a877cc23feea6c0a9cc2e783715");
-            console.log("result1 : " + result);
-            var result = myContractInstance.members(1);
-            console.log("result2 : " + result);
-        } else {
-            console.log("Error" );
-        }
-    });
-```
+````
 {% endtab %}
 
 {% tab title="Python" %}
-```
-from web3 import Web3
+````python
+```python
 import requests
+import json
 
-# Connect to the Ethereum network
-web3 = Web3(Web3.HTTPProvider('https://mainnet.infura.io/v3/your_infura_project_id'))
-
-# Get the contract ABI from Arbiscan API
-api_url = 'https://api.arbiscan.io/api'
-api_params = {
-    'module': 'contract',
-    'action': 'getabi',
-    'address': '0x0000000000000000000000000000000000001004',
-    'apikey': 'YourApiKeyToken'
-}
-response = requests.get(api_url, params=api_params)
-data = response.json()
-
-if 'result' in data and data['result']:
-    contractABI = data['result']
-    myContract = web3.eth.contract(address='0x0000000000000000000000000000000000001004', abi=contractABI)
-    
-    result1 = myContract.functions.memberId('0xfe8ad7dd2f564a877cc23feea6c0a9cc2e783715').call()
-    print("result1: " + str(result1))
-    
-    result2 = myContract.functions.members(1).call()
-    print("result2: " + str(result2))
+headers = {"content-type": "application/json" ,
+            "CONSISTENT-HASH": "true" } 
+payload = json.dumps({
+    "id": 1,
+    "jsonrpc": "2.0",
+    "method": "eth_syncing",
+    "params": []
+})
+r = requests.post(url="https://api.chainup.net/arbitrum/mainnet/<YOUR_API_KEY>", headers=headers, data=payload)
+if r.status_code == 200:
+    print("Post successful: response: ", r.content)
 else:
-    print("Error")
-
+    print("An error has occurred: ", r.status_code)
 ```
+````
 {% endtab %}
 {% endtabs %}
