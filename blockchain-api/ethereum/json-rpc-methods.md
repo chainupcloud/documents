@@ -4,8 +4,6 @@ description: The Transfers API allows you to easily fetch historical transaction
 
 # Transfer API
 
-###
-
 {% swagger method="get" path="" baseUrl="/nft/{chain}/{token}/getAssetsTransfer  " summary="" %}
 {% swagger-description %}
 
@@ -19,3 +17,4 @@ Placeholder for the blockchain identifier (e.g., Ethereum, Binance Smart Chain).
 Placeholder for the NFT token identifier.
 {% endswagger-parameter %}
 {% endswagger %}
+
