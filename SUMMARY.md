@@ -69,7 +69,7 @@
 * [👻 Fantom](blockchain-api/fantom/README.md)
   * [JSON-RPC methods](blockchain-api/fantom/json-rpc-methods.md)
 * [〰 Aptos](blockchain-api/aptos/README.md)
-  * [HTTP Restful methods](blockchain-api/aptos/http-restful-methods.md)
+  * [HTTP Methods](blockchain-api/aptos/http-methods.md)
 * [🌤 Heco](blockchain-api/heco/README.md)
   * [JSON-RPC methods](blockchain-api/heco/json-rpc-methods.md)
 * [🏔 Avalanche](blockchain-api/avalanche/README.md)

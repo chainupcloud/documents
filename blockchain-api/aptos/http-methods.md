@@ -1,6 +1,6 @@
-# HTTP Restful methods
+# HTTP Methods
 
-### Example HTTP Rest
+### Example HTTP Restful methods
 
 {% tabs %}
 {% tab title="HTTP Rest" %}
