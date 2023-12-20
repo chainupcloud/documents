@@ -8,7 +8,7 @@ You can review the[ official Omni RPC documentation **HERE**](https://docs.omni.
 
 {% tabs %}
 {% tab title="Curl" %}
-```
+```sh
 curl https://api.chainup.net/omni/mainnet/<YOUR_API_KEY> \
 -X POST \
 -H 'content-type: application/json' \

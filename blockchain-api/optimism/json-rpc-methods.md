@@ -2,7 +2,7 @@
 
 ### **Optimism** RPC
 
-You can review the official **Optimism API documentation HERE.**&#x20;
+You can review the official [**Optimism API documentation HERE.** ](https://docs.optimism.io/builders/node-operators/json-rpc)
 
 ### Example RPC
 

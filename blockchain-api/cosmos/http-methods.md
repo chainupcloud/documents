@@ -1,6 +1,4 @@
-# HTTP rest methods
-
-### Example HTTP Rest
+# HTTP Methods
 
 {% tabs %}
 {% tab title="HTTP Rest" %}
@@ -9,3 +7,7 @@
 ```
 {% endtab %}
 {% endtabs %}
+
+### Example HTTP Rest
+
+&#x20;
