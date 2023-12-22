@@ -8,8 +8,6 @@
 {% endswagger-description %}
 {% endswagger %}
 
-a
-
 {% tabs %}
 {% tab title="Scroll" %}
 {% code overflow="wrap" %}
@@ -27,8 +25,6 @@ curl -X POST "https://nft.chainup.net/eth_holesky/{token}/v1/getAssetTransfers"\
 {% endtab %}
 {% endtabs %}
 
-a
-
 
 
 {% swagger method="get" path="" baseUrl="/nft/{chain}/{token}/getContractMetadataBatch       " summary="Gets the metadata associated with a given Contract." %}
@@ -37,7 +33,23 @@ a
 {% endswagger-description %}
 {% endswagger %}
 
+{% tabs %}
+{% tab title="Scroll" %}
+{% code overflow="wrap" %}
+```
+curl -X POST "http://nft.chainup.net/scroll_mainnet/token/v1/getContractMetadataBatch" --data '{"contract_addresses": ["{CONTRACT_ADDRESSES_1}", "{CONTRACT_ADDRESSES_2}" ]}'
+```
+{% endcode %}
+{% endtab %}
 
+{% tab title="HoleSky" %}
+{% code overflow="wrap" %}
+```
+curl -X POST "http://nft.chainup.net/eth_holesky/token/v1/getContractMetadataBatch" --data '{"contract_addresses": ["{CONTRACT_ADDRESSES_1}", "{CONTRACT_ADDRESSES_2}" ]}'
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
 
 
 
@@ -47,6 +59,24 @@ a
 {% endswagger-description %}
 {% endswagger %}
 
+{% tabs %}
+{% tab title="Scroll" %}
+{% code overflow="wrap" %}
+```
+curl "http://nft.chainup.net/scroll_mainnet/token/v1/getNFTMetadata?contract_address={CONTRACT_ADDRESSES_1}&token_id={TOKEN_ID}&token_type=ERC721"
+```
+{% endcode %}
+{% endtab %}
+
+{% tab title="HoleSky" %}
+{% code overflow="wrap" %}
+```
+curl "http://nft.chainup.net/eth_holesky/token/v1/getNFTMetadata?contract_address={CONTRACT_ADDRESSES_1}&token_id={TOKEN_ID}&token_type=ERC721"
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
+
 
 
 {% swagger method="post" path="" baseUrl="/nft/{chain}/{token}/getNFTMetadataBatch" summary="Gets the metadata associated with a given NFT. " %}
@@ -54,6 +84,24 @@ a
 
 {% endswagger-description %}
 {% endswagger %}
+
+{% tabs %}
+{% tab title="Scroll" %}
+{% code overflow="wrap" %}
+```
+curl -X POST "http://nft.chainup.net/scroll_mainnet/token/v1/getNFTMetadataBatch" --data '{"tokens":[{"contract_address": "{CONTRACT_ADDRESSES_1}", "token_id": {TOKEN_ID} }]}'
+```
+{% endcode %}
+{% endtab %}
+
+{% tab title="HoleSky" %}
+{% code overflow="wrap" %}
+```
+curl -X POST "http://nft.chainup.net/eth_holesky/token/v1/getNFTMetadataBatch" --data '{"tokens":[{"contract_address": "{CONTRACT_ADDRESSES_1}", "token_id": {TOKEN_ID} }]}'
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
 
 
 
@@ -63,3 +111,20 @@ a
 {% endswagger-description %}
 {% endswagger %}
 
+{% tabs %}
+{% tab title="Scroll" %}
+{% code overflow="wrap" %}
+```
+curl -X GET "http://nft.chainup.net/scroll_mainnet/token/v1/searchContractMetadata?query=Meme"
+```
+{% endcode %}
+{% endtab %}
+
+{% tab title="HoleSky" %}
+{% code overflow="wrap" %}
+```
+curl -X GET "http://nft.chainup.net/eth_holesky/token/v1/searchContractMetadata?query=Meme"
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
