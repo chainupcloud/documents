@@ -1,6 +1,7 @@
 # Table of contents
 
 * [👋 Welcome to ChainUp Cloud](README.md)
+  * [Page 1](readme/page-1.md)
 
 ## INTRODUCTION
 
