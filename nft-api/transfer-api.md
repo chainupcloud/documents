@@ -18,3 +18,21 @@ Placeholder for the NFT token identifier.
 {% endswagger-parameter %}
 {% endswagger %}
 
+
+
+{% tabs %}
+{% tab title="Scroll" %}
+```
+curl -X POST "https://nft.chainup.net/scroll_mainnet/{token}/v1/getAssetTransfers"\
+--data '{"category": ["ERC721"],"max_count": 5}'
+```
+{% endtab %}
+
+{% tab title="HoleSky" %}
+```
+curl -X POST "https://nft.chainup.net/eth_holesky/{token}/v1/getAssetTransfers"\
+--data '{"category": ["ERC721"],"max_count": 5}'
+```
+{% endtab %}
+{% endtabs %}
+
