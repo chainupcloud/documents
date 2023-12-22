@@ -1,7 +1,5 @@
 # Ownership & Token Gating
 
-
-
 {% swagger method="get" path="    " baseUrl="/nft/{chain}/{token}/getContractsForOwner  " summary="" %}
 {% swagger-description %}
 

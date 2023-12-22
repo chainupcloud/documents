@@ -21,18 +21,21 @@
   * [⛲ How to stake Ethereum?](introduction/for-investors/how-to-stake.md)
   * [👥 Running your own validators](introduction/for-investors/run-your-own-validators.md)
 
+***
+
+* [NFT API](nft-api/README.md)
+  * [Transfer API](nft-api/transfer-api.md)
+  * [NFT Metadata Access](nft-api/nft-metadata-access.md)
+  * [Ownership & Token Gating](nft-api/ownership-and-token-gating.md)
+
 ## Blockchain API
 
 * [📚 Overview](blockchain-api/overview/README.md)
   * [Create Blockchain API for your project](blockchain-api/overview/create-blockchain-api-for-your-project.md)
   * [Dashboard stats](blockchain-api/overview/dashboard-stats.md)
-* [💎 NFT API](blockchain-api/ethereum/README.md)
-  * [Transfer API](blockchain-api/ethereum/json-rpc-methods.md)
-  * [NFT Metadata Access](blockchain-api/ethereum/websocket-stream.md)
-  * [Ownership & Token Gating](blockchain-api/ethereum/ownership-and-token-gating.md)
-* [💎 Ethereum](blockchain-api/ethereum-1/README.md)
-  * [JSON-RPC methods](blockchain-api/ethereum-1/json-rpc-methods.md)
-  * [WebSocket stream](blockchain-api/ethereum-1/websocket-stream.md)
+* [💎 Ethereum](blockchain-api/ethereum/README.md)
+  * [JSON-RPC methods](blockchain-api/ethereum/json-rpc-methods.md)
+  * [WebSocket stream](blockchain-api/ethereum/websocket-stream.md)
 * [🪙 Bitcoin](blockchain-api/bitcoin/README.md)
   * [JSON-RPC methods](blockchain-api/bitcoin/json-rpc-methods.md)
 * [📂 Filecoin](blockchain-api/filecoin/README.md)

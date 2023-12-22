@@ -1,4 +1,4 @@
-# Staking on Ziliqa
+# 🕶 Staking on Ziliqa
 
 ### 1. Install the ailpay wallet
 
