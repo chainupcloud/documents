@@ -8,7 +8,26 @@
 {% endswagger-description %}
 {% endswagger %}
 
+a
 
+{% tabs %}
+{% tab title="Scroll" %}
+{% code overflow="wrap" %}
+```
+curl "http://nft.chainup.net/scroll_mainnet/token/v1/getOwnersForNFT?token_id={TOKEN_ID}&contract_address={CONTRACT_ADDRESS}
+```
+{% endcode %}
+{% endtab %}
+
+{% tab title="HoleSky" %}
+```
+curl -X POST "https://nft.chainup.net/eth_holesky/{token}/v1/getAssetTransfers"\
+--data '{"category": ["ERC721"],"max_count": 5}'
+```
+{% endtab %}
+{% endtabs %}
+
+a
 
 
 
@@ -17,6 +36,8 @@
 
 {% endswagger-description %}
 {% endswagger %}
+
+
 
 
 
