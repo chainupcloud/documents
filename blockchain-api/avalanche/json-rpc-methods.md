@@ -9,11 +9,11 @@ You can review the official Avalanche RPC documentation [**HERE**](https://docs.
 {% tabs %}
 {% tab title="Curl" %}
 ```
-curl https://api.chainup.net/avalanche/mainnet/<YOUR_API_KEY> \
+curl https://api.chainup.net/avax/mainnet/<YOUR_API_KEY>/ext/bc/C/rpc  \
 -X POST \
 -H 'content-type: application/json' \
 -H "CONSISTENT-HASH: true" \
---data '{"jsonrpc":"2.0","method":"net_peerCount","params":[],"id":1}' 
+--data '{"jsonrpc":"2.0","method":"eth_syncing","params":[],"id":32}'
 ```
 {% endtab %}
 
@@ -24,7 +24,7 @@ const axios = require('axios');
 //npm install axios if you don have the module installed`
 
 let options = {
-    url: "https://api.chainup.net/avalanche/mainnet/<YOUR_API_KEY>",
+    url: "https://api.chainup.net/avax/mainnet/<YOUR_API_KEY>/ext/bc/C/rpc",
     method: "post",
     headers:
     { 
@@ -59,7 +59,7 @@ payload = json.dumps({
     "method": "net_peerCount",
     "params": []
 })
-r = requests.post(url="https://api.chainup.net/avalanche/mainnet/<YOUR_API_KEY>", headers=headers, data=payload)
+r = requests.post(url="https://api.chainup.net/avax/mainnet/<YOUR_API_KEY>/ext/bc/C/rpc", headers=headers, data=payload)
 if r.status_code == 200:
     print("Post successful: response: ", r.content)
 else:
