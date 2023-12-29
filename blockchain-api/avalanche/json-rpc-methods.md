@@ -31,7 +31,7 @@ let options = {
      "content-type": "application/json" ,
      "CONSISTENT-HASH": "true" 
     },
-    body: JSON.stringify({"jsonrpc":"2.0","method":"net_peerCount","params":[],"id":1})
+    body: JSON.stringify({"jsonrpc":"2.0","method":"eth_syncing","params":[],"id":32})
 };
 
 axios(options)
@@ -54,9 +54,9 @@ import json
 headers = {"content-type": "application/json" ,
             "CONSISTENT-HASH": "true" } 
 payload = json.dumps({
-    "id": 1,
+    "id": 32,
     "jsonrpc": "2.0",
-    "method": "net_peerCount",
+    "method": "eth_syncing",
     "params": []
 })
 r = requests.post(url="https://api.chainup.net/avax/mainnet/<YOUR_API_KEY>/ext/bc/C/rpc", headers=headers, data=payload)
