@@ -2,7 +2,7 @@
 description: Delegate to any of our validators and staking networks that we support
 ---
 
-# ⛲ How to generate Deposit Data?
+# 📙 How to generate Deposit Data?
 
 A short guide on generating Deposit Data
 

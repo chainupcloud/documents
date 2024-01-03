@@ -1,7 +1,6 @@
 # Table of contents
 
 * [👋 Welcome to ChainUp Cloud](README.md)
-  * [Page 1](readme/page-1.md)
 
 ## INTRODUCTION
 
@@ -97,8 +96,7 @@
 * [💎 Staking on Ethereum](staking/staking-on-ethereum/README.md)
   * [📀 Shanghai Upgrade](staking/staking-on-ethereum/shanghai-upgrade.md)
   * [⛲ How to stake Ethereum?](staking/staking-on-ethereum/how-to-stake.md)
-  * [⛲ How to generate Deposit Data?](staking/staking-on-ethereum/how-to-stake-1.md)
-  * [Page 2](staking/staking-on-ethereum/page-2.md)
+  * [📙 How to generate Deposit Data?](staking/staking-on-ethereum/how-to-generate-deposit-data.md)
 * [📏 Staking on Ethereum with SSV](staking/staking-on-ethereum-with-ssv.md)
 * [🖌 Registering SSV Operator](staking/registering-ssv-operator.md)
 * [🖌 How to delegate to SSV Cluster?](staking/how-to-delegate-to-ssv-cluster.md)
