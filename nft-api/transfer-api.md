@@ -22,7 +22,7 @@ Placeholder for the NFT token identifier.
 {% tab title="Scroll" %}
 {% code overflow="wrap" %}
 ```
-curl -X POST "https://nft.chainup.net/scroll_mainnet/{token}/v1/getAssetTransfers" --data '{"category": ["ERC721"],"max_count": 5}'
+curl -X POST "https://nft.chainup.net/scroll_mainnet/token/v1/getAssetTransfers" --data '{"category": ["ERC721"],"max_count": 5}' | jq .
 ```
 {% endcode %}
 {% endtab %}
@@ -30,7 +30,7 @@ curl -X POST "https://nft.chainup.net/scroll_mainnet/{token}/v1/getAssetTransfer
 {% tab title="HoleSky" %}
 {% code overflow="wrap" %}
 ```
-curl -X POST "https://nft.chainup.net/eth_holesky/{token}/v1/getAssetTransfers" --data '{"category": ["ERC721"],"max_count": 5}'
+curl -X POST "https://nft.chainup.net/eth_holesky/token/v1/getAssetTransfers" --data '{"category": ["ERC721"],"max_count": 5}' | jq .
 ```
 {% endcode %}
 {% endtab %}
