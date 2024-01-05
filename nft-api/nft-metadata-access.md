@@ -12,7 +12,7 @@
 {% tab title="Scroll" %}
 {% code overflow="wrap" %}
 ```
-curl "http://nft.chainup.net/scroll_mainnet/token/v1/getOwnersForNFT?token_id={TOKEN_ID}&contract_address={CONTRACT_ADDRESS}
+curl "http://nft.chainup.net/scroll_mainnet/token/v1/getOwnersForNFT?token_id={TOKEN_ID}&contract_address={CONTRACT_ADDRESS}"
 ```
 {% endcode %}
 {% endtab %}
