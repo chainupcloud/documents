@@ -1,4 +1,4 @@
-# 🕶 Staking on Ziliqa
+# 🕶 Staking on ZILLIQA
 
 ### 1. Install the ailpay wallet
 
@@ -22,8 +22,13 @@
 <figure><img src="../.gitbook/assets/94d424be609efb9c20b05dc00ed96bb.png" alt=""><figcaption></figcaption></figure>
 
 * Select the ChainUp node and click on "Stake."
+
+<figure><img src="../.gitbook/assets/3dd95c8ee163cffcd62d78973fbe14c.png" alt=""><figcaption></figcaption></figure>
+
 * Enter the amount you want to stake and click "Stake."
 * Complete the staking process in the wallet.
+
+<figure><img src="../.gitbook/assets/ac2c6f68bcb63ee36167c384d8f7639.png" alt=""><figcaption></figcaption></figure>
 
 
 
