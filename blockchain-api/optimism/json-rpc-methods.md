@@ -1,8 +1,18 @@
+---
+description: >-
+  The standard Ethereum methods documented here are supported by Chainup Cloud
+  on the Optimism network.
+---
+
 # JSON-RPC methods
 
 ### **Optimism** RPC
 
-You can review the official [**Optimism API documentation HERE.** ](https://docs.optimism.io/builders/node-operators/json-rpc)
+You can review custom methods specific to Optimism can be found in the [**official Optimism API documentation**](https://docs.optimism.io/builders/node-operators/json-rpc)**.**&#x20;
+
+{% hint style="info" %}
+Please note that the Optimism Bedrock migration introduces support for various JSON-RPC methods. For detailed information, refer to the [**official Optimism API documentation**](https://docs.optimism.io/builders/node-operators/json-rpc).
+{% endhint %}
 
 ### Example RPC
 
