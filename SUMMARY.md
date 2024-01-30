@@ -22,6 +22,7 @@
 
 ***
 
+* [ChainNova](chainnova.md)
 * [🏷 NFT API](nft-api/README.md)
   * [Transfer API](nft-api/transfer-api.md)
   * [NFT Metadata Access](nft-api/nft-metadata-access.md)
