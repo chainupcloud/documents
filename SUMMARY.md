@@ -12,6 +12,7 @@
   * [👥 White Label Validator](introduction/products/validator-node.md)
   * [⛲ Staking](introduction/products/staking.md)
   * [🍧 HashKing Aggregator](introduction/products/kinghash-aggregator.md)
+  * [💌 ChainNova](introduction/products/chainnova.md)
 * [👷 For Developers](introduction/for-developers/README.md)
   * [⛓ Use Blockchain API](introduction/for-developers/use-blockchain-api.md)
   * [⚒ Deploy Dedicated Node](introduction/for-developers/deploy-dedicated-node.md)
@@ -22,7 +23,6 @@
 
 ***
 
-* [ChainNova](chainnova.md)
 * [🏷 NFT API](nft-api/README.md)
   * [Transfer API](nft-api/transfer-api.md)
   * [NFT Metadata Access](nft-api/nft-metadata-access.md)
