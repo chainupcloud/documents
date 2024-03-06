@@ -1,6 +1,6 @@
-# 🕶 Staking on ZILLIQA
+# 🕶️ Staking on ZILLIQA
 
-### 1. Install the ailpay wallet
+### 1. Install the Zailpay wallet
 
 * Install Zilpay wallet [https://zilpay.io/](https://zilpay.io/)
 
