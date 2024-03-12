@@ -1,27 +1,32 @@
 ---
-description: Returns validators for your organization (via API key).
+description: This API endpoint allows you to retrieve information about your validators.
 ---
 
 # Get Validators
 
-**HTTP Request**
+### **HTTP Request**
+
+Use a `POST` request to the endpoint.
 
 ```HTTP
 POST /api/v1/validator/details
 ```
 
-**Path Params**No param\
-**Request Params**
+### **Path Params:** No param 
 
-| **Parameter name**  | **Data type** | **Whether it must be passed.** | **Description**                                                     |
-| ------------------- | ------------- | ------------------------------ | ------------------------------------------------------------------- |
-| pubkeys             | array         | false                          | Verifier list                                                       |
-| withdrawal\_address | string        | false                          | Withdrawal address                                                  |
-| page                | int           | false                          | Page number (default is 1)                                          |
-| limit               | int           | false                          | Number of entries per page (default is 10, maximum support is 1000) |
+### **Request Params**
 
-\
-**Response**
+#### **Request:**
+
+* Use a `POST` request to the `/api/v1/validator/details` endpoint.
+* You can optionally provide:
+  * **pubkeys (array):** List of specific validator keys to query (if empty, all your validators are included).
+  * **withdrawal\_address:** Filter validators by their withdrawal address.
+  * **Pagination details (page & limit):** Control the number of results displayed per page.
+
+<table data-header-hidden><thead><tr><th width="205"></th><th></th><th></th><th></th></tr></thead><tbody><tr><td><strong>Parameter name</strong></td><td><strong>Data type</strong></td><td><strong>Whether it must be passed.</strong></td><td><strong>Description</strong></td></tr><tr><td>pubkeys</td><td>array</td><td>false</td><td>Verifier list</td></tr><tr><td>withdrawal_address</td><td>string</td><td>false</td><td>Withdrawal address</td></tr><tr><td>page</td><td>int</td><td>false</td><td>Page number (default is 1)</td></tr><tr><td>limit</td><td>int</td><td>false</td><td>Number of entries per page (default is 10, maximum support is 1000)</td></tr></tbody></table>
+
+### **Response**
 
 | **Parameter name**        | **Data type** | **Description**                                                    |
 | ------------------------- | ------------- | ------------------------------------------------------------------ |
