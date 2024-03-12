@@ -7,25 +7,28 @@ description: >-
 
 # Broadcast Staking Tx
 
-**HTTP Request**
+### **HTTP Request**
+
+This API allows the broadcasting of a signed staking transaction.
 
 ```HTTP
 POST /api/v1/validator/broadcast
 ```
 
-**Path Params**No param\
-**Request Params**
+**Path Params:** No parameters
 
-| **Parameter name**  | **Data type** | **Whether it must be passed.** | **Description** |
-| ------------------- | ------------- | ------------------------------ | --------------- |
-| signed\_transaction | string        | true                           | Signed tx       |
+**Request Params:**
 
-\
-**Response**
+* **signed\_transaction (string) \[Required]:** The signed staking transaction.
 
-| **Parameter name** | **Data type** | **Description** |
-| ------------------ | ------------- | --------------- |
-| tx\_hash           | string        | Deposit tx hash |
+<table data-header-hidden><thead><tr><th width="229"></th><th></th><th></th><th></th></tr></thead><tbody><tr><td><strong>Parameter name</strong></td><td><strong>Data type</strong></td><td><strong>Whether it must be passed.</strong></td><td><strong>Description</strong></td></tr><tr><td>signed_transaction</td><td>string</td><td>true</td><td>Signed tx</td></tr></tbody></table>
+
+
+
+**Response:**
+
+* Upon successful broadcasting, the response contains a transaction hash (`tx_hash`) for the deposited transaction.
+* **tx\_hash (string):** Hash of the deposited transaction.
 
 \
 **Example**
@@ -39,3 +42,7 @@ POST /api/v1/validator/broadcast
     }
 }
 ```
+
+**Response Explanation:**
+
+* In this example, the HTTP response code is `200`, indicating success. The `tx_hash` in the data field represents the hash of the deposited staking transaction.
