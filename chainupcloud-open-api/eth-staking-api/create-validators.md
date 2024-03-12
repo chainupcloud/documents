@@ -11,14 +11,18 @@ Creates new validator keys and returns a staking transaction to deposit ETH to t
 Note: This API needs to generate validator keys, which is a time-consuming operation. The peak number is 100 keys. This API takes about 20 seconds.
 {% endhint %}
 
-**HTTP Request**
+### **HTTP Request**
 
 ```HTTP
 POST /api/v1/validator/create
 ```
 
-**Path Params :** No param\
-**Request Params**
+### **Path Params :**&#x20;
+
+No param\
+
+
+### **Request Params**
 
 | **Parameter name**      | **Data type** | **Whether it must be passed.** | **Description**                                                        |
 | ----------------------- | ------------- | ------------------------------ | ---------------------------------------------------------------------- |
