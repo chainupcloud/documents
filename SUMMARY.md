@@ -26,7 +26,6 @@
 * [ChainUpCloud Open API](chainupcloud-open-api/README.md)
   * [ETH Staking Rewards API](chainupcloud-open-api/eth-staking-rewards-api/README.md)
     * [Validator Daily  Rewards](chainupcloud-open-api/eth-staking-rewards-api/validator-daily-rewards.md)
-    * [Validator  Miss](chainupcloud-open-api/eth-staking-rewards-api/validator-miss.md)
   * [ETH Staking API](chainupcloud-open-api/eth-staking-api/README.md)
     * [Broadcast Staking Tx](chainupcloud-open-api/eth-staking-api/broadcast-staking-tx.md)
     * [Create Validators](chainupcloud-open-api/eth-staking-api/create-validators.md)
