@@ -1,13 +1,14 @@
 # Cloud Validator Settles EL Rewards
 
-**Query user cloud platform online settlement validator settlement execution layer reward listHTTP Request**
+This functionality allows you to **check your rewards earned through staking on the cloud platform**.
 
-```HTTP
-Get /api/v1/cloud/validator/el/settle/rewards
-```
+**How it works:**
 
-**Path Params**No param\
-**Request Params**
+1. **Make a request:** You can use a **GET** request to the API endpoint `/api/v1/cloud/validator/el/settle/rewards`.
+2. **Optional parameters:**
+   * **Start & End Date (YYYY-MM-DD format):** Specify the date range for which you want to see rewards (limited to one month).
+   * **Validator Indexes (array):** List specific validators to view their rewards (if empty, all your validators are included).
+   * **Page & Limit:** Control the number of results displayed per page.
 
 | **Parameter name** | **Data type** | **Whether it must be passed.** | **Description**                                                                                                                       |
 | ------------------ | ------------- | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
@@ -24,7 +25,13 @@ Get /api/v1/cloud/validator/el/settle/rewards
 3. This interface only supports querying mainnet reward data
 4. This interface only supports queries. The current time node index exists on the cloud platform and there is index data for block reward data
 
-**Example:**start\_date="2023-07-01"end\_date="2023-07-03"**Response**
+**Response:**
+
+* If successful, you'll receive a response with details like:
+
+**Example:** start\_date="2023-07-01"end\_date="2023-07-03"
+
+**Response**
 
 | **Parameter name** | **Data type** | **Description**       |
 | ------------------ | ------------- | --------------------- |
