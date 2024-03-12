@@ -1,24 +1,27 @@
+---
+description: >-
+  This API endpoint provides a comprehensive overview of your validator rewards
+  and overall staking status.
+---
+
 # Validator Total Rewards
 
-**Query user's validator history cumulative rewards**
-
-\
-**HTTP Request**
+### **HTTP Request**
 
 ```HTTP
 Get /api/v1/validator/total-rewards
 ```
 
-**Path Params**No param\
-**Request Params**
+**Path Params :** No param
+
+### **Request Params**
 
 | **Parameter name** | **Data type** | **Whether it must be passed.** | **Description**                                                       |
 | ------------------ | ------------- | ------------------------------ | --------------------------------------------------------------------- |
 | page               | int           | false                          | Page number (default is 1)                                            |
 | limit              | int           | false                          | Number of entries per page (default is 10 , maximum support is 1000 ) |
 
-\
-**Response**
+### **Response**
 
 | **Parameter name**             | **Data type** | **Description**                                                                                                                            |
 | ------------------------------ | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -33,7 +36,7 @@ Get /api/v1/validator/total-rewards
 | validators\_total\_rewards     | string        | Cumulative total rewards for validators                                                                                                    |
 | validators\_total\_cl\_balance | string        | Validator consensus layer total balance                                                                                                    |
 
-**Example:**
+### **Example:**
 
 ```JSON
 {
