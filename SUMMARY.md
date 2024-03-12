@@ -30,7 +30,7 @@
   * [Staking API](chainupcloud-open-api/staking-api/README.md)
     * [Broadcast Staking Tx](chainupcloud-open-api/staking-api/broadcast-staking-tx.md)
     * [Create Validators](chainupcloud-open-api/staking-api/create-validators.md)
-    * [Get Validators](chainupcloud-open-api/staking-api/get-validators.md)
+    * [Get Validators x](chainupcloud-open-api/staking-api/get-validators-x.md)
     * [Exit Validators by Pubkeys](chainupcloud-open-api/staking-api/exit-validators-by-pubkeys.md)
   * [Error Codes](chainupcloud-open-api/error-codes.md)
 * [🏷️ NFT API](nft-api/README.md)
