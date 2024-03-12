@@ -1,15 +1,25 @@
+---
+description: Query the daily rewards within the specified date of the user verifier
+---
+
 # Validator Daily  Rewards
 
-#### Validator Daily Rewards
+### **HTTP Request**
 
-**Query the daily rewards within the specified date of the user verifierHTTP Request**
+* This API allows querying daily rewards for a user verifier within a specified date range.
 
 ```HTTP
 Get /api/v1/validator/daliy-rewards
 ```
 
-**Path Params**No param\
-**Request Params**
+**Path Params:** No parameters
+
+
+
+### **Request Params**
+
+* `start_date` (Optional): Start date for querying rewards.
+* `end_date` (Optional): End date for querying rewards.
 
 | **Parameter name** | **Data type** | **Whether it must be passed.** | **Description**                                                      |
 | ------------------ | ------------- | ------------------------------ | -------------------------------------------------------------------- |
@@ -18,13 +28,19 @@ Get /api/v1/validator/daliy-rewards
 | page               | int           | false                          | Page number (default is 1)                                           |
 | limit              | int           | false                          | Number of entries per page (default is 10 , maximum support is 1000) |
 
-**Note: Request date limit is up to one month**
+### **Note on Request Params:**
 
-1. start\_date cannot be less than 30 days from the current date.
-2. end\_date cannot be greater than the current date.
-3. If no date is passed in, the default query is the reward data of the previous day.
+* If no date is provided, the default query is for the reward data of the previous day.
+* The example request queries rewards for the date range \[2023-07-01, 2023-07-03), a left-closed right-open interval.
 
-**Example:**start\_date="2023-07-01"end\_date="2023-07-03"The date to be queried is \[2023-07-01, 2023-07-03) Left closed right open interval**Response**
+### **Example Request:**
+
+```bash
+GET /api/v1/validator/daily-rewards?start_date=2023-07-01&end_date=2023-07-03
+
+```
+
+### **Response**
 
 | **Parameter name**        | **Data type** | **Description**                                                                                                             |
 | ------------------------- | ------------- | --------------------------------------------------------------------------------------------------------------------------- |
@@ -34,7 +50,13 @@ Get /api/v1/validator/daliy-rewards
 | total\_reward             | string        | Total revenue of execution layer + consensus layer (unit: eth)                                                              |
 | validators\_active\_count | int           | Number of validators generating revenue                                                                                     |
 
-**Example:**
+### **Response:**
+
+* The response code is `200`, indicating success.
+* The `pagination` field provides information about the page, limit, and total records.
+* The `data` field contains an array of daily rewards, each with details such as date, el\_reward, cl\_reward, total\_reward, and validators\_active\_count.
+
+### **Example:**
 
 ```JSON
 {
