@@ -4,11 +4,11 @@
 
 [http://staking.chainup.net/${protocol}/${network}/${token}](http://staking.chainup.net/$%7Bprotocol%7D/$%7Bnetwork%7D/$%7Btoken%7D)
 
-### **Support agreement**
+### **Support Protocol**
 
-| Agreement | Network |
-| --------- | ------- |
-| Ethereum  | Mainnet |
+| <h3><strong>Protocol</strong></h3> | <h3><strong>Network</strong></h3> |
+| ---------------------------------- | --------------------------------- |
+| Ethereum                           | Mainnet                           |
 
 ### **Path Params**
 
