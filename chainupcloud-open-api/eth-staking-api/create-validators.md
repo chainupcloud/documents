@@ -2,10 +2,7 @@
 
 ### Create Validators
 
-Creates new validator keys and returns a staking transaction to deposit ETH to those validators. A maximum of 100 validators can be created per request.\
-
-
-> Note: This API needs to generate validator keys, which is a time-consuming operation with a peak value of 100 keys. This interface takes about 20 seconds.
+Creates new validator keys and returns a staking transaction to deposit ETH to those validators. A maximum of 100 validators can be created per request.
 
 {% hint style="info" %}
 Note: This API needs to generate validator keys, which is a time-consuming operation. The peak number is 100 keys. This API takes about 20 seconds.

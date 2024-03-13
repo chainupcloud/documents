@@ -24,10 +24,10 @@
 ***
 
 * [ChainUpCloud Open API](chainupcloud-open-api/README.md)
-  * [ETH Staking Rewards API](chainupcloud-open-api/eth-staking-rewards-api/README.md)
-    * [Validator Daily  Rewards](chainupcloud-open-api/eth-staking-rewards-api/validator-daily-rewards.md)
-    * [Validator Total Rewards](chainupcloud-open-api/eth-staking-rewards-api/validator-total-rewards.md)
-    * [Cloud Validator Settles EL Rewards](chainupcloud-open-api/eth-staking-rewards-api/cloud-validator-settles-el-rewards.md)
+  * [Staking Rewards API](chainupcloud-open-api/staking-rewards-api/README.md)
+    * [Validator Daily  Rewards](chainupcloud-open-api/staking-rewards-api/validator-daily-rewards.md)
+    * [Validator Total Rewards](chainupcloud-open-api/staking-rewards-api/validator-total-rewards.md)
+    * [Cloud Validator Settles EL Rewards](chainupcloud-open-api/staking-rewards-api/cloud-validator-settles-el-rewards.md)
   * [ETH Staking API](chainupcloud-open-api/eth-staking-api/README.md)
     * [Broadcast Staking Tx](chainupcloud-open-api/eth-staking-api/broadcast-staking-tx.md)
     * [Create Validators](chainupcloud-open-api/eth-staking-api/create-validators.md)
