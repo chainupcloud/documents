@@ -2,11 +2,15 @@
 
 ## Base URL & Auth
 
-[http://staking.chainup.net/${protocol}/${network}/${token}](http://staking.chainup.net/$%7Bprotocol%7D/$%7Bnetwork%7D/$%7Btoken%7D)\
-\
+[http://staking.chainup.net/${protocol}/${network}/${token}](http://staking.chainup.net/$%7Bprotocol%7D/$%7Bnetwork%7D/$%7Btoken%7D)
 
+### **Support agreement**
 
-**Path Params**
+| Agreement | Network |
+| --------- | ------- |
+| Ethereum  | Mainnet |
+
+### **Path Params**
 
 | **Parameter name** | **Data type** | **Whether it must be passed.** | **Description**                                                         |
 | ------------------ | ------------- | ------------------------------ | ----------------------------------------------------------------------- |
