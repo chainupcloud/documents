@@ -1,3 +1,7 @@
+---
+icon: rectangles-mixed
+---
+
 # Near
 
 In this section, you will be able to learn about what makes Litecoin special and how you can leverage available tools to build amazing products!
