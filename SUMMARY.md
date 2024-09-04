@@ -99,8 +99,6 @@
   * [JSON-RPC methods](blockchain-api/dogecoin/json-rpc-methods.md)
 * [🎷 Optimism](blockchain-api/optimism/README.md)
   * [JSON-RPC methods](blockchain-api/optimism/json-rpc-methods.md)
-* [Near](blockchain-api/near/README.md)
-  * [JSON-RPC methods](blockchain-api/near/json-rpc-methods.md)
 * [Dash](blockchain-api/dash/README.md)
   * [JSON-RPC methods](blockchain-api/dash/json-rpc-methods.md)
 * [Zcash](blockchain-api/zcash/README.md)
