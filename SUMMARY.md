@@ -105,11 +105,16 @@
   * [JSON-RPC methods](blockchain-api/dash/json-rpc-methods.md)
 * [Zcash](blockchain-api/zcash/README.md)
   * [JSON-RPC methods](blockchain-api/zcash/json-rpc-methods.md)
-* [XRP](blockchain-api/xrp.md)
-* [Base](blockchain-api/base.md)
-* [Scroll](blockchain-api/scroll.md)
-* [Qtum](blockchain-api/qtum.md)
-* [Solana](blockchain-api/solana.md)
+* [XRP](blockchain-api/xrp/README.md)
+  * [JSON-RPC methods](blockchain-api/xrp/json-rpc-methods.md)
+* [Base](blockchain-api/base/README.md)
+  * [JSON-RPC methods](blockchain-api/base/json-rpc-methods.md)
+* [Scroll](blockchain-api/scroll/README.md)
+  * [JSON-RPC methods](blockchain-api/scroll/json-rpc-methods.md)
+* [Qtum](blockchain-api/qtum/README.md)
+  * [JSON-RPC methods](blockchain-api/qtum/json-rpc-methods.md)
+* [Solana](blockchain-api/solana/README.md)
+  * [JSON-RPC methods](blockchain-api/solana/json-rpc-methods.md)
 
 ## Staking
 

@@ -1,10 +1,6 @@
 # Ownership & Token Gating
 
-{% swagger method="get" path="    " baseUrl="/nft/{chain}/{token}/getContractsForOwner  " summary="" %}
-{% swagger-description %}
-
-{% endswagger-description %}
-{% endswagger %}
+<mark style="color:blue;">`GET`</mark> `/nft/{chain}/{token}/getContractsForOwner`     &#x20;
 
 {% tabs %}
 {% tab title="Scroll" %}
@@ -26,11 +22,7 @@ curl "http://nft.chainup.net/eth_holesky/token/v1/getContractsForOwner?owner={OW
 
 
 
-{% swagger method="get" path="" baseUrl="/nft/{chain}/{token}/getNFTsForOwner              " summary="" %}
-{% swagger-description %}
-
-{% endswagger-description %}
-{% endswagger %}
+<mark style="color:blue;">`GET`</mark> `/nft/{chain}/{token}/getNFTsForOwner`             &#x20;
 
 {% tabs %}
 {% tab title="Scroll" %}
@@ -52,11 +44,7 @@ curl "http://nft.chainup.net/eth_holesky/token/v1/getNFTsForOwner?owner={OWNER_A
 
 
 
-{% swagger method="get" path="            " baseUrl="/nft/{chain}/{token}/getOwnersForContract" summary="" %}
-{% swagger-description %}
-
-{% endswagger-description %}
-{% endswagger %}
+<mark style="color:blue;">`GET`</mark> `/nft/{chain}/{token}/getOwnersForContract`           &#x20;
 
 {% tabs %}
 {% tab title="Scroll" %}
@@ -80,13 +68,7 @@ curl "http://nft.chainup.net/eth_holesky/token/v1/getOwnersForContract?contract_
 
 
 
-
-
-{% swagger method="get" path="" baseUrl="/nft/{chain}/{token}/getOwnersForNFT            " summary="" %}
-{% swagger-description %}
-
-{% endswagger-description %}
-{% endswagger %}
+<mark style="color:blue;">`GET`</mark> `/nft/{chain}/{token}/getOwnersForNFT`           &#x20;
 
 {% tabs %}
 {% tab title="Scroll" %}
@@ -108,11 +90,7 @@ curl "http://nft.chainup.net/eth_holesky/token/v1/getOwnersForNFT?token_id={TOKE
 
 
 
-{% swagger method="get" path="" baseUrl="/nft/{chain}/{token}/isHolderOfContract " summary="" %}
-{% swagger-description %}
-
-{% endswagger-description %}
-{% endswagger %}
+<mark style="color:blue;">`GET`</mark> `/nft/{chain}/{token}/isHolderOfContract`&#x20;
 
 {% tabs %}
 {% tab title="Scroll" %}

@@ -1,6 +1,0 @@
----
-icon: dart-lang
----
-
-# Qtum
-

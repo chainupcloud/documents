@@ -2,11 +2,9 @@
 
 
 
-{% swagger method="get" path="" baseUrl="GET/nft/{chain}/{token}/getContractMetadata " summary="Gets the metadata associated with a given Contract." %}
-{% swagger-description %}
+## Gets the metadata associated with a given Contract.
 
-{% endswagger-description %}
-{% endswagger %}
+<mark style="color:blue;">`GET`</mark> `GET/nft/{chain}/{token}/getContractMetadata`&#x20;
 
 {% tabs %}
 {% tab title="Scroll" %}
@@ -27,11 +25,9 @@ curl -X POST "https://nft.chainup.net/eth_holesky/{token}/v1/getAssetTransfers"\
 
 
 
-{% swagger method="get" path="" baseUrl="/nft/{chain}/{token}/getContractMetadataBatch       " summary="Gets the metadata associated with a given Contract." %}
-{% swagger-description %}
+## Gets the metadata associated with a given Contract.
 
-{% endswagger-description %}
-{% endswagger %}
+<mark style="color:blue;">`GET`</mark> `/nft/{chain}/{token}/getContractMetadataBatch`      &#x20;
 
 {% tabs %}
 {% tab title="Scroll" %}
@@ -53,11 +49,9 @@ curl -X POST "http://nft.chainup.net/eth_holesky/token/v1/getContractMetadataBat
 
 
 
-{% swagger method="get" path="" baseUrl="/nft/{chain}/{token}/getNFTMetadata           " summary="Gets the metadata associated with a given NFT." %}
-{% swagger-description %}
+## Gets the metadata associated with a given NFT.
 
-{% endswagger-description %}
-{% endswagger %}
+<mark style="color:blue;">`GET`</mark> `/nft/{chain}/{token}/getNFTMetadata`          &#x20;
 
 {% tabs %}
 {% tab title="Scroll" %}
@@ -79,11 +73,9 @@ curl "http://nft.chainup.net/eth_holesky/token/v1/getNFTMetadata?contract_addres
 
 
 
-{% swagger method="post" path="" baseUrl="/nft/{chain}/{token}/getNFTMetadataBatch" summary="Gets the metadata associated with a given NFT. " %}
-{% swagger-description %}
+## Gets the metadata associated with a given NFT.&#x20;
 
-{% endswagger-description %}
-{% endswagger %}
+<mark style="color:green;">`POST`</mark> `/nft/{chain}/{token}/getNFTMetadataBatch`
 
 {% tabs %}
 {% tab title="Scroll" %}
@@ -105,11 +97,9 @@ curl -X POST "http://nft.chainup.net/eth_holesky/token/v1/getNFTMetadataBatch" -
 
 
 
-{% swagger method="get" path="" baseUrl="/nft/{chain}/{token}/searchContractMetadata" summary="Gets the metadata associated with a given Contract. " %}
-{% swagger-description %}
+## Gets the metadata associated with a given Contract.&#x20;
 
-{% endswagger-description %}
-{% endswagger %}
+<mark style="color:blue;">`GET`</mark> `/nft/{chain}/{token}/searchContractMetadata`
 
 {% tabs %}
 {% tab title="Scroll" %}

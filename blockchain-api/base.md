@@ -1,6 +1,0 @@
----
-icon: flag-checkered
----
-
-# Base
-
