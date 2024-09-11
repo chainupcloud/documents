@@ -25,7 +25,7 @@ curl -X POST "https://nft.chainup.net/eth_holesky/{token}/v1/getAssetTransfers"\
 
 
 
-## Gets the metadata associated with a given Contract.
+## Gets the batch metadata associated with a given Contract.
 
 <mark style="color:blue;">`GET`</mark> `/nft/{chain}/{token}/getContractMetadataBatch`      &#x20;
 
@@ -73,7 +73,7 @@ curl "http://nft.chainup.net/eth_holesky/token/v1/getNFTMetadata?contract_addres
 
 
 
-## Gets the metadata associated with a given NFT.&#x20;
+## Gets the batch metadata associated with a given NFT.&#x20;
 
 <mark style="color:green;">`POST`</mark> `/nft/{chain}/{token}/getNFTMetadataBatch`
 
