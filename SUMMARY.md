@@ -147,7 +147,5 @@
 * [📕 FAQ Introduction](resources/faq/README.md)
   * [⛓️ Blockchain API](resources/faq/blockchain-api.md)
   * [⚒️ Dedicated Node](resources/faq/dedicated-node.md)
-  * [🍧 HashKing Aggregator](resources/faq/kinghash-aggregator/README.md)
-    * [Contract](resources/faq/kinghash-aggregator/contract.md)
 * [🗳️ Support](resources/support.md)
 * [Api Reference](resources/api-reference.md)
