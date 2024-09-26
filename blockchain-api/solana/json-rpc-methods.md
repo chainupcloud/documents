@@ -6,18 +6,20 @@
 
 At Chainup Cloud, we manage Solana RPC endpoints, handling hundreds of billions of requests each month. To simplify integration for developers, we've created documentation with examples of how to call RPC methods using cURL, JavaScript, Python.  Chainup Cloudsupports a wide range of Solana APIs, making development easier and more efficient.
 
+<figure><img src="../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
+
 You can review the official [**Solana RPC documentation HERE**](https://solana.com/docs/rpc)
 
 ### Example RPC
 
 {% tabs %}
 {% tab title="Curl" %}
-<pre><code><strong>curl https://api.chainup.net/solana /mainnet/&#x3C;YOUR_API_KEY> \
-</strong>-X POST \
--H 'content-type: application/json' \
--H "CONSISTENT-HASH: true" \
----data '{"jsonrpc":"2.0","method":"getblock","params":[],"id":1}'  
-</code></pre>
+```
+curl   https://api.chainup.net/solana/mainnet//<YOUR_API_KEY>  \
+-X POST \
+-H "Content-Type: application/json" \
+--data '{"jsonrpc": "2.0","id": 1,"method": "getAccountInfo","params": ["7cVfgArCheMR6Cs4t6vz5rfnqd56vZq4ndaBrY5xkxXy",{"encoding": "base58"}]}'
+```
 {% endtab %}
 
 {% tab title="Javascript" %}
