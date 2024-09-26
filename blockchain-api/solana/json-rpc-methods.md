@@ -32,7 +32,7 @@ let options = {
     { 
      "content-type": "application/json"
     },
-    body: JSON.stringify({"jsonrpc":"2.0","method":"getblock","params":[],"id":1})
+    body: JSON.stringify({"jsonrpc": "2.0","id": 1,"method": "getAccountInfo","params": ["7cVfgArCheMR6Cs4t6vz5rfnqd56vZq4ndaBrY5xkxXy",{"encoding": "base58"}])
 };
 
 axios(options)
@@ -50,19 +50,36 @@ console.error('An error has occurred:', error);
 import requests
 import json
 
-headers = {"content-type": "application/json",
-            "CONSISTENT-HASH": "true" }
+# Set the headers for the request
+headers = {
+    "Content-Type": "application/json",
+    "CONSISTENT-HASH": "true"
+}
+
+# Prepare the payload for the RPC request
 payload = json.dumps({
-    "id": 1,
     "jsonrpc": "2.0",
-    "method": "getblock",
-    "params": []
+    "id": 1,
+    "method": "getAccountInfo",
+    "params": [
+        "7cVfgArCheMR6Cs4t6vz5rfnqd56vZq4ndaBrY5xkxXy",
+        {"encoding": "base58"}
+    ]
 })
-r = requests.post(url="https://api.chainup.net/solana/mainnet/<YOUR_API_KEY>", headers=headers, data=payload)
-if r.status_code == 200:
-    print("Post successful: response: ", r.content)
-else:
-    print("An error has occurred: ", r.status_code)
+
+# Send the POST request to the Solana RPC endpoint
+url = "https://api.chainup.net/solana/mainnet/<YOUR_API_KEY>"
+
+try:
+    r = requests.post(url=url, headers=headers, data=payload)
+    # Check if the request was successful
+    if r.status_code == 200:
+        print("Post successful: response: ", r.content)
+    else:
+        print(f"An error occurred: {r.status_code}")
+except requests.exceptions.RequestException as e:
+    print(f"Request failed: {e}")
+
 ```
 {% endtab %}
 {% endtabs %}
