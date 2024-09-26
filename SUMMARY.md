@@ -116,6 +116,7 @@
   * [JSON-RPC methods](blockchain-api/qtum/json-rpc-methods.md)
 * [Solana](blockchain-api/solana/README.md)
   * [JSON-RPC methods](blockchain-api/solana/json-rpc-methods.md)
+  * [Solana Nodes FAQ](blockchain-api/solana/solana-nodes-faq.md)
 
 ## Staking
 
