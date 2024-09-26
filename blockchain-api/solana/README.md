@@ -4,7 +4,7 @@ icon: circle-n
 
 # Solana
 
-In this section, you will be able to learn about what makes Litecoin special and how you can leverage available tools to build amazing products!
+In this section, you will be able to learn about what makes Solana special and how you can leverage available tools to build amazing products!
 
 You can then get started with the available RPC & REST APIs we support [ **via ChainUp Cloud**.](https://cloud.chainup.com)
 
