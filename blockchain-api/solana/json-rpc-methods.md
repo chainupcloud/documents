@@ -15,7 +15,7 @@ You can review the official [**Solana RPC documentation HERE**](https://solana.c
 {% tabs %}
 {% tab title="Curl" %}
 ```
-curl   https://api.chainup.net/solana/mainnet//<YOUR_API_KEY>  \
+curl   https://api.chainup.net/solana/mainnet/<YOUR_API_KEY>  \
 -X POST \
 -H "Content-Type: application/json" \
 --data '{"jsonrpc": "2.0","id": 1,"method": "getAccountInfo","params": ["7cVfgArCheMR6Cs4t6vz5rfnqd56vZq4ndaBrY5xkxXy",{"encoding": "base58"}]}'
