@@ -4,7 +4,7 @@
 
 
 
-At Chainup Cloud, we manage Solana RPC endpoints, handling hundreds of billions of requests each month. To simplify integration for developers, we've created documentation with examples of how to call RPC methods using cURL, JavaScript, Python.  Chainup Cloudsupports a wide range of Solana APIs, making development easier and more efficient.
+At Chainup Cloud, we manage Solana RPC endpoints, handling hundreds of billions of requests each month. To simplify integration for developers, we've created documentation with examples of how to call RPC methods using cURL, JavaScript, Python.  Chainup Cloud supports a wide range of Solana APIs, making development easier and more efficient.
 
 <figure><img src="../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
 
