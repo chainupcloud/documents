@@ -14,20 +14,6 @@ Websocket Endpoint
 ws://api.chainup.net/ws/<PROTOCOL>/<NETWORK>/<TOKEN>
 ```
 
-## Dedicated Node Endpoint
-
-JSON-RPC Endpoint
-
-```
-http://<YOUR-NODE-ID>.blockchain.info/<TOKEN>
-```
-
-Websocket Endpoint
-
-```
-ws://<YOUR-NODE-ID>.blockchain.info/ws/<TOKEN>
-```
-
 ## Using a project ID
 
 Ethereum APIs require a valid project ID to be included with your request traffic. This identifier must be appended to the request URL. The following example shows how to do this for HTTPS or WebSocket requests:
@@ -50,3 +36,8 @@ wscat -c ws://api.chainup.net/ws/ethereum/mainet/<TOKEN>
 ```
 {% endtab %}
 {% endtabs %}
+
+## All Protocols
+
+<table><thead><tr><th>PROTOCOLs</th><th>NETWORKs</th><th data-hidden></th></tr></thead><tbody><tr><td>ethereum</td><td>mainnet,holesky,sepolia</td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></tbody></table>
+
