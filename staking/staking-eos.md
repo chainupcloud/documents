@@ -30,5 +30,5 @@ That's it! You're now ready to start using Wombat Wallet.
 <figure><img src="../.gitbook/assets/image (22) (1).png" alt=""><figcaption><p>Press the "Vote" button and sign the transaction in the Wallet extension.</p></figcaption></figure>
 
 **Step 6 :**  Congratulations! You have staked resources and voted for **hashfineosio**. Feel free to check the transaction status on bloks.io with the hash provided:\
-To check the **status** of your stake, go to the top menu on bloks.io: _**‘Wallet’**_** → **_**‘Stake CPU/NET’**_** → **_**‘Breakdown’**_**.**
+To check the **status** of your stake, go to the top menu on bloks.io: _**‘Wallet’**_**&#x20;→&#x20;**_**‘Stake CPU/NET’**_**&#x20;→&#x20;**_**‘Breakdown’**_**.**
 
